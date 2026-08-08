@@ -1,0 +1,35 @@
+schema_version: 1
+status: VERIFIED
+target_roles:
+  - role: "Software Engineer / Software Developer"
+    priority_context: "Primary placement-preparation focus for BITM"
+    status: VERIFIED
+  - role: "Embedded Engineer"
+    priority_context: "Parallel opportunity and preparation track"
+    status: VERIFIED
+ai_ml_positioning:
+  value: "Exploration area with project-level exposure; not a finalized specialization."
+  status: VERIFIED
+placement_strategy:
+  value: "Software-first for BITM placements; embedded remains a parallel opportunity."
+  status: VERIFIED
+target_salary_lpa:
+  value: 8
+  status: VERIFIED
+lower_offer_policy:
+  value: "Case-by-case based on company, package, role, and growth."
+  status: VERIFIED
+location_interest:
+  value: "India + abroad"
+  status: VERIFIED
+work_mode:
+  value: "Open to on-site, hybrid, and remote"
+  status: VERIFIED
+opportunity_priority:
+  - "Company reputation"
+  - "Package"
+  - "Role"
+  - "Growth"
+company_specific_preparation:
+  enabled: true
+  status: VERIFIED

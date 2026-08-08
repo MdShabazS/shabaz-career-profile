@@ -1,0 +1,38 @@
+schema_version: 1
+project:
+  name: "VisionPay"
+  priority: 5
+  type: "Personal / individual project"
+  status: "Completed"
+  fact_status: VERIFIED
+goal: "Real-time Indian currency denomination detection with spoken feedback for visually impaired users."
+dataset:
+  denominations: ["₹10", "₹20", "₹50", "₹100", "₹200", "₹500"]
+  collection: "Approximately 400 personally collected images per denomination"
+  status: VERIFIED
+known_stack:
+  - "Python"
+  - "MobileNetV2"
+  - "TensorFlow Lite"
+  - "OpenCV/webcam pipeline"
+  - "TTS"
+known_techniques:
+  - "Real-time webcam inference"
+  - "Offline CPU-oriented inference"
+  - "Confidence/margin gating"
+  - "Temporal/majority smoothing"
+  - "Background class"
+  - "Auto-count mode"
+reported_result:
+  validation_accuracy: "Around 93% according to the supplied project description"
+  status: VERIFIED
+implementation_note:
+  training_code: "AI-assisted"
+  rule: "Do not claim every line of training code was manually written by Shabaz."
+not_completed:
+  - "YOLO-based detector"
+  - "Counterfeit checks"
+  - "Hindi TTS"
+  - "Android/Raspberry Pi deployment"
+  - "Multi-note detection"
+resume_boundary: "Roadmap items must not be presented as completed."

@@ -1,0 +1,19 @@
+schema_version: 1
+planned:
+  - name: "Data Structures & Algorithms"
+    status: PLANNED
+  - name: "Core Java with AI"
+    status: PLANNED
+  - name: "SQL for Data Analytics with AI"
+    status: PLANNED
+  - name: "Git & GitHub"
+    status: PLANNED
+  - name: "Machine Learning with AI"
+    status: PLANNED
+  - name: "Software Testing"
+    status: PLANNED
+  - name: "Cloud Computing with AWS"
+    status: PLANNED
+  - name: "Generative AI"
+    status: PLANNED
+rule: "These are planned courses/certifications, not completed certifications."

@@ -1,0 +1,25 @@
+schema_version: 1
+project:
+  name: "MITRA"
+  priority: 2
+  type: "Internship project"
+  organization: "iHelp Robotics Private Limited"
+  product: "Assistive vision and navigation system for blind and low-vision users"
+  status: VERIFIED
+ownership:
+  shabaz_contribution:
+    - "Android app development"
+    - "App feature development/improvements"
+    - "RTSP stream handling"
+    - "Phone-camera fallback"
+    - "Testing/QA"
+    - "Navigation module"
+    - "TTS"
+    - "Voice interaction/wake-word related app functionality"
+    - "App controls/OCR/background behavior where applicable"
+  boundary:
+    backend_model_development: "Belonged to another team"
+    rule: "Do not claim Shabaz trained or developed backend/AI models unless explicitly confirmed later."
+system_concept:
+  summary: "Android phone receives live camera information from hardware over WiFi/RTSP, supports app-side interaction and guidance, and includes phone-camera fallback."
+  status: VERIFIED

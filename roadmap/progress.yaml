@@ -1,0 +1,43 @@
+schema_version: 1
+current_state:
+  java:
+    value: "Beginner - actively learning for DSA and placements"
+    status: VERIFIED
+  dsa:
+    value: "Beginner - actively learning for placements"
+    status: VERIFIED
+  sql:
+    value: "Beginner"
+    status: VERIFIED
+  dbms:
+    value: "Beginner - currently learning"
+    status: VERIFIED
+  os:
+    value: "Beginner - currently learning"
+    status: VERIFIED
+  cn:
+    value: "Not learned properly yet"
+    status: VERIFIED
+  aptitude:
+    value: "Beginner - fundamentals started"
+    status: VERIFIED
+  english_communication:
+    value: "Beginner - significant improvement needed"
+    status: VERIFIED
+planned_certifications:
+  - name: "Data Structures & Algorithms"
+    status: PLANNED
+  - name: "Core Java with AI"
+    status: PLANNED
+  - name: "SQL for Data Analytics with AI"
+    status: PLANNED
+  - name: "Git & GitHub"
+    status: PLANNED
+  - name: "Machine Learning with AI"
+    status: PLANNED
+  - name: "Software Testing"
+    status: PLANNED
+  - name: "Cloud Computing with AWS"
+    status: PLANNED
+  - name: "Generative AI"
+    status: PLANNED

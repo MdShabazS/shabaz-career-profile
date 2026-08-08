@@ -1,0 +1,55 @@
+schema_version: 1
+project:
+  name: "AEGIS"
+  priority: 1
+  type: "Team project"
+  team_size: 3
+  shabaz_role: "Team Lead"
+  idea_origin: "Shabaz's original idea"
+  status: "Architecture/design"
+  fact_status: VERIFIED
+  code_status: "Not started"
+  hardware_status: "Not finalized"
+ownership:
+  overall_project: "Team project"
+  personal_contribution:
+    - "Original idea"
+    - "Team leadership"
+    - "Architecture/design direction"
+  do_not_claim:
+    - "Completed implementation"
+    - "Finalized hardware"
+    - "Implemented backend"
+    - "Implemented AI"
+    - "Implemented portals"
+baseline_architecture:
+  status: VERIFIED
+  sequence:
+    - "Emergency"
+    - "Citizen/Victim"
+    - "SOS / Incident Report"
+    - "GPS / Camera / Audio inputs"
+    - "AEGIS Platform"
+    - "AI Intelligence"
+    - "Incident Type / Severity / Risk Factors"
+    - "AI Recommendation"
+    - "Human Dispatcher Verification"
+    - "Resource Selection"
+    - "Live Tracking"
+    - "Responder"
+    - "Incident Resolution"
+    - "Digital Case / Evidence / Timeline / Analytics"
+    - "Post-Incident Analysis"
+responsibility_model:
+  ai: "Sense -> Analyze -> Recommend"
+  human: "Review -> Decide -> Dispatch"
+  aegis: "Record -> Track -> Learn"
+  rule: "AI does not independently control emergency response; human dispatcher verification is required."
+planned_design_concepts:
+  - "Ambulance workflow"
+  - "Police workflow"
+  - "Admin workflow"
+  - "Possible toll-plaza workflow for highway incidents"
+architecture_change_policy:
+  required_heading: "ARCHITECTURE CHANGE PROPOSED"
+  approval_required_before_baseline_change: true

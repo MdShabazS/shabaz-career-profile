@@ -1,0 +1,16 @@
+schema_version: 1
+languages:
+  - language: "English"
+    proficiency: TO_VERIFY
+    status: TO_VERIFY
+  - language: "Hindi"
+    proficiency: TO_VERIFY
+    status: TO_VERIFY
+  - language: "Kannada"
+    proficiency: TO_VERIFY
+    status: TO_VERIFY
+  - language: "Urdu"
+    proficiency: TO_VERIFY
+    status: TO_VERIFY
+notes:
+  - "Languages are known, but proficiency levels are not yet verified."

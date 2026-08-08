@@ -1,0 +1,17 @@
+schema_version: 1
+initiative:
+  name: "Healthcare product research initiative"
+  status: PLANNED
+  activity_state: "Active research initiative"
+  objective: "Research real healthcare problems and develop a product-level solution after evidence-based problem selection."
+unknowns:
+  healthcare_problem: UNKNOWN
+  product: UNKNOWN
+  model: UNKNOWN
+  architecture: UNKNOWN
+rules:
+  - "Do not invent the healthcare problem."
+  - "Do not invent the product."
+  - "Do not invent the model."
+  - "Do not invent the architecture."
+  - "Keep this initiative separate from the demo-level Skin Disease Classification internship project."

@@ -1,0 +1,31 @@
+schema_version: 1
+priority:
+  - rank: 1
+    project: "AEGIS"
+    positioning: "Team Lead / original idea"
+    status: VERIFIED
+  - rank: 2
+    project: "MITRA"
+    positioning: "Internship"
+    status: VERIFIED
+  - rank: 3
+    project: "Skin Disease Classification"
+    positioning: "IEEE Pune internship"
+    status: VERIFIED
+  - rank: 4
+    project: "NexCast Pro"
+    positioning: "Internship"
+    status: VERIFIED
+  - rank: 5
+    project: "VisionPay"
+    positioning: "Personal / individual project"
+    status: VERIFIED
+  - rank: 6
+    project: "Automotive BCM"
+    positioning: "Personal / individual project"
+    status: VERIFIED
+  - rank: 7
+    project: "Smart Wellness Desk Assistant"
+    positioning: "College team project"
+    status: VERIFIED
+rule: "Do not reorder unless Shabaz explicitly changes the priority."

@@ -1,0 +1,47 @@
+schema_version: 1
+confirmed_hands_on:
+  - name: "Git / GitHub"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+  - name: "Android Studio"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+  - name: "REST APIs"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+  - name: "OpenCV"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+  - name: "TensorFlow Lite"
+    aliases: ["TFLite"]
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+  - name: "STM32CubeIDE / STM32 HAL"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+  - name: "Arduino IDE"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+  - name: "ESP32"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+  - name: "Firebase Realtime Database"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+    boundary: "Other Firebase services are not remembered."
+  - name: "React"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+    project_association: TO_VERIFY
+  - name: "Node.js"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+    project_association: TO_VERIFY
+  - name: "YOLO / Ultralytics"
+    status: VERIFIED
+    proficiency: NOT_ASSIGNED
+    project_association: TO_VERIFY
+    boundary: "Do not associate with NIDAR."
+notes:
+  - "Do not automatically assign proficiency levels to hands-on technologies."
+  - "Project associations for React, Node.js, and YOLO / Ultralytics are not currently remembered."

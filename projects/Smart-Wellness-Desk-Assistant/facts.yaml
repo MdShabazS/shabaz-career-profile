@@ -1,0 +1,30 @@
+schema_version: 1
+project:
+  name: "Smart Wellness Desk Assistant"
+  priority: 7
+  type: "College team project"
+  platform: "STM32 Nucleo-L476RG"
+  status: "Completed"
+  fact_status: VERIFIED
+ownership:
+  overall_project: "College team project"
+  shabaz_confirmed_hands_on_contribution:
+    - "Sensor interfacing"
+    - "Testing/debugging"
+    - "Hardware wiring"
+system:
+  - "Presence detection"
+  - "Temperature monitoring"
+  - "OLED feedback"
+  - "Break reminders"
+  - "Buzzer alerts"
+  - "Deterministic event/state loop using STM32 HAL"
+known_technologies:
+  - "STM32CubeIDE"
+  - "STM32 HAL"
+  - "Ultrasonic sensing"
+  - "ADC temperature sensing"
+  - "I2C OLED"
+  - "Timers"
+  - "Embedded C"
+resume_boundary: "Do not present the full team project as individually built unless later verified."

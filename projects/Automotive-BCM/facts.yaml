@@ -1,0 +1,21 @@
+schema_version: 1
+project:
+  name: "Automotive BCM"
+  full_name: "Automotive Body Control Module"
+  priority: 6
+  type: "Personal / individual project"
+  platform: "ESP32"
+  status: "Completed"
+  fact_status: VERIFIED
+core_features:
+  - "OFF / ACC / ON ignition FSM"
+  - "Brake control"
+  - "Left/right indicators"
+  - "Synchronized hazard mode"
+  - "Non-blocking millis-based scheduling"
+  - "Buzzer feedback"
+  - "OLED dashboard"
+  - "Brake debouncing"
+  - "Edge-triggered serial logging"
+  - "GPIO abstraction"
+positioning: "Embedded/automotive firmware project demonstrating state-machine and real-time event-loop design."

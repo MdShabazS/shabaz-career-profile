@@ -1,0 +1,11 @@
+schema_version: 1
+completed:
+  - name: "Python certification"
+    status: VERIFIED
+    evidence: TO_VERIFY
+  - name: "Embedded Systems training/certificate"
+    status: VERIFIED
+    evidence: TO_VERIFY
+  - name: "Google Cloud Generative AI Virtual Internship"
+    status: VERIFIED
+    evidence: TO_VERIFY

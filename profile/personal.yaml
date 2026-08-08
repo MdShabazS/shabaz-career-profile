@@ -1,0 +1,16 @@
+schema_version: 1
+person:
+  full_name: "Mohammed Shabaz S"
+  preferred_name: "Shabaz"
+  status: VERIFIED
+  current_context: "B.E. ECE student preparing for placements"
+  contact:
+    email: NOT_PROVIDED
+    phone: NOT_PROVIDED
+    location: NOT_PROVIDED
+  privacy_rule: "Do not repeat private contact details across the repository; never store secrets or sensitive identifiers."
+interests:
+  - name: "Gaming"
+    status: VERIFIED
+  - name: "Travelling"
+    status: VERIFIED
