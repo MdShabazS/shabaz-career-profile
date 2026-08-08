@@ -1,31 +1,35 @@
 schema_version: 1
+fact_status: VERIFIED
+evidence_status: TO_VERIFY
+evidence:
+  - type: user-confirmed
 priority:
   - rank: 1
     project: "AEGIS"
     positioning: "Team Lead / original idea"
-    status: VERIFIED
+    fact_status: VERIFIED
   - rank: 2
     project: "MITRA"
     positioning: "Internship"
-    status: VERIFIED
+    fact_status: VERIFIED
   - rank: 3
     project: "Skin Disease Classification"
     positioning: "IEEE Pune internship"
-    status: VERIFIED
+    fact_status: VERIFIED
   - rank: 4
     project: "NexCast Pro"
     positioning: "Internship"
-    status: VERIFIED
+    fact_status: VERIFIED
   - rank: 5
     project: "VisionPay"
     positioning: "Personal / individual project"
-    status: VERIFIED
+    fact_status: VERIFIED
   - rank: 6
     project: "Automotive BCM"
     positioning: "Personal / individual project"
-    status: VERIFIED
+    fact_status: VERIFIED
   - rank: 7
     project: "Smart Wellness Desk Assistant"
     positioning: "College team project"
-    status: VERIFIED
+    fact_status: VERIFIED
 rule: "Do not reorder unless Shabaz explicitly changes the priority."

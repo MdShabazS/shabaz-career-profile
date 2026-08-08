@@ -22,6 +22,23 @@ Use it to answer career questions, generate resumes, prepare for BITM placements
 | `TO_VERIFY` | Mentioned but insufficiently confirmed |
 | `EXCLUDED` | Explicitly excluded from primary profile/resumes |
 
+Use these fields consistently:
+
+- `fact_status`: whether the fact itself is confirmed.
+- `lifecycle_status`: the project or initiative state, such as `COMPLETED`, `ARCHITECTURE_DESIGN`, or `DEMO_LEVEL_COMPLETED`.
+- `evidence_status`: whether supporting artifacts are attached in the repository.
+
+If Shabaz confirmed a fact but no supporting artifact is attached, keep `fact_status: VERIFIED` and set `evidence_status: TO_VERIFY`.
+
+## Canonical Source Hierarchy
+
+- Project `facts.yaml`: canonical structured project facts.
+- Project `README.md`: human-readable project explanation.
+- `AI_CONTEXT.md`: high-level AI context and policy.
+- `docs/SOURCE_INDEX.md`: evidence/source map.
+
+When these files overlap, do not invent a reconciliation. Prefer the canonical structured source, then flag any contradiction for review.
+
 ## Identity
 
 - Full name: Mohammed Shabaz S
@@ -35,6 +52,8 @@ Canonical files:
 - [`profile/education.yaml`](profile/education.yaml)
 - [`profile/languages.yaml`](profile/languages.yaml)
 - [`profile/career-goals.yaml`](profile/career-goals.yaml)
+
+Languages are confirmed by Shabaz, but proficiency levels are not yet verified.
 
 ## Education
 
@@ -251,13 +270,13 @@ Current status:
 
 Current baseline architecture:
 
-Emergency -> Citizen/Victim -> SOS / Incident Report -> GPS / Camera / Audio inputs -> AEGIS Platform -> AI Intelligence -> Incident Type / Severity / Risk Factors -> AI Recommendation -> Human Dispatcher Verification -> Resource Selection -> Live Tracking -> Responder -> Incident Resolution -> Digital Case / Evidence / Timeline / Analytics -> Post-Incident Analysis
+Emergency → Citizen/Victim → SOS / Incident Report → GPS / Camera / Audio inputs → AEGIS Platform → AI Intelligence → Incident Type / Severity / Risk Factors → AI Recommendation → Human Dispatcher Verification → Resource Selection → Live Tracking → Responder → Incident Resolution → Digital Case / Evidence / Timeline / Analytics → Post-Incident Analysis
 
 Core philosophy:
 
-- AI: Sense -> Analyze -> Recommend
-- Human: Review -> Decide -> Dispatch
-- AEGIS: Record -> Track -> Learn
+- AI: Sense → Analyze → Recommend
+- Human: Review → Decide → Dispatch
+- AEGIS: Record → Track → Learn
 
 AI does not independently control emergency response. Human dispatcher verification is part of the baseline architecture.
 
@@ -327,6 +346,8 @@ Hackathon project:
 Status: active research initiative.
 
 Shabaz wants to conduct deep research into real healthcare problems and develop a product-level solution. Do not invent the healthcare problem, product, model, or architecture. These will be decided after research.
+
+Structured state: `activity_state: ACTIVE_RESEARCH_INITIATIVE`. Unknowns remain `UNKNOWN` until Shabaz confirms them.
 
 The old Skin Disease Classification internship project was demo-level. Do not falsely represent it as productized.
 

@@ -3,13 +3,17 @@ project:
   name: "AEGIS"
   priority: 1
   type: "Team project"
+  fact_status: VERIFIED
+  evidence_status: TO_VERIFY
+  lifecycle_status: ARCHITECTURE_DESIGN
+  lifecycle_detail: "Architecture/design stage"
   team_size: 3
   shabaz_role: "Team Lead"
   idea_origin: "Shabaz's original idea"
-  status: "Architecture/design"
-  fact_status: VERIFIED
   code_status: "Not started"
   hardware_status: "Not finalized"
+  evidence:
+    - type: user-confirmed
 ownership:
   overall_project: "Team project"
   personal_contribution:
@@ -23,7 +27,8 @@ ownership:
     - "Implemented AI"
     - "Implemented portals"
 baseline_architecture:
-  status: VERIFIED
+  fact_status: VERIFIED
+  canonical_text: "Emergency → Citizen/Victim → SOS / Incident Report → GPS / Camera / Audio inputs → AEGIS Platform → AI Intelligence → Incident Type / Severity / Risk Factors → AI Recommendation → Human Dispatcher Verification → Resource Selection → Live Tracking → Responder → Incident Resolution → Digital Case / Evidence / Timeline / Analytics → Post-Incident Analysis"
   sequence:
     - "Emergency"
     - "Citizen/Victim"
@@ -41,9 +46,9 @@ baseline_architecture:
     - "Digital Case / Evidence / Timeline / Analytics"
     - "Post-Incident Analysis"
 responsibility_model:
-  ai: "Sense -> Analyze -> Recommend"
-  human: "Review -> Decide -> Dispatch"
-  aegis: "Record -> Track -> Learn"
+  ai: "Sense → Analyze → Recommend"
+  human: "Review → Decide → Dispatch"
+  aegis: "Record → Track → Learn"
   rule: "AI does not independently control emergency response; human dispatcher verification is required."
 planned_design_concepts:
   - "Ambulance workflow"

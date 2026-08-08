@@ -3,13 +3,18 @@ project:
   name: "VisionPay"
   priority: 5
   type: "Personal / individual project"
-  status: "Completed"
   fact_status: VERIFIED
+  evidence_status: TO_VERIFY
+  lifecycle_status: COMPLETED
+  lifecycle_detail: "Completed personal project"
+  evidence:
+    - type: user-confirmed
 goal: "Real-time Indian currency denomination detection with spoken feedback for visually impaired users."
 dataset:
   denominations: ["₹10", "₹20", "₹50", "₹100", "₹200", "₹500"]
   collection: "Approximately 400 personally collected images per denomination"
-  status: VERIFIED
+  fact_status: VERIFIED
+  evidence_status: TO_VERIFY
 known_stack:
   - "Python"
   - "MobileNetV2"
@@ -24,8 +29,10 @@ known_techniques:
   - "Background class"
   - "Auto-count mode"
 reported_result:
-  validation_accuracy: "Around 93% according to the supplied project description"
-  status: VERIFIED
+  validation_accuracy: "reported approximately 93% validation accuracy"
+  fact_status: VERIFIED
+  evidence_status: TO_VERIFY
+  note: "This is a reported project-description result, not an independently verified benchmark."
 implementation_note:
   training_code: "AI-assisted"
   rule: "Do not claim every line of training code was manually written by Shabaz."

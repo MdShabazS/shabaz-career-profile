@@ -28,7 +28,9 @@ The repository separates human-readable Markdown from machine-readable YAML.
 Structured files should use:
 
 - `schema_version`
-- `status` or `fact_status` when the file records factual claims
+- `fact_status` when the file records factual claims
+- `evidence_status` when supporting artifacts are not fully attached
+- `lifecycle_status` for project or initiative state
 - `PLANNED`, `TO_VERIFY`, `UNKNOWN`, or `NOT_PROVIDED` for incomplete facts
 - explicit `boundary` or `resume_boundary` fields where overclaiming is likely
 
@@ -40,3 +42,5 @@ Each active project should include:
 - `facts.yaml` for structured AI parsing
 
 The two files must not contradict each other.
+
+`facts.yaml` is canonical for structured project facts. `README.md` is a readable explanation of the same facts.

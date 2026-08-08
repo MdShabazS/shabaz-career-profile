@@ -3,7 +3,13 @@ memberships:
   - organization: "IEEE"
     status_label: "Member"
     duration: "Approximately 4 years"
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
   - organization: "IEEE Aerospace and Electronic Systems Society (AESS)"
     status_label: "Member"
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed

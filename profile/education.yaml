@@ -1,5 +1,8 @@
 schema_version: 1
-status: VERIFIED
+fact_status: VERIFIED
+evidence_status: TO_VERIFY
+evidence:
+  - type: user-confirmed
 education:
   current:
     degree: "B.E. in Electronics and Communication Engineering (ECE)"
@@ -7,12 +10,15 @@ education:
     current_semester: "7th Semester"
     expected_graduation: 2027
     cgpa: 8.38
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
   class_12:
     marks: "480 / 600"
     percentage: 80
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
   class_10:
     marks: 543
     percentage: 86.88
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY

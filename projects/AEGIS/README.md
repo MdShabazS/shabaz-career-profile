@@ -15,15 +15,15 @@ Do not describe AEGIS as completed, implemented, deployed, or hardware-finalized
 
 ## Architecture Baseline
 
-Emergency -> Citizen/Victim -> SOS / Incident Report -> GPS / Camera / Audio inputs -> AEGIS Platform -> AI Intelligence -> Incident Type / Severity / Risk Factors -> AI Recommendation -> Human Dispatcher Verification -> Resource Selection -> Live Tracking -> Responder -> Incident Resolution -> Digital Case / Evidence / Timeline / Analytics -> Post-Incident Analysis
+Emergency → Citizen/Victim → SOS / Incident Report → GPS / Camera / Audio inputs → AEGIS Platform → AI Intelligence → Incident Type / Severity / Risk Factors → AI Recommendation → Human Dispatcher Verification → Resource Selection → Live Tracking → Responder → Incident Resolution → Digital Case / Evidence / Timeline / Analytics → Post-Incident Analysis
 
 ## Responsibility Model
 
 | Actor | Responsibility |
 |---|---|
-| AI | Sense -> Analyze -> Recommend |
-| Human | Review -> Decide -> Dispatch |
-| AEGIS | Record -> Track -> Learn |
+| AI | Sense → Analyze → Recommend |
+| Human | Review → Decide → Dispatch |
+| AEGIS | Record → Track → Learn |
 
 AI does not independently control emergency response. Human dispatcher verification is part of the baseline architecture.
 

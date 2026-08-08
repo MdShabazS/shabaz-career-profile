@@ -14,10 +14,18 @@
 - Identity and education: `profile/`
 - Skills: `skills/`
 - Project order: `projects/project-priority.yaml`
-- Project facts: `projects/<project>/facts.yaml`
+- Project facts: `projects/<project>/facts.yaml` as canonical structured data
 - Certifications: `certifications/completed.yaml` and `certifications/planned.yaml`
 - Placement workflow: `placement/strategy.md`
 - Resume safety: `resume/instructions.md`
+- Source/evidence map: `docs/SOURCE_INDEX.md`
+
+## Status Field Model
+
+- `fact_status` describes whether a fact is confirmed.
+- `lifecycle_status` describes project or initiative state.
+- `evidence_status` describes whether supporting evidence has been attached.
+- Missing repository evidence must not downgrade a user-confirmed fact.
 
 ## Non-Invention Rule
 

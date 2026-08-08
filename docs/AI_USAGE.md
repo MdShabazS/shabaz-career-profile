@@ -20,7 +20,10 @@ For most tasks:
 1. Read `AI_CONTEXT.md`.
 2. Read the relevant canonical YAML files.
 3. Read project `facts.yaml` before project `README.md`.
-4. Apply `resume/instructions.md` when generating resume content.
+4. Use `docs/SOURCE_INDEX.md` to understand evidence coverage.
+5. Apply `resume/instructions.md` when generating resume content.
+
+`fact_status: VERIFIED` means the fact is confirmed. `evidence_status: TO_VERIFY` only means a supporting artifact has not yet been attached.
 
 ## Company-Specific Placement Workflow
 

@@ -5,7 +5,12 @@ project:
   type: "Internship project"
   organization: "iHelp Robotics Private Limited"
   product: "Assistive vision and navigation system for blind and low-vision users"
-  status: VERIFIED
+  fact_status: VERIFIED
+  evidence_status: TO_VERIFY
+  lifecycle_status: COMPLETED
+  lifecycle_detail: "Internship experience completed"
+  evidence:
+    - type: user-confirmed
 ownership:
   shabaz_contribution:
     - "Android app development"
@@ -22,4 +27,5 @@ ownership:
     rule: "Do not claim Shabaz trained or developed backend/AI models unless explicitly confirmed later."
 system_concept:
   summary: "Android phone receives live camera information from hardware over WiFi/RTSP, supports app-side interaction and guidance, and includes phone-camera fallback."
-  status: VERIFIED
+  fact_status: VERIFIED
+  evidence_status: TO_VERIFY

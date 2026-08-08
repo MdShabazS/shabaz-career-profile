@@ -5,9 +5,13 @@ project:
   type: "IEEE Pune internship project"
   organization: "IEEE EMBS Pune Section"
   team_size: 3
-  status: "Completed demo-level prototype"
-  productized_status: "Not productized"
   fact_status: VERIFIED
+  evidence_status: TO_VERIFY
+  lifecycle_status: DEMO_LEVEL_COMPLETED
+  lifecycle_detail: "Completed demo-level prototype; not productized"
+  productized_status: "Not productized"
+  evidence:
+    - type: user-confirmed
 personal_contribution:
   - "Model selection"
   - "Model training"

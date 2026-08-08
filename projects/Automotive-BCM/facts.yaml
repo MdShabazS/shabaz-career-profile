@@ -5,8 +5,12 @@ project:
   priority: 6
   type: "Personal / individual project"
   platform: "ESP32"
-  status: "Completed"
   fact_status: VERIFIED
+  evidence_status: TO_VERIFY
+  lifecycle_status: COMPLETED
+  lifecycle_detail: "Completed personal project"
+  evidence:
+    - type: user-confirmed
 core_features:
   - "OFF / ACC / ON ignition FSM"
   - "Brake control"

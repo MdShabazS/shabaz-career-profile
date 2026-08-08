@@ -4,8 +4,12 @@ project:
   priority: 4
   type: "Internship project"
   ownership: "Individual; Shabaz explicitly stated he did it alone"
-  status: "Completed"
   fact_status: VERIFIED
+  evidence_status: TO_VERIFY
+  lifecycle_status: COMPLETED
+  lifecycle_detail: "Completed internship project"
+  evidence:
+    - type: user-confirmed
 description: "Intelligent floor-plan projection system that ingests floor plans, extracts useful measurements/features, divides plans into projector zones, and renders zones for multi-projector display."
 known_stack:
   - "Python"
@@ -17,6 +21,9 @@ known_stack:
   - "HTML/CSS/vanilla JavaScript"
   - "REST APIs"
   - "JSON configuration"
+web_ui:
+  status: VERIFIED
+  evidence_status: TO_VERIFY
 known_capabilities:
   - "PDF/image/DXF/DWG ingest"
   - "Auto-crop"

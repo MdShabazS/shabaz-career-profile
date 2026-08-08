@@ -17,6 +17,7 @@ Intelligent floor-plan projection system that ingests floor plans, extracts usef
 - HTML/CSS/vanilla JavaScript
 - REST APIs
 - JSON configuration
+- Web UI
 
 ## Known Capabilities
 

@@ -2,16 +2,28 @@ schema_version: 1
 positions:
   - organization: "BITM Robotics Club"
     position: "Treasurer"
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
   - organization: "IEEE CAS Society, IEEE Student Branch BITM"
     position: "Vice-Chair"
     previous_position: "Treasurer"
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
   - organization: "AEGIS"
     position: "Team Lead"
     note: "Original idea"
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
   - organization: "Google Student Ambassador"
     position: "Student Ambassador"
     year: 2025
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed

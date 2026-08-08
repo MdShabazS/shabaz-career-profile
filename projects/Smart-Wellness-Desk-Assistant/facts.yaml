@@ -4,8 +4,12 @@ project:
   priority: 7
   type: "College team project"
   platform: "STM32 Nucleo-L476RG"
-  status: "Completed"
   fact_status: VERIFIED
+  evidence_status: TO_VERIFY
+  lifecycle_status: COMPLETED
+  lifecycle_detail: "Completed college team project"
+  evidence:
+    - type: user-confirmed
 ownership:
   overall_project: "College team project"
   shabaz_confirmed_hands_on_contribution:

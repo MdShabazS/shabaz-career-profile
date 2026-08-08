@@ -1,16 +1,28 @@
 schema_version: 1
 languages:
-  - language: "English"
-    proficiency: TO_VERIFY
-    status: TO_VERIFY
-  - language: "Hindi"
-    proficiency: TO_VERIFY
-    status: TO_VERIFY
-  - language: "Kannada"
-    proficiency: TO_VERIFY
-    status: TO_VERIFY
-  - language: "Urdu"
-    proficiency: TO_VERIFY
-    status: TO_VERIFY
+  - name: "English"
+    fact_status: VERIFIED
+    proficiency_status: TO_VERIFY
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
+  - name: "Hindi"
+    fact_status: VERIFIED
+    proficiency_status: TO_VERIFY
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
+  - name: "Kannada"
+    fact_status: VERIFIED
+    proficiency_status: TO_VERIFY
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
+  - name: "Urdu"
+    fact_status: VERIFIED
+    proficiency_status: TO_VERIFY
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
 notes:
-  - "Languages are known, but proficiency levels are not yet verified."
+  - "Languages are confirmed by Shabaz, but proficiency levels are not yet verified."

@@ -8,7 +8,7 @@ This is not a normal resume repository. It is a career knowledge base.
 
 ## Start Here
 
-AI systems should read [`AI_CONTEXT.md`](AI_CONTEXT.md) first, then inspect the relevant canonical YAML or project files before generating any output.
+AI systems should read [`AI_CONTEXT.md`](AI_CONTEXT.md) first, then inspect the relevant canonical YAML or project files before generating any output. For projects, `facts.yaml` files are the canonical structured data; project `README.md` files are human-readable explanations.
 
 ## Repository Map
 
@@ -40,6 +40,8 @@ AI systems should read [`AI_CONTEXT.md`](AI_CONTEXT.md) first, then inspect the 
 
 Never convert `PLANNED`, `TO_VERIFY`, or `EXCLUDED` facts into verified resume claims without explicit user confirmation.
 
+`fact_status` describes whether a fact is confirmed. `lifecycle_status` describes a project's current/completed state. `evidence_status` describes whether supporting artifacts are attached. Missing attached evidence does not downgrade a user-confirmed fact.
+
 ## Project Priority
 
 Use this exact portfolio priority unless Shabaz explicitly changes it:
@@ -68,6 +70,7 @@ For BITM placement preparation, software placement preparation receives higher p
 AI assistants must:
 
 - treat this repository as factual memory, not creative source material;
+- treat project `facts.yaml` files as canonical structured project facts;
 - use verified facts and preserve ownership boundaries;
 - avoid inventing metrics, technologies, responsibilities, dates, titles, certifications, awards, or deployment claims;
 - keep planned items visibly planned;

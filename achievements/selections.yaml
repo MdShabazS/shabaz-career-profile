@@ -1,7 +1,13 @@
 schema_version: 1
 selections:
   - title: "Selected for IEEE Space B.Tech Initiative Program"
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
   - title: "Selected as Google Student Ambassador"
     year: 2025
-    status: VERIFIED
+    fact_status: VERIFIED
+    evidence_status: TO_VERIFY
+    evidence:
+      - type: user-confirmed
