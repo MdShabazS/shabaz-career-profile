@@ -9,6 +9,7 @@
 - Added `resume/MASTER_RESUME.md` as the ATS-oriented reusable resume base for future company-specific tailoring.
 - Revised the master resume wording with stronger action verbs and verified quantified details for ATS scoring.
 - Reduced repeated resume verbs and added additional verified quantified details for the ATS V3 resume.
+- Added recruiter contact details and clickable public profile/project links to the master resume.
 
 ## 2026-08-09
 

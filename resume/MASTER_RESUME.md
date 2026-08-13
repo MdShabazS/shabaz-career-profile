@@ -8,7 +8,7 @@ This file is the reusable base for professional resumes. Use it when preparing c
 - Keep the resume to one page for campus placements unless a company specifically allows more.
 - Do not invent scores, metrics, titles, responsibilities, tools, links, or certificates.
 - Do not present planned certifications as completed.
-- Do not include sensitive identifiers, private project links, passport details, phone numbers stored in screenshots, or offer-letter-only details.
+- Do not include sensitive identifiers, private project links, passport details, phone numbers copied from screenshots, or offer-letter-only details. Recruiter contact details may be included only when directly provided for the resume.
 - Keep MITRA contribution limited to Android app-side work; backend and model development belonged to another team.
 - Keep Skin Disease Classification as a demo-level internship project.
 - Keep AEGIS as an architecture/design-stage team project unless implementation is later verified.
@@ -44,7 +44,7 @@ Avoid weak or unsupported claims:
 # Mohammed Shabaz S
 
 B.E. Electronics and Communication Engineering | Ballari Institute of Technology and Management  
-GitHub: https://github.com/MdShabazS | LinkedIn: [Add verified LinkedIn URL] | Email: [Add email] | Phone: [Add phone] | Location: [Add city, state]
+GitHub: [github.com/MdShabazS](https://github.com/MdShabazS) | LinkedIn: [linkedin.com/in/mohammed-shabaz17](https://www.linkedin.com/in/mohammed-shabaz17/) | Email: [md.shabaz.2005@gmail.com](mailto:md.shabaz.2005@gmail.com) | Phone: +91 79755 12403
 
 ## Summary
 
@@ -91,30 +91,27 @@ Pega Systems in collaboration with SmartBridge | Remote | In Progress
 
 ## Projects
 
-**VisionPay - Real-Time Indian Currency Detection**  
+**[VisionPay - Real-Time Indian Currency Detection](https://github.com/MdShabazS/visionpay)**  
 Python, OpenCV, TensorFlow Lite, MobileNetV2, TTS
 
 - Created a personal project for Indian currency denomination detection with spoken feedback for visually impaired users.
 - Collected approximately 400 images per denomination across 6 Indian currency classes: INR 10, INR 20, INR 50, INR 100, INR 200 and INR 500.
 - Trained a MobileNetV2-based model, converted it to TensorFlow Lite and reported approximately 93% validation accuracy.
 - Implemented webcam inference with confidence checks, majority smoothing, background class handling and auto-count mode.
-- GitHub: https://github.com/MdShabazS/visionpay
 
-**Automotive Body Control Module**  
+**[Automotive Body Control Module](https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32)**  
 ESP32, Embedded C, OLED, GPIO, State Machine
 
 - Designed an ESP32-based Automotive Body Control Module prototype for ignition and vehicle control simulation.
 - Implemented 3 ignition states (OFF/ACC/ON), brake control, left/right indicators, synchronized hazard mode, buzzer feedback and OLED dashboard output.
 - Structured firmware using non-blocking millis-based scheduling, brake debouncing, GPIO abstraction and edge-triggered serial logging.
-- GitHub: https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32
 
-**Smart Wellness Desk Assistant**  
+**[Smart Wellness Desk Assistant](https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant)**  
 STM32 Nucleo-L476RG, STM32 HAL, Embedded C, Sensors
 
 - Developed and tested embedded modules for a college team project using STM32 Nucleo-L476RG to support healthier desk habits through sensing and feedback.
 - Handled sensor interfacing, hardware wiring, testing and debugging using STM32CubeIDE and STM32 HAL.
 - Worked with ultrasonic sensing, ADC temperature sensing, I2C OLED feedback, timers and buzzer alerts.
-- GitHub: https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant
 
 **AEGIS - AI-Assisted Emergency Response Platform**  
 Architecture/Design Stage | Team Project
@@ -190,9 +187,6 @@ Before creating a company-specific resume:
 
 ## Details To Verify Before Final PDF
 
-- Email address
-- Phone number
-- LinkedIn URL
 - City/state
 - Exact dates for IEEE CAS Vice-Chair and Ex-Treasurer roles
 - Exact dates for BITM Robotics Club Treasurer role
