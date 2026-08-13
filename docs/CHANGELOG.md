@@ -8,6 +8,7 @@
 - Updated Superset profile drafts to reflect final submission decisions, including no public MITRA/AEGIS links and excluding NexCast Pro from Superset projects.
 - Added `resume/MASTER_RESUME.md` as the ATS-oriented reusable resume base for future company-specific tailoring.
 - Revised the master resume wording with stronger action verbs and verified quantified details for ATS scoring.
+- Reduced repeated resume verbs and added additional verified quantified details for the ATS V3 resume.
 
 ## 2026-08-09
 

@@ -48,7 +48,7 @@ GitHub: https://github.com/MdShabazS | LinkedIn: [Add verified LinkedIn URL] | E
 
 ## Summary
 
-Electronics and Communication Engineering student with an 8.38 CGPA and hands-on experience across Android application development, embedded systems and AI/ML-based projects. Built and tested projects using Python, C/C++, Embedded C, OpenCV, TensorFlow Lite, ESP32, STM32 and REST APIs. Currently strengthening Java, DSA, SQL and core computer science fundamentals for software and embedded placement roles.
+Electronics and Communication Engineering student with an 8.38 CGPA and hands-on experience across Android application development, embedded systems and AI/ML-based projects. Developed and tested projects using Python, C/C++, Embedded C, OpenCV, TensorFlow Lite, ESP32, STM32 and REST APIs. Currently strengthening Java, DSA, SQL and core computer science fundamentals for software and embedded placement roles.
 
 ## Education
 
@@ -73,28 +73,28 @@ CGPA: 8.38
 iHelp Robotics Private Limited | Remote | Mar 2026 - Present
 
 - Developed and tested Android app-side features for MITRA, an assistive-vision system for blind and low-vision users.
-- Improved app workflows involving RTSP stream handling, phone-camera fallback, navigation, TTS, voice interaction related features and OCR/app controls.
-- Worked in a remote internship environment and gained practical exposure to real-time assistive vision workflows and AI/software integration.
+- Integrated 6 app-side workflow areas: RTSP stream handling, phone-camera fallback, navigation, TTS, voice interaction related features and OCR/app controls.
+- Validated real-time assistive vision workflows in a remote internship environment and gained practical exposure to AI/software integration.
 
 **Student Intern - Skin Disease Classification**  
 IEEE EMBS Pune Chapter / IEEE Pune Section | Remote | Jun 2026
 
-- Completed a one-month online internship on Skin Disease Classification as part of a 3-member team.
-- Worked on model selection, model training, model evaluation, Python coding, image processing, UI/application work and testing.
-- Built a demo-level classification workflow and strengthened practical understanding of AI/ML project development and evaluation.
+- Completed a 1-month online internship on Skin Disease Classification as part of a 3-member team.
+- Contributed to 7 project areas: model selection, model training, model evaluation, Python coding, image processing, UI/application work and testing.
+- Delivered a demo-level classification workflow and strengthened practical understanding of AI/ML project development and evaluation.
 
 **Pega National Internship Program Trainee**  
 Pega Systems in collaboration with SmartBridge | Remote | In Progress
 
-- Participating in a 60-hour application-development program with live technical sessions, self-paced modules, labs and mentor-supported learning.
-- Working through capstone-oriented learning tasks with epics and user stories tracked through a Kanban workflow.
+- Pursuing a 60-hour application-development program with live technical sessions, self-paced modules, labs and mentor-supported learning.
+- Tracking capstone-oriented learning tasks through epics, user stories and a Kanban workflow.
 
 ## Projects
 
 **VisionPay - Real-Time Indian Currency Detection**  
 Python, OpenCV, TensorFlow Lite, MobileNetV2, TTS
 
-- Built a personal project for Indian currency denomination detection with spoken feedback for visually impaired users.
+- Created a personal project for Indian currency denomination detection with spoken feedback for visually impaired users.
 - Collected approximately 400 images per denomination across 6 Indian currency classes: INR 10, INR 20, INR 50, INR 100, INR 200 and INR 500.
 - Trained a MobileNetV2-based model, converted it to TensorFlow Lite and reported approximately 93% validation accuracy.
 - Implemented webcam inference with confidence checks, majority smoothing, background class handling and auto-count mode.
@@ -103,15 +103,15 @@ Python, OpenCV, TensorFlow Lite, MobileNetV2, TTS
 **Automotive Body Control Module**  
 ESP32, Embedded C, OLED, GPIO, State Machine
 
-- Built an ESP32-based Automotive Body Control Module prototype for ignition and vehicle control simulation.
-- Implemented OFF/ACC/ON ignition states, brake control, left/right indicators, synchronized hazard mode, buzzer feedback and OLED dashboard output.
+- Designed an ESP32-based Automotive Body Control Module prototype for ignition and vehicle control simulation.
+- Implemented 3 ignition states (OFF/ACC/ON), brake control, left/right indicators, synchronized hazard mode, buzzer feedback and OLED dashboard output.
 - Structured firmware using non-blocking millis-based scheduling, brake debouncing, GPIO abstraction and edge-triggered serial logging.
 - GitHub: https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32
 
 **Smart Wellness Desk Assistant**  
 STM32 Nucleo-L476RG, STM32 HAL, Embedded C, Sensors
 
-- Built and tested embedded modules for a college team project using STM32 Nucleo-L476RG to support healthier desk habits through sensing and feedback.
+- Developed and tested embedded modules for a college team project using STM32 Nucleo-L476RG to support healthier desk habits through sensing and feedback.
 - Handled sensor interfacing, hardware wiring, testing and debugging using STM32CubeIDE and STM32 HAL.
 - Worked with ultrasonic sensing, ADC temperature sensing, I2C OLED feedback, timers and buzzer alerts.
 - GitHub: https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant
