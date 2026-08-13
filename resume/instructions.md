@@ -2,6 +2,10 @@
 
 ## Supported Modes
 
+### Master Resume
+
+Use [`MASTER_RESUME.md`](MASTER_RESUME.md) as the reusable ATS-oriented base. It contains the verified resume sections, role-specific ordering guidance, and company-tailoring checklist.
+
 ### Professional Resume
 
 Use Shabaz's supplied prompt to determine target role, format, length, tone, project selection, ordering, and ATS strategy.

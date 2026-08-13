@@ -25,7 +25,7 @@ AI systems should read [`AI_CONTEXT.md`](AI_CONTEXT.md) first, then inspect the 
 | `placement/` | BITM placement strategy and company-specific preparation workflow |
 | `roadmap/` | Current learning state and planned growth areas |
 | `healthcare-research/` | Active healthcare research initiative, intentionally problem-agnostic for now |
-| `resume/` | Resume-generation rules and safety constraints |
+| `resume/` | Resume-generation rules, safety constraints, and reusable master resume |
 | `docs/` | Governance, schema, status, AI usage, changelog |
 | `scripts/` | Repository validation utilities |
 

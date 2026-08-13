@@ -6,6 +6,7 @@
 - Stored the professional Superset summary and upload checklist while excluding sensitive personal fields.
 - Added curated Superset certificate proofs and an index for certifications, internships, workshops, competitions, awards, and volunteering.
 - Updated Superset profile drafts to reflect final submission decisions, including no public MITRA/AEGIS links and excluding NexCast Pro from Superset projects.
+- Added `resume/MASTER_RESUME.md` as the ATS-oriented reusable resume base for future company-specific tailoring.
 
 ## 2026-08-09
 
