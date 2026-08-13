@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-13
+
+- Added `superset/` for non-sensitive Superset placement profile submission records.
+- Stored the professional Superset summary and upload checklist while excluding sensitive personal fields.
+- Added curated Superset certificate proofs and an index for certifications, internships, workshops, competitions, awards, and volunteering.
+- Updated Superset profile drafts to reflect final submission decisions, including no public MITRA/AEGIS links and excluding NexCast Pro from Superset projects.
+
 ## 2026-08-09
 
 - Established the repository as an AI-optimized career knowledge base.
