@@ -8,6 +8,18 @@ Currently participating.
 
 5 months.
 
+## Program Size
+
+60 hours.
+
+## Category
+
+Application Development.
+
+## Level
+
+Intermediate.
+
 ## Learning Format
 
 - Odd days: sessions

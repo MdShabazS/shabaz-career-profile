@@ -48,7 +48,7 @@ GitHub: https://github.com/MdShabazS | LinkedIn: [Add verified LinkedIn URL] | E
 
 ## Summary
 
-Electronics and Communication Engineering student with hands-on experience in software development, Android application work, embedded systems, and AI/ML-based project development. Worked on internship and academic projects involving Android app features, RTSP stream handling, Python, C/C++, Embedded C, OpenCV, TensorFlow Lite, ESP32, STM32 and REST APIs. Currently strengthening Java, DSA, SQL and core computer science fundamentals for software and embedded placement roles.
+Electronics and Communication Engineering student with an 8.38 CGPA and hands-on experience across Android application development, embedded systems and AI/ML-based projects. Built and tested projects using Python, C/C++, Embedded C, OpenCV, TensorFlow Lite, ESP32, STM32 and REST APIs. Currently strengthening Java, DSA, SQL and core computer science fundamentals for software and embedded placement roles.
 
 ## Education
 
@@ -72,21 +72,21 @@ CGPA: 8.38
 **AI Research Intern - Deep Learning & Model Development**  
 iHelp Robotics Private Limited | Remote | Mar 2026 - Present
 
-- Working on the MITRA Android application for an assistive-vision system built for blind and low-vision users.
-- Contributed to app-side features including RTSP stream handling, phone-camera fallback, navigation, TTS, voice interaction related features, OCR/app controls and testing.
-- Gained practical exposure to real-time assistive vision workflows and AI/software integration in an Android product environment.
+- Developed and tested Android app-side features for MITRA, an assistive-vision system for blind and low-vision users.
+- Improved app workflows involving RTSP stream handling, phone-camera fallback, navigation, TTS, voice interaction related features and OCR/app controls.
+- Worked in a remote internship environment and gained practical exposure to real-time assistive vision workflows and AI/software integration.
 
 **Student Intern - Skin Disease Classification**  
 IEEE EMBS Pune Chapter / IEEE Pune Section | Remote | Jun 2026
 
 - Completed a one-month online internship on Skin Disease Classification as part of a 3-member team.
-- Contributed to model selection, model training, model evaluation, Python coding, image processing, UI/application work and testing.
-- Built a demo-level classification workflow and improved understanding of AI/ML project development and evaluation.
+- Worked on model selection, model training, model evaluation, Python coding, image processing, UI/application work and testing.
+- Built a demo-level classification workflow and strengthened practical understanding of AI/ML project development and evaluation.
 
 **Pega National Internship Program Trainee**  
 Pega Systems in collaboration with SmartBridge | Remote | In Progress
 
-- Participating in an application development focused internship program with live technical sessions, self-paced modules, labs and mentor-supported learning.
+- Participating in a 60-hour application-development program with live technical sessions, self-paced modules, labs and mentor-supported learning.
 - Working through capstone-oriented learning tasks with epics and user stories tracked through a Kanban workflow.
 
 ## Projects
@@ -95,8 +95,8 @@ Pega Systems in collaboration with SmartBridge | Remote | In Progress
 Python, OpenCV, TensorFlow Lite, MobileNetV2, TTS
 
 - Built a personal project for Indian currency denomination detection with spoken feedback for visually impaired users.
-- Collected approximately 400 images per denomination for INR 10, INR 20, INR 50, INR 100, INR 200 and INR 500 notes.
-- Trained a MobileNetV2-based model and converted it to TensorFlow Lite for offline CPU-oriented inference.
+- Collected approximately 400 images per denomination across 6 Indian currency classes: INR 10, INR 20, INR 50, INR 100, INR 200 and INR 500.
+- Trained a MobileNetV2-based model, converted it to TensorFlow Lite and reported approximately 93% validation accuracy.
 - Implemented webcam inference with confidence checks, majority smoothing, background class handling and auto-count mode.
 - GitHub: https://github.com/MdShabazS/visionpay
 
@@ -105,15 +105,15 @@ ESP32, Embedded C, OLED, GPIO, State Machine
 
 - Built an ESP32-based Automotive Body Control Module prototype for ignition and vehicle control simulation.
 - Implemented OFF/ACC/ON ignition states, brake control, left/right indicators, synchronized hazard mode, buzzer feedback and OLED dashboard output.
-- Used non-blocking millis-based scheduling, brake debouncing, GPIO abstraction and edge-triggered serial logging.
+- Structured firmware using non-blocking millis-based scheduling, brake debouncing, GPIO abstraction and edge-triggered serial logging.
 - GitHub: https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32
 
 **Smart Wellness Desk Assistant**  
 STM32 Nucleo-L476RG, STM32 HAL, Embedded C, Sensors
 
-- Worked on a college team project using STM32 Nucleo-L476RG to support healthier desk habits through sensing and feedback.
-- Contributed to sensor interfacing, hardware wiring, testing and debugging.
-- Used STM32CubeIDE, STM32 HAL, ultrasonic sensing, ADC temperature sensing, I2C OLED, timers and buzzer alerts.
+- Built and tested embedded modules for a college team project using STM32 Nucleo-L476RG to support healthier desk habits through sensing and feedback.
+- Handled sensor interfacing, hardware wiring, testing and debugging using STM32CubeIDE and STM32 HAL.
+- Worked with ultrasonic sensing, ADC temperature sensing, I2C OLED feedback, timers and buzzer alerts.
 - GitHub: https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant
 
 **AEGIS - AI-Assisted Emergency Response Platform**  
@@ -156,7 +156,7 @@ Use this project order for software companies:
 Recommended summary:
 
 ```text
-ECE student with hands-on experience in Android application development, Python-based AI/ML projects, REST APIs, OpenCV, TensorFlow Lite and Git/GitHub. Worked on internship and personal projects involving assistive technology, real-time camera workflows, currency recognition, image processing and application testing. Currently strengthening Java, DSA, SQL and core computer science fundamentals for software development roles.
+ECE student with an 8.38 CGPA and hands-on experience in Android application development, Python-based AI/ML projects, REST APIs, OpenCV, TensorFlow Lite and Git/GitHub. Worked on internship and personal projects involving assistive technology, real-time camera workflows, currency recognition, image processing and application testing. Currently strengthening Java, DSA, SQL and core computer science fundamentals for software development roles.
 ```
 
 ## Embedded Role Version
@@ -172,7 +172,7 @@ Use this project order for embedded companies:
 Recommended summary:
 
 ```text
-ECE student with hands-on experience in embedded systems, C/C++, Embedded C, ESP32, STM32, STM32CubeIDE and hardware debugging. Built projects involving state-machine based automotive control, sensor interfacing, OLED feedback, timers and embedded event loops, with additional exposure to Android and AI/ML-based assistive technology projects.
+ECE student with an 8.38 CGPA and hands-on experience in embedded systems, C/C++, Embedded C, ESP32, STM32, STM32CubeIDE and hardware debugging. Built projects involving state-machine based automotive control, sensor interfacing, OLED feedback, timers and embedded event loops, with additional exposure to Android and AI/ML-based assistive technology projects.
 ```
 
 ## Company-Specific Tailoring Checklist
