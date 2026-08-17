@@ -11,6 +11,7 @@ This repository supports:
 5. Project explanation
 6. Skill-gap analysis
 7. Career decision support
+8. Roadmap-aligned learning planning
 
 ## Read Order
 
@@ -23,6 +24,8 @@ For most tasks:
 5. Apply `resume/instructions.md` when generating resume content.
 
 `fact_status: VERIFIED` means the fact is confirmed. `evidence_status: TO_VERIFY` only means a supporting artifact has not yet been attached.
+
+For roadmap tasks, use `roadmap/roadmap-analysis.md` and the relevant phase files. Roadmap entries are learning targets and must not be treated as completed skills unless confirmed elsewhere in the repository.
 
 ## Company-Specific Placement Workflow
 

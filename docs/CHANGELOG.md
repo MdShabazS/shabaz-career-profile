@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-17
+
+- Added the active Analytics with Annu AI and Data Science roadmap from the supplied brochure.
+- Split the roadmap into phase topic files, phase resource files, capstone projects, and a basic-level resume draft.
+- Updated repository schema and validation so the new roadmap is tracked without restoring the cancelled older roadmap.
+
 ## 2026-08-13
 
 - Added `superset/` for non-sensitive Superset placement profile submission records.

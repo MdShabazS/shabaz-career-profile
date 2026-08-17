@@ -128,6 +128,7 @@ required_dirs = %w[
   certifications
   achievements
   placement
+  roadmap
   healthcare-research
   resume
   docs
@@ -168,6 +169,22 @@ required_files = %w[
   certifications/planned.yaml
   achievements/selections.yaml
   placement/strategy.md
+  roadmap/README.md
+  roadmap/roadmap-analysis.md
+  roadmap/phase1.md
+  roadmap/phase1resources.md
+  roadmap/phase2.md
+  roadmap/phase2resources.md
+  roadmap/phase3.md
+  roadmap/phase3resources.md
+  roadmap/phase4.md
+  roadmap/phase4resources.md
+  roadmap/phase5.md
+  roadmap/phase5resources.md
+  roadmap/phase6.md
+  roadmap/phase6resources.md
+  roadmap/projects.md
+  roadmap/updated_resume.md
   healthcare-research/README.md
   healthcare-research/research-state.yaml
   resume/instructions.md

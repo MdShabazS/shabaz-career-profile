@@ -17,6 +17,7 @@ The repository separates human-readable Markdown from machine-readable YAML.
 | `certifications/` | Completed and planned certification records |
 | `achievements/` | Selections and recognitions |
 | `placement/` | BITM placement strategy |
+| `roadmap/` | Active Analytics with Annu roadmap, phase topics, resources, projects, and basic resume draft |
 | `healthcare-research/` | Active healthcare research boundary |
 | `resume/` | Resume-generation instructions |
 | `docs/` | Governance, schema, status, changelog |

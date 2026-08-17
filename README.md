@@ -23,6 +23,7 @@ AI systems should read [`AI_CONTEXT.md`](AI_CONTEXT.md) first, then inspect the 
 | `certifications/` | Completed vs planned certifications and courses |
 | `achievements/` | Selections and recognitions |
 | `placement/` | BITM placement strategy and company-specific preparation workflow |
+| `roadmap/` | Active Analytics with Annu AI and Data Science roadmap, phase topics, resources, projects, and basic resume draft |
 | `healthcare-research/` | Active healthcare research initiative, intentionally problem-agnostic for now |
 | `resume/` | Resume-generation rules, safety constraints, and reusable master resume |
 | `docs/` | Governance, schema, status, AI usage, changelog |
@@ -63,6 +64,10 @@ Primary target roles:
 - Embedded Engineer
 
 For BITM placement preparation, software placement preparation receives higher priority because more software companies are expected to visit. Embedded remains an active parallel opportunity. AI/ML is currently an exploration area with project-level exposure, not a finalized specialization.
+
+## Active Learning Roadmap
+
+The active learning roadmap is stored in [`roadmap/`](roadmap/). It follows the Analytics with Annu AI and Data Science roadmap supplied by Shabaz and is split into phase topic files, matching resource files, roadmap project prompts, and a basic-level resume draft. Roadmap topics are learning targets unless separately verified in `skills/`, `certifications/`, `projects/`, or `experience/`.
 
 ## AI Usage
 
