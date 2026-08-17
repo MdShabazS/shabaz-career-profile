@@ -10,8 +10,7 @@ This repository supports:
 4. Interview preparation
 5. Project explanation
 6. Skill-gap analysis
-7. Learning-roadmap updates
-8. Career decision support
+7. Career decision support
 
 ## Read Order
 

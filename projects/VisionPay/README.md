@@ -27,7 +27,7 @@ Training code was AI-assisted. Do not falsely claim that every line of training 
 
 ## Not Completed
 
-The following were roadmap items, not completed features unless new evidence is added:
+The following were future ideas, not completed features unless new evidence is added:
 
 - YOLO-based detector
 - Counterfeit checks

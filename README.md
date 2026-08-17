@@ -2,7 +2,7 @@
 
 > Shabaz's private career intelligence repository and single source of truth.
 
-This repository stores structured professional facts for Mohammed Shabaz S. It is designed for long-term maintenance and safe AI use across resumes, interview preparation, company-specific placement planning, project explanation, and learning-roadmap decisions.
+This repository stores structured professional facts for Mohammed Shabaz S. It is designed for long-term maintenance and safe AI use across resumes, interview preparation, company-specific placement planning, project explanation, and career decisions.
 
 This is not a normal resume repository. It is a career knowledge base.
 
@@ -23,7 +23,6 @@ AI systems should read [`AI_CONTEXT.md`](AI_CONTEXT.md) first, then inspect the 
 | `certifications/` | Completed vs planned certifications and courses |
 | `achievements/` | Selections and recognitions |
 | `placement/` | BITM placement strategy and company-specific preparation workflow |
-| `roadmap/` | Current learning state and planned growth areas |
 | `healthcare-research/` | Active healthcare research initiative, intentionally problem-agnostic for now |
 | `resume/` | Resume-generation rules, safety constraints, and reusable master resume |
 | `docs/` | Governance, schema, status, AI usage, changelog |

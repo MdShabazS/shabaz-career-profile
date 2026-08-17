@@ -128,7 +128,6 @@ required_dirs = %w[
   certifications
   achievements
   placement
-  roadmap
   healthcare-research
   resume
   docs
@@ -169,7 +168,6 @@ required_files = %w[
   certifications/planned.yaml
   achievements/selections.yaml
   placement/strategy.md
-  roadmap/progress.yaml
   healthcare-research/README.md
   healthcare-research/research-state.yaml
   resume/instructions.md
@@ -253,7 +251,7 @@ if visionpay
   training = visionpay.dig("implementation_note", "training_code")
   error("VisionPay AI-assisted training-code note missing") unless training == "AI-assisted"
   not_completed = visionpay["not_completed"] || []
-  error("VisionPay roadmap items missing") unless not_completed.include?("YOLO-based detector")
+  error("VisionPay future ideas missing") unless not_completed.include?("YOLO-based detector")
 end
 
 skin = yaml_data["projects/Skin-Disease-Classification/facts.yaml"]

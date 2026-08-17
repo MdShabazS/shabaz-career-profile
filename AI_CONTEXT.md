@@ -2,7 +2,7 @@
 
 This is the first file any AI system should read. The repository is Mohammed Shabaz S's private career intelligence repository and single source of truth.
 
-Use it to answer career questions, generate resumes, prepare for BITM placements, explain projects, identify gaps, and maintain a learning roadmap. Do not use it as a creative biography.
+Use it to answer career questions, generate resumes, prepare for BITM placements, explain projects, identify gaps, and support career decisions. Do not use it as a creative biography.
 
 ## Non-Negotiable Rules
 
@@ -316,7 +316,7 @@ Internship project done alone by Shabaz. Known stack: Python, Flask, OpenCV, Tes
 
 Personal individual project. Confirmed: personally collected approximately 400 images per denomination for ₹10, ₹20, ₹50, ₹100, ₹200, and ₹500; MobileNetV2; TensorFlow Lite; real-time webcam inference; offline CPU-oriented inference; TTS; confidence/margin gating; temporal/majority smoothing; background class; auto-count mode; reported validation accuracy around 93% according to supplied project description.
 
-Training code was AI-assisted. Do not claim every line of training code was manually written by Shabaz. Roadmap items must not be presented as completed.
+Training code was AI-assisted. Do not claim every line of training code was manually written by Shabaz. Future ideas must not be presented as completed.
 
 ### Automotive BCM
 
