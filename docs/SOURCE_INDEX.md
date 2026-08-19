@@ -57,7 +57,7 @@ only when a relevant repository or commit is supplied or explicitly linked later
 
 ## LINKEDIN
 
-No LinkedIn source links are currently attached.
+- Canonical LinkedIn profile: `https://www.linkedin.com/in/shabaz17/` (user-confirmed 2026-08-20). Recorded in [`../profile/personal.yaml`](../profile/personal.yaml). This is the only valid handle; the earlier `mohammed-shabaz17` variant was incorrect and has been corrected across the repository.
 
 ## OTHER PROVIDED EVIDENCE
 

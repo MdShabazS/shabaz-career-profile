@@ -44,7 +44,7 @@ Avoid weak or unsupported claims:
 # Mohammed Shabaz S
 
 B.E. Electronics and Communication Engineering | Ballari Institute of Technology and Management  
-GitHub: [github.com/MdShabazS](https://github.com/MdShabazS) | LinkedIn: [linkedin.com/in/mohammed-shabaz17](https://www.linkedin.com/in/mohammed-shabaz17/) | Email: [md.shabaz.2005@gmail.com](mailto:md.shabaz.2005@gmail.com) | Phone: +91 79755 12403
+GitHub: [github.com/MdShabazS](https://github.com/MdShabazS) | LinkedIn: [linkedin.com/in/shabaz17](https://www.linkedin.com/in/shabaz17/) | Email: [md.shabaz.2005@gmail.com](mailto:md.shabaz.2005@gmail.com) | Phone: +91 79755 12403
 
 ## Summary
 

@@ -1,7 +1,7 @@
 # Mohammed Shabaz S - Company-Specific Interview Prep
 
 **Profile anchor:** B.E. Electronics and Communication Engineering, Ballari Institute of Technology and Management | 8.38 CGPA, expected 2027
-**Contact:** md.shabaz.2005@gmail.com | +91 79755 12403 | github.com/MdShabazS | linkedin.com/in/mohammed-shabaz17
+**Contact:** md.shabaz.2005@gmail.com | +91 79755 12403 | github.com/MdShabazS | linkedin.com/in/shabaz17
 
 ## How to use this pack
 - Use this after the master Superset interview pack. This file is company-specific: it tells you which project to highlight, what each company is likely to test, and how to answer without sounding scripted.

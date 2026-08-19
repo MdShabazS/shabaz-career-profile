@@ -9,7 +9,7 @@ B.E. Electronics and Communication Engineering, Ballari Institute of Technology 
 Email: md.shabaz.2005@gmail.com  
 Phone: +91 79755 12403  
 GitHub: https://github.com/MdShabazS  
-LinkedIn: https://www.linkedin.com/in/mohammed-shabaz17/
+LinkedIn: https://www.linkedin.com/in/shabaz17/
 
 ## Summary
 

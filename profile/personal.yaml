@@ -11,6 +11,9 @@ person:
     email: NOT_PROVIDED
     phone: NOT_PROVIDED
     location: NOT_PROVIDED
+    linkedin: "https://www.linkedin.com/in/shabaz17/"
+    linkedin_fact_status: VERIFIED
+    github: "https://github.com/MdShabazS"
   privacy_rule: "Do not repeat private contact details across the repository; never store secrets or sensitive identifiers."
 interests:
   - name: "Gaming"
