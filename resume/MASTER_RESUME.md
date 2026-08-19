@@ -97,7 +97,7 @@ Python, OpenCV, TensorFlow Lite, MobileNetV2, TTS
 - Created a personal project for Indian currency denomination detection with spoken feedback for visually impaired users.
 - Collected approximately 400 images per denomination across 6 Indian currency classes: INR 10, INR 20, INR 50, INR 100, INR 200 and INR 500.
 - Trained a MobileNetV2-based model, converted it to TensorFlow Lite and reported approximately 93% validation accuracy.
-- Implemented webcam inference with confidence checks, majority smoothing, background class handling and auto-count mode.
+- Implemented webcam inference with 4 real-time reliability mechanisms: confidence gating, majority-vote temporal smoothing, background class handling and auto-count mode.
 
 **[Automotive Body Control Module](https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32)**  
 ESP32, Embedded C, OLED, GPIO, State Machine
@@ -117,7 +117,7 @@ STM32 Nucleo-L476RG, STM32 HAL, Embedded C, Sensors
 Architecture/Design Stage | Team Project
 
 - Leading a 3-member team project based on an original idea for an AI-assisted emergency response platform.
-- Designed the baseline workflow for incident reporting, GPS/camera/audio inputs, AI-based analysis, human dispatcher verification, resource selection, live tracking and post-incident records.
+- Designed a 15-stage baseline workflow spanning incident reporting, GPS/camera/audio inputs, AI-based analysis, human dispatcher verification, resource selection, live tracking and post-incident records.
 - Defined a responsibility model where AI recommends actions and a human dispatcher verifies decisions before response assignment.
 
 ## Leadership And Activities

@@ -4,6 +4,7 @@
 
 - Corrected the canonical LinkedIn handle to `linkedin.com/in/shabaz17` (user-confirmed) across `resume/MASTER_RESUME.md`, `roadmap/updated_resume.md`, and the company-specific interview-prep file; the earlier `mohammed-shabaz17` variant was wrong.
 - Recorded the verified LinkedIn and GitHub links in `profile/personal.yaml` and updated `docs/SOURCE_INDEX.md` accordingly.
+- Folded honest, verified quantifiers into `resume/MASTER_RESUME.md`: VisionPay "4 real-time reliability mechanisms" and AEGIS "15-stage baseline workflow". No new or unverified metrics were introduced.
 
 ## 2026-08-17
 
