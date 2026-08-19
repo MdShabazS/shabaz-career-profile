@@ -6,7 +6,7 @@ Currently participating.
 
 ## Duration
 
-5 months.
+1 month.
 
 ## Program Size
 

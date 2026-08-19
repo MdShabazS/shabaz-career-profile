@@ -219,7 +219,7 @@ Known stack and capabilities are documented in [`projects/NexCast-Pro/`](project
 
 Status: currently participating.
 
-Duration: 5 months.
+Duration: 1 month.
 
 Learning format:
 

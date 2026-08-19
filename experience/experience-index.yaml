@@ -22,6 +22,6 @@ experiences:
     canonical_project_file: "../projects/NexCast-Pro/facts.yaml"
   - name: "Pega National Internship Program"
     type: "Program"
-    duration: "5 months"
+    duration: "1 month"
     current_status: "Currently participating"
     status: VERIFIED

@@ -137,7 +137,7 @@ Job Location: Online / Remote
 Position Type: Internship / Training Program
 Job Function: Engineering - Web / Software
 Status: In progress
-Duration: 5 months
+Duration: 1 month
 Category: Application Development
 Level: Intermediate
 ```

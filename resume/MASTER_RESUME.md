@@ -86,7 +86,7 @@ IEEE EMBS Pune Chapter / IEEE Pune Section | Remote | Jun 2026
 **Pega National Internship Program Trainee**  
 Pega Systems in collaboration with SmartBridge | Remote | In Progress
 
-- Pursuing a 60-hour application-development program with live technical sessions, self-paced modules, labs and mentor-supported learning.
+- Pursuing a 1-month application-development program with live technical sessions, self-paced modules, labs and mentor-supported learning.
 - Tracking capstone-oriented learning tasks through epics, user stories and a Kanban workflow.
 
 ## Projects
