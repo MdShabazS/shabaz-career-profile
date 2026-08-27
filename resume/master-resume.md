@@ -1,96 +1,96 @@
 # Master Resume — Mohammed Shabaz S
 
-Single source of truth for resume content. Derive role/JD versions from this by changing emphasis only (see [`resume-strategy.md`](resume-strategy.md)). This is Markdown source, not a formatted PDF. Everything below is verified against the canonical files.
+Single source of truth for resume content. The PDF/DOCX in this folder are generated from exactly this content by [`../scripts/build_resume.py`](../scripts/build_resume.py) and validated by [`../scripts/ats_check.py`](../scripts/ats_check.py). Derive role versions by changing emphasis only (see [`resume-strategy.md`](resume-strategy.md) and [`ats-analysis.md`](ats-analysis.md)). Everything is verified against [`../PROFILE.md`](../PROFILE.md).
 
 ---
 
-```markdown
-# Mohammed Shabaz S
-
+```
+MOHAMMED SHABAZ S
 Software Developer | Embedded Engineer
-Ballari, Karnataka, India
-[md.shabaz.2005@gmail.com](mailto:md.shabaz.2005@gmail.com) · +91 79755 12403 · [LinkedIn](https://www.linkedin.com/in/shabaz17/) · [GitHub](https://github.com/MdShabazS) · Portfolio (link to be added)
+Ballari, Karnataka, India | 7975512403 | md.shabaz.2005@gmail.com |
+linkedin.com/in/shabaz17 | github.com/MdShabazS | Portfolio: available on request
 
-## Summary
+SUMMARY
+Final-year Electronics & Communication Engineering student (CGPA 8.38) working across
+application software and embedded firmware. Internship experience at Nokia and iHelp
+Robotics, with projects in Android, computer vision, and microcontrollers using C/C++,
+Python, and Embedded C.
 
-Final-year Electronics and Communication Engineering student (CGPA 8.38, graduating 2027) working across software and embedded systems. Currently a Student Intern at Nokia; earlier built and tested Android app-side features during an internship at iHelp Robotics, and built embedded firmware projects on microcontrollers. Comfortable with C, C++, Python, Java and SQL at a foundational level, and deepening data structures, algorithms and core CS for software and embedded roles.
+EDUCATION
+Ballari Institute of Technology and Management (BITM) — Ballari, Karnataka
+B.E. Electronics & Communication Engineering | Final Year | Expected 2027 | CGPA 8.38
+Class 12: 80% | Class 10: 86.88%
 
-## Education
-
-Ballari Institute of Technology and Management (BITM), Ballari, Karnataka
-B.E. Electronics & Communication Engineering — Final Year — Expected 2027 — CGPA 8.38
-Class 12: 80% · Class 10: 86.88%
-
-## Skills
-
+SKILLS
 Languages: C, C++, Python, Java, SQL
 Software & Tools: Android Studio, OpenCV, Firebase, Git, GitHub
 Embedded: Embedded C, Microcontrollers
-CS Fundamentals: Data Structures & Algorithms (DSA), DBMS, Operating Systems, Computer Networks
+CS Fundamentals: Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks
 
-## Experience
+EXPERIENCE
+Nokia Solutions and Networks India — Student Intern | Bangalore | Sep 2026 – Present
+- Student intern contributing to engineering work; project scope is covered by company
+  confidentiality.
 
-Nokia Solutions and Networks India — Student Intern — Bangalore
-Sep 2026 – Present
-- Student intern; project domain confidential.
+iHelp Robotics Private Limited — AI Research Intern, Deep Learning & Model Development
+Remote | Mar 2026 – Aug 2026 | Project: MITRA
+- Improved live camera-stream reliability in the MITRA assistive Android app: reduced
+  WiFi/RTSP stream search delay, persisted the last working transport, and added
+  refresh/stall recovery.
+- Built a visual-freeze watchdog that reconnects when frame counters advance but the
+  image stalls; added on-screen stream- and cloud-status panels and a guard that sends
+  frames only when the cloud WebSocket is connected.
+- Hardened offline voice commands (offline-preferred speech recognition with model
+  recovery and microphone retry backoff); verified builds across devices with Gradle
+  test/lint/assemble runs and captured logs. Backend and model work were handled by
+  another team.
 
-iHelp Robotics Private Limited — AI Research Intern – Deep Learning & Model Development — Remote (Bangalore)
-Mar 2026 – Aug 2026 · Project: MITRA
-- Improved WiFi/RTSP live-stream handling in the MITRA Android app: reduced stream search delay, remembered the last working transport, and added refresh/stall recovery.
-- Added a visual-freeze watchdog that reconnects when frame counters advance but the image stays visually stuck, plus on-screen stream-status and cloud-status panels and a guard that sends frames only when the cloud WebSocket is connected.
-- Hardened offline voice commands (offline-preferred speech recognition with model recovery and microphone retry backoff) and verified behaviour across devices with logs, lint, and Gradle build checks.
+IEEE EMBS Pune Section — Student Intern, Skin Disease Classification | Remote | Jun 2026
+- Built a demo-level skin-disease image classifier with a 3-person team: model
+  selection, training, evaluation, image processing, UI, and testing in Python.
 
-IEEE EMBS Pune Section — Student Intern (Skin Disease Classification) — Online
-Jun 2026 (1 month)
-- Built a demo-level skin-disease image classifier in a 3-member team: model selection, training, evaluation, image processing, UI, and testing in Python.
+PROJECTS
+VisionPay — Individual | Python, MobileNetV2, TensorFlow Lite, OpenCV | github.com/MdShabazS/visionpay
+- Built an offline Indian-currency recognizer with spoken feedback for low-vision users:
+  trained a MobileNetV2 model, converted it to TensorFlow Lite, and ran real-time webcam
+  inference with text-to-speech.
+- Collected ~400 images per denomination across 6 note classes; added confidence/margin
+  gating, temporal smoothing, a background class, and auto-count mode; reported ~93%
+  validation accuracy.
 
-## Projects
+Automotive Body Control Module — Individual | ESP32, Embedded C | github.com/MdShabazS/Automotive-Body-Control-Module-ESP32
+- Built an ESP32 body-control-module prototype with an OFF/ACC/ON ignition state machine,
+  indicators, synchronized hazard mode, and an OLED dashboard.
+- Structured the firmware around non-blocking millis()-based scheduling with brake
+  debouncing, GPIO abstraction, and edge-triggered serial logging.
 
-VisionPay — Real-time Indian currency detection (individual) ([repo](https://github.com/MdShabazS/visionpay))
-- Built an offline currency-denomination detector with spoken feedback for visually impaired users: MobileNetV2 trained and converted to TensorFlow Lite, webcam inference, TTS.
-- Collected ~400 images per denomination; added confidence/margin gating, temporal smoothing, a background class, and auto-count mode; reported ~93% validation accuracy.
+AEGIS — Team (lead), design stage / in progress
+- Leading a 3-person team designing AEGIS, an AI-assisted emergency-response platform:
+  defined a 15-stage incident workflow where AI analyzes and recommends and a human
+  dispatcher verifies before resources are dispatched.
 
-Automotive Body Control Module — ESP32, Embedded C (individual) ([repo](https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32))
-- Built an ESP32 body-control-module prototype with an OFF/ACC/ON ignition state machine, indicators, synchronized hazard mode, and an OLED dashboard.
-- Structured the firmware with non-blocking millis-based scheduling, brake debouncing, GPIO abstraction, and edge-triggered serial logging.
+LEADERSHIP & ACTIVITIES
+- Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (previously Treasurer)
+- Treasurer, BITM Robotics Club
+- Google Student Ambassador, 2025
+- Selected Participant, IEEE SPACE 2026 — B.Tech Initiative
 
-AEGIS — AI-assisted emergency-response platform (team project, design stage — Planned/In Progress)
-- Original idea and lead for a 3-member project designing an emergency-response platform.
-- Defined a 15-stage incident workflow and a responsibility model where AI recommends and a human dispatcher verifies before resources are assigned.
+CERTIFICATIONS
+Embedded Systems — Internshala Trainings (2025) | Python Programming — EISystems (2024) |
+Google Cloud Generative AI — SmartBridge/SmartInternz (2025) | SQL for Data Analytics
+with AI | Programming in C and C++ with AI
 
-## Leadership
-
-- Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (previously Treasurer).
-- Treasurer, BITM Robotics Club.
-- Google Student Ambassador, 2025.
-
-## Activities
-
-- Selected Participant, IEEE SPACE 2026 — B.Tech Initiative.
-- Participant, Techzone Nationals 2K25 Hardware Hackathon.
-- Workshop: Designing Embedded AI Systems with the STMicroelectronics AI Ecosystem (DigiToad × STMicroelectronics).
-
-## Certifications
-
-- Embedded Systems — Internshala Trainings (8-week), 2025.
-- Google Cloud Generative AI Virtual Internship — SmartBridge / SmartInternz, 2025.
-- Python Programming — EISystems, 2024.
-- SQL for Data Analytics with AI · Programming in C and C++ with AI.
-
-## Languages
-
+LANGUAGES
 English, Kannada, Hindi, Urdu
 ```
 
 ---
 
-## Notes for whoever formats the PDF
+## Notes
 
-- Main resume project pool: **VisionPay, Automotive BCM, AEGIS**. AEGIS is shown as a design-stage (Planned/In Progress) team project — if a company wants only completed work, drop AEGIS and promote MITRA or Smart Wellness Desk Assistant.
-- For a software/Android version, add MITRA prominently and lead with VisionPay + MITRA.
-- For an embedded version, lead with Automotive BCM and add Smart Wellness Desk Assistant (label it a team project).
-- Skin Disease Classification is portfolio-first — include on a resume only when the role benefits from the healthcare/AI angle.
-- Skills section uses "Microcontrollers"; specific boards (ESP32, STM32) appear only inside project bullets as that project's stack.
-- Phone is included because a master resume is submitted directly by Shabaz; omit it from any public web copy.
-- Nokia is shown as "Sep 2026 – Present"; keep the project/domain confidential.
-- Certifications 1–2 have no issuer/date yet — quote them by name only until Shabaz provides details.
+- **Links:** the header renders Email, LinkedIn, GitHub as clickable hyperlinks in the PDF/DOCX. Portfolio has no URL yet, so it shows "available on request" (no fabricated link) — swap in the real URL once deployed.
+- **Skills vs bullets:** the Skills section follows the locked spec (Microcontrollers, not individual boards; no unheld protocols/RTOS). Specific platforms Shabaz actually used (ESP32, STM32, I2C, TensorFlow Lite, RTSP, etc.) appear only in project/experience bullets as that work's real stack.
+- **Project pool:** master shows VisionPay, Automotive BCM, AEGIS (plus MITRA under Experience). For software/Android roles, emphasize MITRA + VisionPay; for embedded, lead with Automotive BCM + Smart Wellness Desk Assistant (team project); Skin Disease Classification stays portfolio-first.
+- **AEGIS** is always shown as design-stage / in progress — never completed.
+- **Phone** is included because Shabaz submits this master directly; omit it from public web copy.
+- Regenerate the PDF/DOCX after any edit: `python3 scripts/build_resume.py`, then `python3 scripts/ats_check.py`.
