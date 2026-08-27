@@ -1,56 +1,78 @@
 # Resume ATS Analysis & Readiness Methodology
 
-How the master resume is evaluated, and how it maps to each target role. This is analysis, not a claim of any commercial ATS score. There is no universal ATS score; different platforms (Workday, Greenhouse, Lever, iCIMS, Taleo) score differently.
+How the master resume is evaluated and how it maps to each target role. This is analysis, **not** a claim of any commercial ATS score — there is no universal ATS score; platforms (Workday, Greenhouse, Lever, iCIMS, Taleo) score differently. A content coach such as Resume Worded weights writing quality (impact/verbs) far more than parseability, so scores differ by design.
 
 ## Readiness methodology (defensible, reproducible)
 
-The automated check ([`../scripts/ats_check.py`](../scripts/ats_check.py)) extracts the **actual text** from the generated PDF (via PyMuPDF) and scores six weighted, testable dimensions. It measures parseability and relevance — not a guarantee of any vendor's score.
+[`../scripts/validate_resume.py`](../scripts/validate_resume.py) extracts the **actual text** from the generated PDF (PyMuPDF), writes a `.txt`, and scores seven weighted dimensions that sum to 100.
 
 | Dimension | Weight | What it tests |
 |---|---|---|
-| Parseability | 25 | Text is selectable/extractable; one page; no image-only content; no multi-column hazards |
-| Contact & links | 10 | Name, email, phone, LinkedIn, GitHub present and hyperlinks live |
-| Standard sections | 15 | Summary, Education, Skills, Experience, Projects, Leadership, Certifications detected by heading |
-| Keyword coverage | 30 | Share of the target-role keyword set present (averaged across the three role sets) |
-| Evidence & specificity | 10 | Presence of concrete technical terms and verified quantifiers (e.g. ~93%, 15-stage) |
-| Hygiene | 10 | Consistent dates, no parsing traps, links resolve, no fabricated-metric patterns |
+| Parseability | 20 | 1 page; selectable/extractable text; ≥3 live links |
+| Contact & links | 10 | name, email, phone, LinkedIn + GitHub hyperlinks |
+| Standard sections | 15 | Summary, Skills, Experience, Projects, Education, Leadership, Certifications detected |
+| Keyword coverage | 25 | share of supported role keywords present (avg of 3 roles) |
+| Evidence & specificity | 10 | concrete tech terms + verified quantifiers present |
+| Quantified impact | 10 | fraction of bullets containing a number |
+| Hygiene / writing | 10 | no fabricated precise %, no verb over-use, valid links |
 
-**Score = weighted sum, 0–100.** It is an internal *readiness* indicator with a shown breakdown, not "your Workday score." The script prints the per-dimension numbers so the total is auditable.
+**Score = weighted sum (0–100)**, printed with a per-dimension breakdown so it is auditable. Current: **~96/100**, with Quantified impact intentionally partial (~64% of bullets carry a number — Nokia has no metric by design).
 
-## Role keyword sets (used for coverage)
+## Representative-JD keyword analysis
 
-Only keywords Shabaz can support with real experience are counted as "covered." Missing-but-learnable keywords are listed as gaps, never added as fake skills.
+Keywords drawn from current 2026 Tier-1 job descriptions. "Present?" = appears in the resume; only keywords Shabaz can genuinely support are counted as covered. Gaps are **learning targets**, never added as fake skills.
 
-### A. Software Developer / Software Engineer
-- **Core (supported):** C, C++, Python, Java, SQL, Git, GitHub, Android, Android Studio, REST, OpenCV, Firebase, Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, testing, debugging.
-- **Supported via projects/experience:** MobileNetV2, TensorFlow Lite, RTSP, WebSocket, computer vision, mobile app.
-- **Gaps (roadmap, not on resume as skills):** OOP depth, system design, concurrency, Linux, CI/CD.
+### A. Software Engineer
+| Keyword | Present? | Where | Strength |
+|---|---|---|---|
+| C / C++ / Python / Java / SQL | Yes | Skills, bullets | Strong (foundational) |
+| Data Structures & Algorithms | Yes | Skills | Basic (learning) |
+| Git / GitHub | Yes | Skills, links | Strong |
+| Android / Android Studio | Yes | Skills, iHelp/MITRA | Strong |
+| OpenCV / computer vision | Yes | Skills, VisionPay | Good |
+| TensorFlow Lite / MobileNetV2 | Yes | VisionPay | Good |
+| DBMS / OS / Computer Networks | Yes | Skills | Basic |
+| testing / debugging | Yes | iHelp, Smart Wellness | Good |
+| REST APIs | No | — | **Gap** (not a held skill) |
+| OOP / system design / concurrency | No | — | **Gap** (roadmap) |
 
-### B. Embedded / Embedded Software Engineer
-- **Core (supported):** Embedded C, microcontrollers, ESP32, STM32, firmware, state machine, GPIO, I2C, OLED, ADC, timers, sensors, debugging, testing.
-- **Gaps (roadmap):** RTOS/FreeRTOS, UART/SPI/CAN as claimed skills, JTAG/SWD, DMA, bootloaders, embedded Linux, device drivers.
+### B. Embedded Software Engineer
+| Keyword | Present? | Where | Strength |
+|---|---|---|---|
+| Embedded C | Yes | Skills, projects | Good |
+| Microcontrollers / ESP32 / STM32 | Yes | Skills (MCU), Automotive BCM, Smart Wellness | Good |
+| firmware / state machine / FSM | Yes | Automotive BCM | Good |
+| GPIO / I2C / OLED / sensors / timers | Yes | Automotive BCM, Smart Wellness | Good |
+| real-time / non-blocking scheduler | Yes | Automotive BCM | Good |
+| debugging (STM32CubeIDE) | Yes | Smart Wellness | Good |
+| UART / SPI / CAN | No | — | **Gap** (only I2C used) |
+| RTOS / FreeRTOS | No | — | **Gap** (roadmap) |
+| JTAG/SWD / bootloader / DMA | No | — | **Gap** (roadmap) |
 
-### C. Automotive Embedded / Automotive Software
-- **Core (supported):** Automotive (Body Control Module), ESP32, Embedded C, state machine, real-time event loop, firmware.
-- **Gaps (roadmap):** CAN, LIN, UDS, AUTOSAR, MISRA, ISO 26262, ASPICE — awareness-only; kept off the resume until learned.
+### C. Automotive Embedded Engineer
+| Keyword | Present? | Where | Strength |
+|---|---|---|---|
+| Automotive / Body Control Module | Yes | Automotive BCM | Good |
+| ESP32 / Embedded C / FSM / ignition | Yes | Automotive BCM | Good |
+| real-time firmware / OLED | Yes | Automotive BCM | Good |
+| CAN / LIN / UDS | No | — | **Gap** (roadmap) |
+| AUTOSAR / MISRA / ISO 26262 / ASPICE | No | — | **Gap** (awareness only) |
 
-## Per-role mapping (honest fit)
+## Per-role fit summary
 
-| Role | Keyword match | Skills match | Project relevance | Experience relevance | Education | Top weakness |
-|---|---|---|---|---|---|---|
-| Software Developer | High | Good (foundational) | High (VisionPay, MITRA) | High (Nokia, iHelp) | Relevant (ECE) | DSA depth; no system design |
-| Embedded Engineer | Medium–High | Good | High (Automotive BCM, Smart Wellness) | Medium (embedded via projects) | Strong (ECE) | No RTOS; protocols limited to I2C |
-| Automotive Embedded | Medium | Basic-fit | Medium–High (Automotive BCM) | Low direct | Strong (ECE) | No CAN/AUTOSAR/ISO 26262 |
+| Role | Keyword match | Skills fit | Project relevance | Experience | Top weakness |
+|---|---|---|---|---|---|
+| Software Engineer | High | Good (foundational) | High (VisionPay, MITRA) | High (Nokia, iHelp) | DSA depth; no system design |
+| Embedded Software Engineer | Med–High | Good | High (Automotive BCM, Smart Wellness) | Medium (via projects) | No RTOS; only I2C among buses |
+| Automotive Embedded | Medium | Basic-fit | Med–High (Automotive BCM) | Low direct | No CAN/AUTOSAR/ISO 26262 |
 
-## Tailoring the one master into role versions
+## Tailoring (emphasis only, never facts)
 
-Change emphasis only — never facts (see [`resume-strategy.md`](resume-strategy.md)).
-
-- **Software/Android:** promote MITRA and VisionPay to the top of Projects/Experience emphasis; move software skills first; keep AEGIS as an in-progress platform.
-- **Embedded:** lead Projects with Automotive BCM, then Smart Wellness Desk Assistant (team project); move Embedded C + Microcontrollers to the front of Skills.
-- **Automotive embedded:** lead with Automotive BCM; state CAN/LIN/AUTOSAR/ISO 26262 only in a cover letter as *learning targets*, never as resume skills.
+- **Software/Android:** lead Projects with VisionPay; keep MITRA prominent under Experience; move software skills first.
+- **Embedded:** lead Projects with Automotive BCM, then Smart Wellness Desk Assistant (team project); Embedded C + Microcontrollers first in Skills.
+- **Automotive:** lead with Automotive BCM; mention CAN/AUTOSAR/ISO 26262 only in a cover letter as learning targets, never as resume skills.
 
 ## Honest limitations
 
-- Metrics are limited because most of Shabaz's work is not yet independently benchmarked; the resume uses technical specificity instead of invented numbers.
-- Embedded/automotive protocol and RTOS keywords are deliberately absent from Skills because they are not yet held. This lowers raw keyword coverage for those roles but keeps the resume truthful — the correct trade-off.
+- Nokia has no metric (one concise line) — this lowers the quantified-impact ratio but is truthful.
+- Embedded/automotive protocol and RTOS keywords are deliberately absent from Skills; this caps coverage for those roles but keeps the resume honest — the correct trade-off.

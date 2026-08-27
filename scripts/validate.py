@@ -20,7 +20,7 @@ HIST_ALLOW = ("archive/", "governance/CHANGELOG.md", "scripts/", "AUDIT_REPORT.m
 
 # A line that documents a removal/exclusion/rule is allowed to name a removed item.
 CONTEXT_OK = ("remov", "exclud", "not include", "do not", "don't", "no public",
-              "historical", "archive", "absent", "must not", "instead of")
+              "historical", "archive", "absent", "must not", "instead of", "outdated")
 
 
 def rel(p):

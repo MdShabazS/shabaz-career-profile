@@ -92,43 +92,6 @@ Accessed: 2026-08-27. Sources are listed per section; treat aggregator/blog sour
 
 ---
 
-# Resume-build research (2026) — Phase 1
+## Resume-specific research
 
-Accessed 2026-08-28. Format: **source → finding → why it matters → how it changes this resume.** `USER FACT` / `RESEARCH` / `RECOMMENDATION` are kept separate; research never becomes a fact about Shabaz.
-
-## Length, format, and layout
-
-- **Source:** BeamJobs / Enhancv new-grad SWE guides 2026; Enhancv/BeamJobs embedded guides 2026.
-  - **Finding (RESEARCH):** For a candidate with internships, use **reverse-chronological**, target **one page**, **single column**, standard fonts (Calibri/Arial/Times, ~10–11pt), no tables/graphics/columns. Single-column layouts are far more likely to parse cleanly.
-  - **Why:** Multi-column and graphical resumes are the top cause of ATS mis-parsing.
-  - **How it changes this resume (RECOMMENDATION):** One page, single column, standard headings, generated as **selectable-text** PDF + DOCX. No icons/bars/photos.
-
-## File format
-
-- **Source:** HiroCV, CareerKor, Resumemate 2026 (PDF vs DOCX).
-  - **Finding (RESEARCH):** Every major ATS (Workday, Greenhouse, Lever, iCIMS, Taleo) reads both. A **text-based PDF** (selectable, not an image) is safe and preferred for direct recruiter submission; **DOCX** is the conservative default for unknown upload forms, and staffing agencies often request it.
-  - **How it changes this resume (RECOMMENDATION):** Ship **both** a text PDF and a DOCX from the same content; verify the PDF text is extractable.
-
-## Section order and summary
-
-- **Source:** BeamJobs/Enhancv/SWEResume new-grad guides 2026.
-  - **Finding (RESEARCH):** Projects are often the most important section for new grads; the Skills section is parsed early by major ATS; a short, specific summary helps keyword placement (avoid generic "passionate" objectives).
-  - **How it changes this resume (RECOMMENDATION):** Order = Header → 2-line specific summary → Education (student, strong CGPA) → Skills → Experience → Projects → Leadership & Activities → Certifications. Summary states role, field, and concrete proof points — no buzzwords.
-
-## Bullets, keywords, and quantification
-
-- **Source:** Enhancv/BeamJobs embedded 2026; new-grad SWE guides 2026.
-  - **Finding (RESEARCH):** Lead with outcomes where possible; mirror JD keywords exactly; for embedded, name specific MCU families (STM32/ESP32) and list protocols (SPI/I2C/UART/CAN) as exact terms because postings search for them; quantify (latency, memory, power, coverage).
-  - **Why:** ATS ranks on exact-term matches and evidence, not keyword stuffing.
-  - **How it changes this resume (RECOMMENDATION):**
-    - The **Skills section** follows the locked spec (`USER FACT`: C/C++/Python/Java/SQL Basic; Embedded C + Microcontrollers; no protocols not held) — it does **not** claim SPI/UART/CAN or RTOS.
-    - Specific platforms Shabaz actually used (**ESP32, STM32, I2C, OLED, TensorFlow Lite, MobileNetV2, RTSP, TTS**) appear in **project/experience bullets** as that work's real stack — giving ATS the exact terms honestly, without inflating the skills list.
-    - Quantify only with verified evidence: VisionPay ~93% reported accuracy, ~400 images/denomination across 6 classes; AEGIS 15-stage workflow. Where no metric exists, use technical specificity, not fabricated numbers.
-
-## Entry-level / graduate framing
-
-- **Source:** SWEResume new-grad guide 2026; ResumeGeni embedded ATS guide 2026.
-  - **Finding (RESEARCH):** New-grad resumes fail when they read like a transcript instead of proof of work; internships + real projects carry the resume.
-  - **How it changes this resume (RECOMMENDATION):** Lead with Nokia/iHelp internships and concrete project work; keep coursework/skills honest and brief.
-
-*Sources:* [BeamJobs — new-grad SWE resume 2026](https://www.beamjobs.com/resumes/software-engineer-new-grad-resume-examples); [Enhancv — new-grad SWE 2026](https://enhancv.com/resume-examples/software-engineer-new-grad/); [Enhancv — embedded SWE 2026](https://enhancv.com/resume-examples/embedded-software-engineer/); [BeamJobs — embedded SWE 2026](https://www.beamjobs.com/resumes/embedded-software-engineer-resume-examples); [HiroCV — resume file format 2026](https://hirocv.com/blog/resume-file-format-pdf-vs-docx); [Resumemate — PDF vs DOCX 2026](https://www.resumemate.io/blog/pdf-vs-docx-for-resumes-in-2025-what-recruiters-ats-really-prefer/); [SWEResume — new-grad resume guide](https://www.sweresume.app/articles/new-grad-resume-guide/).
+Resume-build research (length, format, section order, bullets, keywords, header) has moved to [`TIER1_RESUME_RESEARCH.md`](TIER1_RESUME_RESEARCH.md) so each fact has one owner.
