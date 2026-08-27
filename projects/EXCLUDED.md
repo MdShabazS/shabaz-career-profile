@@ -1,16 +1,15 @@
 # Excluded Projects
 
-These projects must not appear in resumes, primary profile material, or project recommendations unless Shabaz explicitly changes their status.
+These must not appear in the resume, primary profile, portfolio, or project recommendations unless Shabaz explicitly changes their status.
 
 ## NIDAR
 
 - Status: `EXCLUDED`
-- Rule: Do not include in resumes or the primary professional profile.
-- Scope: May appear only in explicitly marked excluded files.
-- Additional boundary: Do not associate YOLO / Ultralytics exposure with NIDAR.
+- Keep out of resumes and the primary professional profile; it may appear only in explicitly marked excluded material.
+- Do not associate YOLO / Ultralytics exposure with NIDAR.
 
-## Hackathon Project
+## Undocumented hackathon project
 
 - Status: `EXCLUDED`
-- Reason: Detailed files/details are unavailable.
-- Rule: Do not invent technical claims, stack, outcomes, or responsibilities.
+- Reason: detailed information is unavailable.
+- Do not invent a stack, outcomes, or responsibilities for it.
