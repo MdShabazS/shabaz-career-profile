@@ -13,7 +13,7 @@
 
 ## Status honesty
 
-AEGIS is **planned / in progress at the design stage**. Do not present it as completed or implemented. Mark it `PLANNED` (or `IN_PROGRESS` for design work) based on actual repository/code evidence at the time of writing. When a resume needs a completed project and AEGIS is still planned, use a completed project instead.
+AEGIS is **planned / in progress at the design stage**. Do not write "Completed", "Production-ready", "Deployed", or "Successfully implemented" until Shabaz confirms completion. Mark it `PLANNED` (or `IN_PROGRESS` for design work) based on actual repository/code evidence at the time of writing. It is intended to become the **flagship** project once genuinely completed (expected ~2 months from the planning point). When a resume needs a completed project and AEGIS is still planned, use a completed project instead.
 
 Leadership note: Shabaz is the originator and lead of this project, but AEGIS is **not** listed under the Leadership section of the profile (see [`../leadership/leadership.md`](../leadership/leadership.md)). That is deliberate.
 

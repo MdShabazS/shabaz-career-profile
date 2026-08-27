@@ -33,7 +33,7 @@ Two targets:
 | Operating Systems (processes/threads, scheduling, memory, deadlocks) | P1 | Basic | Working | Core CS-fundamentals interview area. |
 | Computer Networks (TCP/IP, HTTP, DNS basics) | P1 | Basic | Working | Fundamentals round; underpins API/system-design answers. |
 | Testing & debugging | P1 | Basic (project) | Working | SDLC participation is a listed responsibility; unit testing expected. |
-| APIs (REST, request/response, JSON) | P1 | Project exposure | Working | Application/backend roles assume it; you have NexCast Pro exposure to build on. |
+| APIs (REST, request/response, JSON) | P1 | Project exposure | Working | Application/backend roles assume it; build a small REST service to practise. |
 | Concurrency & memory management | P2 | Not claimed | Aware → working | Shows depth; more prominent for systems/backend roles. |
 | System design fundamentals | P2 | Not claimed | Aware | Minimal for most new-grad roles, but a differentiator; learn the vocabulary. |
 | Software engineering practices (code review, SDLC, clean code) | P2 | Basic | Working | Signals professionalism; reinforced by internship work. |
@@ -46,7 +46,7 @@ Two targets:
 2. **DSA + timed problem-solving** (P0): work patterns (e.g. a structured 150-problem set). *Interview relevance: highest.* Application: track progress publicly on GitHub.
 3. **OOP** (P1) alongside the chosen language.
 4. **DBMS/SQL, OS, CN** (P1): the CS-fundamentals trio. *Interview relevance: dedicated rounds.* Application: add a small SQL-backed feature/project.
-5. **Testing, APIs, Linux** (P1/P2): apply on a real project — extend NexCast Pro or a new API service with unit tests.
+5. **Testing, APIs, Linux** (P1/P2): apply on a real project — build a small API service with unit tests.
 6. **System design basics + concurrency** (P2): after DSA is solid.
 7. **CI/CD awareness** (P3): wire a GitHub Actions pipeline on one project.
 

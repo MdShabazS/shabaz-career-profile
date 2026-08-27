@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-08-28 — Final correction pass
+
+Applied the latest user-confirmed corrections and prepared channel-ready content.
+
+- **Education:** added Final Year; CGPA 8.38 is now stated as current and verified (removed "may change / TO_VERIFY" language).
+- **Nokia:** changed to **16 September 2026 – Present** (current), removed the fixed end date and "upcoming" framing.
+- **iHelp Robotics:** clarified MITRA as the project name (not the designation); MITRA presented under the iHelp experience.
+- **Projects:** now exactly 6, ordered AEGIS, MITRA, VisionPay, Automotive BCM, Smart Wellness Desk Assistant, Skin Disease Classification. **Removed NexCast Pro** from the current profile. AEGIS marked Planned/In Progress (intended flagship once completed).
+- **Current skills:** locked to the finalized list; embedded shown as "Embedded C, Microcontrollers" (no individual boards); confirmed all levels Basic.
+- **Leadership:** reordered to IEEE CAS Vice-Chair, BITM Robotics Club Treasurer, Google Student Ambassador.
+- **IEEE SPACE 2026:** removed the report-submission claim.
+- **Certifications:** list limited to the 5 confirmed; removed the planned-certifications list; certs 1–2 issuer/date marked "not yet provided" (cert itself confirmed).
+- **Removed** Bharatiya Antariksh Hackathon from current activities/evidence (historical note in `../archive/README.md`).
+- **Added:** master `PROFILE.md`, LinkedIn-ready content (`linkedin/`), GitHub profile README draft (`github/`), and an automated validator (`scripts/validate.py`). Updated resume, portfolio requirements, README, AI_CONTEXT, and source index.
+- Commit: `fix: finalize current career profile and professional positioning`.
+
 ## 2026-08-27 — Rebuild as single source of truth
 
 Full audit and restructure. See [`../AUDIT_REPORT.md`](../AUDIT_REPORT.md) for the complete list.

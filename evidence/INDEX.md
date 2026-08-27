@@ -32,7 +32,6 @@ Proof documents supporting profile entries. No screenshots, offer letters, gover
 
 ## Not yet attached (`TO_VERIFY`)
 
-- SQL for Data Analytics with AI; Programming in C and C++ with AI (certificates 1–2).
+- SQL for Data Analytics with AI; Programming in C and C++ with AI (certificates 1–2): issuer/date not yet provided.
 - IEEE SPACE 2026 certificate.
-- Bharatiya Antariksh Hackathon 2025 certificate.
 - IEEE SPACE 2026 conference photographs (real images to add under an assets folder when provided).

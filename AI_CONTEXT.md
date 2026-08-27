@@ -15,7 +15,7 @@ First file any AI system (Claude, ChatGPT, Codex) should read. This repository i
 
 - Identity / positioning / contact / education / languages / interests → [`profile/`](profile/)
 - Experience → [`experience/`](experience/) (order: Nokia, iHelp Robotics, IEEE EMBS Pune)
-- Projects → [`projects/`](projects/) (7 projects; exclusions in [`projects/EXCLUDED.md`](projects/EXCLUDED.md))
+- Projects → [`projects/`](projects/) (6 projects: AEGIS, MITRA, VisionPay, Automotive BCM, Smart Wellness Desk Assistant, Skin Disease Classification; exclusions in [`projects/EXCLUDED.md`](projects/EXCLUDED.md))
 - Current skills → [`skills/current-skills.md`](skills/current-skills.md); future/target skills → [`skills/tier1-skills-roadmap.md`](skills/tier1-skills-roadmap.md)
 - Certifications → [`certifications/certifications.md`](certifications/certifications.md)
 - Leadership / memberships → [`leadership/`](leadership/)
@@ -27,14 +27,14 @@ When files overlap, prefer the canonical owner and flag any contradiction instea
 
 ## Key boundaries (memorize)
 
-- **Nokia:** upcoming Student Intern (16 Sep 2026 – 14 Aug 2027), Bangalore, guide Pradeep Kulkarni. Domain `Not yet known`. High-level only; nothing confidential.
-- **iHelp / MITRA:** completed internship (23 Mar – 23 Aug 2026). App-side software/Android contribution only; backend/model belonged to another team. Present primarily as Software/Android, not AI/ML. Official title is "AI Research Intern – Deep Learning & Model Development".
+- **Nokia:** current Student Intern (16 Sep 2026 – Present), Bangalore. Domain `Not yet known` / confidential. High-level only; nothing confidential. Never a fixed end date; never "completed".
+- **iHelp / MITRA:** completed internship (23 Mar – 23 Aug 2026), official title "AI Research Intern – Deep Learning & Model Development", project MITRA. App-side software/Android contribution only; backend/model belonged to another team. Present primarily as Software/Android, not AI/ML. MITRA is the project name and is shown under the iHelp experience, not as a standalone personal project.
 - **IEEE EMBS / Skin Disease Classification:** completed 1-month, 3-member, demo-level prototype; exact model unknown; not productized.
 - **AEGIS:** highest-priority project, but `PLANNED` (design stage, code not started). Team project; Shabaz is originator/lead but this is NOT listed under Leadership. Architecture and AI-recommends/human-decides boundary are locked.
 - **VisionPay:** individual; ~93% accuracy is reported, not verified; training code AI-assisted.
 - **Smart Wellness Desk Assistant:** college team project.
-- **Skills:** C/C++/Python/Java/SQL and DSA/DBMS/OS/CN are all Basic. Do not claim OOP, RTOS, UART/SPI/I2C/CAN/LIN, Linux, or advanced language skills as current — they are roadmap targets.
-- **Excluded:** NIDAR and an undocumented hackathon project stay out of the primary profile.
+- **Skills:** C/C++/Python/Java/SQL and DSA/DBMS/OS/CN are all Basic. Embedded is "Embedded C, Microcontrollers" (do not list ESP32/STM32/Arduino/Raspberry Pi individually in the skills list). Do not claim OOP, RTOS, UART/SPI/I2C/CAN/LIN, Linux, or advanced language skills as current — they are roadmap targets.
+- **Excluded / removed:** NIDAR and an undocumented hackathon project stay out of the primary profile. NexCast Pro and Pega are removed from the current profile (historical note in `archive/`).
 
 ## Output discipline
 

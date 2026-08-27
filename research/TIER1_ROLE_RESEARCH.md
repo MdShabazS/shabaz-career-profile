@@ -16,7 +16,7 @@ Accessed: 2026-08-27. Sources are listed per section; treat aggregator/blog sour
 - **Skills section on the resume is parsed first** on major ATS (Greenhouse, Workday) — use full tool names.
 - **Soft skills:** communication, willingness to learn, teamwork, time management.
 
-**Relevance to Shabaz:** matches the Software Developer track. He has Basic C/C++/Python/Java/SQL and Basic DSA/DBMS/OS/CN, plus Git and project experience (NexCast Pro APIs, MITRA app work).
+**Relevance to Shabaz:** matches the Software Developer track. He has Basic C/C++/Python/Java/SQL and Basic DSA/DBMS/OS/CN, plus Git and project experience (MITRA app work, VisionPay).
 
 **Resulting skill gap:** raise DSA from Basic to interview-ready; pick and deepen one language; turn Basic DBMS/OS/CN into working interview knowledge; add OOP; strengthen testing and Linux. (P0/P1 in the roadmap.)
 

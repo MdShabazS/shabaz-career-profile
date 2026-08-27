@@ -1,5 +1,7 @@
 # Audit Report — 2026-08-27 Rebuild
 
+> **Superseded in part by the 2026-08-28 correction pass.** This report documents the original rebuild. For the current state and the corrections applied afterward (Nokia = Present, CGPA 8.38 finalized, Final Year, projects reduced to 6, NexCast Pro / Bharatiya Antariksh removed, skills finalized, leadership reordered, master `PROFILE.md` + LinkedIn/GitHub content + validator added), see [`governance/CHANGELOG.md`](governance/CHANGELOG.md) and [`PROFILE.md`](PROFILE.md).
+
 Full audit and rebuild of the career profile repository into a single source of truth. This documents what changed and what remains open.
 
 ## 1. Files created
@@ -59,11 +61,8 @@ Full audit and rebuild of the career profile repository into a single source of 
 
 - Certifications 1–2 (SQL for Data Analytics with AI; Programming in C and C++ with AI): issuer, exact title, date; no certificate attached.
 - Nokia project domain/team (confidential; not yet known).
-- Current semester number; exact leadership role start/end dates.
-- IEEE SPACE 2026 certificate; Bharatiya Antariksh Hackathon 2025 certificate.
-- React / Node.js / YOLO project association.
+- IEEE SPACE 2026 certificate.
 - Skin Disease Classification exact model.
-- CGPA may change in later semesters.
 
 ## 7. Confidentiality checks
 
@@ -84,8 +83,8 @@ Captured in `skills/tier1-skills-roadmap.md` with P0–P3 ranking: DSA depth, OO
 
 - iHelp Robotics — 23 Mar – 23 Aug 2026 (~5 months) — `COMPLETED`.
 - IEEE EMBS Pune — 1–30 June 2026 (1 month) — `COMPLETED`.
-- Nokia — 16 Sep 2026 – 14 Aug 2027 (~11 months) — `UPCOMING`.
-- Combined ≈ 16 months internship experience once Nokia completes. No full-time employment claimed.
+- Nokia — 16 Sep 2026 – Present — `CURRENT` (updated in the 2026-08-28 pass; originally recorded as upcoming with an end date).
+- Internship/industry experience only. No full-time employment claimed.
 
 ## 11. Project status verification
 
@@ -107,8 +106,9 @@ See item 9 and `research/TIER1_ROLE_RESEARCH.md`. Biggest levers: strong C/C++ o
 
 - Nokia domain (confidential/unknown).
 - Certificate details for items 1–2; several certificates/photographs not yet attached.
-- Exact dates for leadership roles and current semester.
 - Portfolio media assets.
+
+(Resolved in the 2026-08-28 pass: CGPA 8.38 confirmed current; Final Year set; Nokia = Present; leadership confirmed; NexCast Pro and Bharatiya Antariksh removed.)
 
 ## Verification performed before commit
 

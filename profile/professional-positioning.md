@@ -4,6 +4,8 @@
 
 **Software Developer | Embedded Engineer**
 
+This is the primary positioning for the portfolio, LinkedIn, GitHub, and resume. Do **not** make "Final Year ECE Student" the main positioning — final-year student is context, not the headline.
+
 ## Career direction
 
 | Track | Role | Status |
@@ -13,14 +15,14 @@
 
 Both tracks are targeted together, not one instead of the other.
 
-**Long-term target:** reach Tier-1 capability level as a Software Developer *and* an Embedded Engineer. The concrete skill plan for this is [`../skills/tier1-skills-roadmap.md`](../skills/tier1-skills-roadmap.md); the market research behind it is [`../research/TIER1_ROLE_RESEARCH.md`](../research/TIER1_ROLE_RESEARCH.md).
+**Long-term target:** reach Tier-1 capability level as a Software Developer *and* an Embedded Engineer. The concrete skill plan is [`../skills/tier1-skills-roadmap.md`](../skills/tier1-skills-roadmap.md); the market research behind it is [`../research/TIER1_ROLE_RESEARCH.md`](../research/TIER1_ROLE_RESEARCH.md).
 
 ## How to represent experience
 
 - Shabaz has **internship / industry experience**, not full-time employment. Do not claim years of professional employment.
-- Completed: ~5 months at iHelp Robotics (23 Mar – 23 Aug 2026).
-- Upcoming: ~11 months at Nokia (16 Sep 2026 – 14 Aug 2027).
-- Combined, this is **approximately 16 months of internship/industry experience once the Nokia internship is completed** — not before. State it as internship experience, and keep Nokia's portion as upcoming until its start date.
+- Current: Nokia Student Intern (16 Sep 2026 – Present).
+- Completed: iHelp Robotics AI Research Intern (~5 months, 23 Mar – 23 Aug 2026) and a 1-month IEEE EMBS Pune internship.
+- Keep Nokia high-level and confidential; keep the iHelp contribution to the app-side software work Shabaz actually did.
 
 Do **not** state "1.5 years of professional employment" or equivalent.
 

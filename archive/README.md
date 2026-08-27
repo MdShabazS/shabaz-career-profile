@@ -4,6 +4,8 @@ The 2026-08-27 rebuild removed material that no longer reflects Shabaz's current
 
 ## Removed and why
 
+- **NexCast Pro** (removed 2026-08-28) — an individual floor-plan projection project (Python, Flask, OpenCV, Tesseract OCR; 1–12 projector-zone layouts; repo `MdShabazS/NexCast_Pro`). Removed from the current profile, projects, resume, portfolio, LinkedIn, and GitHub per the correction pass. Recoverable from git history (project file `projects/nexcast-pro.md` and the earlier profile README).
+- **Bharatiya Antariksh Hackathon 2025** (removed 2026-08-28) — an idea-submission / participant entry (19 Sep 2025), never certified in the repo. Removed from current activities and evidence notes. Distinct from IEEE SPACE 2026, which is retained.
 - **`experience/pega.md` + Superset Pega drafts** — the Pega National Internship Program is not part of the fixed experience list (Nokia, iHelp Robotics, IEEE EMBS Pune). Removed from the primary profile. If Shabaz still wants it recorded, add it back as a `COMPLETED` training program with its verified 1-month/60-hour details.
 - **`healthcare-research/`** — an open-ended "active research initiative" with no defined problem/product. Not part of the current stated direction. The completed, demo-level Skin Disease Classification project is retained in `projects/`.
 - **`roadmap/` (Analytics with Annu AI & Data Science)** — a data-science learning path that conflicts with the Software + Embedded Tier-1 direction. Superseded by `skills/tier1-skills-roadmap.md`.

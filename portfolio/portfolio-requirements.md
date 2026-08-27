@@ -9,10 +9,19 @@ A modern, premium, engineering-focused portfolio that reads as recruiter-friendl
 ## Content
 
 - **Structure:** project cards → detailed project pages.
-- **Projects:** include all 7 (see [`../projects/README.md`](../projects/README.md)). Each project page: problem, overview, tech stack, features, architecture/workflow, status, links, and media where available.
+- **Projects:** include all 6 (see [`../projects/README.md`](../projects/README.md)), in this order:
+  1. AEGIS
+  2. MITRA
+  3. VisionPay
+  4. Automotive BCM
+  5. Smart Wellness Desk Assistant
+  6. Skin Disease Classification
+  - Each project page: problem, overview, tech stack, features, architecture/workflow, status, links, and media where available.
+  - **MITRA** appears under Experience → iHelp Robotics → MITRA, not as a standalone personal project (it may still appear in the project set, framed within the internship).
   - No separate "Your Contribution" section — weave contribution honestly into the narrative.
-  - Respect every status label and confidentiality rule (MITRA high-level; AEGIS design-stage; Smart Wellness Desk Assistant a team project; VisionPay ~93% shown as reported).
-- **Experience:** order Nokia → iHelp Robotics → IEEE EMBS Pune. Let the design choose the pattern (timeline, expandable cards, or separate pages) — do not lock the UI unnecessarily. Nokia stays high-level and marked upcoming.
+  - Respect every status label and confidentiality rule (AEGIS design-stage / Planned; MITRA high-level; Smart Wellness Desk Assistant a team project; Skin Disease Classification demo-level; VisionPay ~93% shown as reported).
+  - NexCast Pro and Pega are removed from the current profile — do not include them.
+- **Experience:** order Nokia → iHelp Robotics → IEEE EMBS Pune. Let the design choose the pattern (timeline, expandable cards, or separate pages) — do not lock the UI unnecessarily. Nokia stays high-level and marked current (16 Sep 2026 – Present).
 - **Media:** use real screenshots/photos/videos only (including real IEEE SPACE 2026 photographs). If media does not exist, do not fabricate it.
 
 ## Design & UX

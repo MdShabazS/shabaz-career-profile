@@ -1,26 +1,16 @@
 # Current Skills
 
-These are **current, verified** levels. Do not upgrade them without Shabaz's confirmation. Target/future skills live separately in [`tier1-skills-roadmap.md`](tier1-skills-roadmap.md) and must never be presented as current skills.
+This is the **only** current skills list. Do not add any other current skills. Everything here is `VERIFIED`. Target/future skills live separately in [`tier1-skills-roadmap.md`](tier1-skills-roadmap.md) and must never be presented as current skills.
 
-## Programming languages
+## Programming
 
-| Language | Level | Status |
-|---|---|---|
-| C | Basic | `VERIFIED` |
-| C++ | Basic | `VERIFIED` |
-| Python | Basic | `VERIFIED` |
-| Java | Basic | `VERIFIED` |
-| SQL | Basic | `VERIFIED` |
-
-## Embedded
-
-Platforms and tools with hands-on exposure (no proficiency level claimed):
-
-- ESP32
-- STM32
-- Arduino
-- Raspberry Pi
-- Embedded C
+| Language | Level |
+|---|---|
+| C | Basic |
+| C++ | Basic |
+| Python | Basic |
+| Java | Basic |
+| SQL | Basic |
 
 ## Software / development
 
@@ -29,32 +19,31 @@ Platforms and tools with hands-on exposure (no proficiency level claimed):
 - Firebase
 - Git / GitHub
 
-## CS fundamentals
+## Embedded
 
-| Area | Level | Status |
-|---|---|---|
-| DSA | Basic | `VERIFIED` |
-| DBMS | Basic | `VERIFIED` |
-| Operating Systems | Basic | `VERIFIED` |
-| Computer Networks | Basic | `VERIFIED` |
+- Embedded C
+- Microcontrollers
 
-## Tools demonstrated in projects (exposure only)
+(Do not list ESP32, STM32, Arduino, or Raspberry Pi individually in this section — they are covered by "Microcontrollers." Specific boards may still be named inside the relevant project files as that project's stack.)
 
-Confirmed through specific projects, but **no proficiency level is claimed** and they are not part of the headline skill list above:
+## Computer science
 
-- TensorFlow Lite, MobileNetV2 — VisionPay
-- Tesseract OCR, Flask, REST APIs — NexCast Pro
-- STM32CubeIDE, STM32 HAL, I2C, ADC, timers (project usage) — Smart Wellness Desk Assistant, Automotive BCM
-- RTSP / WebSocket app handling, TTS, offline speech recognition (app-side) — MITRA
+| Area | Level |
+|---|---|
+| DSA | Basic |
+| DBMS | Basic |
+| Operating Systems | Basic |
+| Computer Networks | Basic |
 
-## Do NOT claim as current skills
+## Languages
 
-Unless separately verified later, do **not** list any of these as held skills:
+- English
+- Kannada
+- Hindi
+- Urdu
 
-OOP, Computer Architecture, RTOS, UART, SPI, CAN, LIN, Linux, JTAG/SWD, DMA, device drivers, bootloaders, AUTOSAR, MISRA, functional safety, advanced Java, advanced C++, system design.
+## Not current (roadmap only)
 
-Some of these appear in projects as incidental usage (e.g. I2C on STM32); that is project exposure, not a claimed competency. Everything in this "do not claim" list is a **target** in the Tier-1 roadmap, not a current skill.
+Do **not** present any of these as current skills — they belong to [`tier1-skills-roadmap.md`](tier1-skills-roadmap.md) until actually learned, practised, and verified: Linux, RTOS, FreeRTOS, CAN, LIN, UDS, AUTOSAR, MISRA, ISO 26262, ASPICE, Docker, system design, OOP, UART/SPI/I2C as claimed competencies, advanced C/C++/Java.
 
-## React / Node.js / YOLO
-
-Earlier records noted hands-on exposure to React, Node.js, and YOLO/Ultralytics, but the specific project association is not remembered. Treat these as `TO_VERIFY` and do not attach them to a named project (in particular, do not associate YOLO with NIDAR).
+Rule: **Learn → Practise → Verify → Add to current profile.**
