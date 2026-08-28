@@ -54,7 +54,35 @@ ROLE_GAPS = {
 }
 
 EVIDENCE_TOKENS = ["~93%", "MobileNetV2", "TensorFlow Lite", "ESP32", "STM32", "ignition",
-                   "3-state", "~400", "6 classes", "2 video sources", "3-member", "I2C", "FSM"]
+                   "3-state", "~400", "6 classes", "2 video sources", "3-member", "I2C", "FSM",
+                   "ARM Cortex-M4", "STM32CubeIDE", "12-bit", "30 ms", "10 Hz"]
+
+# External-style JD alignment: representative FULL keyword sets from real 2026 Tier-1 JDs,
+# INCLUDING terms Shabaz does not hold. This mimics how Jobscan/Resume Worded match a resume
+# against a whole JD, so the % is honest and shows genuine gaps (unlike the internal readiness
+# score, which only counts supportable terms). Nothing here is added to the resume.
+JD_ALIGNMENT = {
+    "Embedded Engineer": [
+        "C", "C++", "Embedded C", "microcontroller", "ARM Cortex-M", "firmware", "GPIO",
+        "I2C", "ADC", "timers", "state machine", "real-time", "sensors", "debugging", "Git",
+        "UART", "SPI", "RTOS", "interrupts",
+    ],
+    "Embedded Software Engineer": [
+        "C", "C++", "Embedded C", "microcontroller", "ARM Cortex-M", "firmware", "RTOS",
+        "GPIO", "I2C", "ADC", "debugging", "state machine", "real-time", "Git", "STM32",
+        "UART", "SPI", "device drivers", "Linux",
+    ],
+    "Automotive Embedded Engineer": [
+        "Automotive", "Embedded C", "C", "microcontroller", "firmware", "state machine",
+        "ESP32", "real-time", "OLED", "GPIO", "debugging", "sensors",
+        "CAN", "LIN", "AUTOSAR", "MISRA", "ISO 26262", "UDS", "diagnostics",
+    ],
+    "Automotive Software Engineer": [
+        "Automotive", "C", "C++", "Embedded C", "firmware", "state machine", "real-time",
+        "testing", "debugging", "Git", "microcontroller",
+        "CAN", "AUTOSAR", "MISRA", "ISO 26262", "ASPICE", "Vector CANoe",
+    ],
+}
 
 SECTIONS = ["SUMMARY", "TECHNICAL SKILLS", "EXPERIENCE", "PROJECTS", "EDUCATION",
             "LEADERSHIP", "CERTIFICATIONS"]
@@ -76,6 +104,7 @@ def main():
     with open(TXT, "w", encoding="utf-8") as fh:
         fh.write(text)
     low = text.lower()
+    flat = re.sub(r"\s+", " ", low)  # whitespace-normalized, like real ATS keyword matching
     upper = text.upper()
     links = [l["uri"] for p in doc for l in p.get_links() if l.get("uri")]
 
@@ -181,16 +210,16 @@ def main():
 
     fracs, per_role = [], {}
     for role, kws in ROLE_KEYWORDS.items():
-        present = [k for k in kws if k.lower() in low]
+        present = [k for k in kws if k.lower() in flat]
         fracs.append(len(present) / len(kws))
         per_role[role] = (len(present), len(kws), sorted(set(kws) - set(present)))
     kz = 25 * (sum(fracs) / len(fracs))
     rep.append(("Keyword coverage", round(kz, 1), 25,
                 " | ".join(f"{r.split()[0]}:{per_role[r][0]}/{per_role[r][1]}" for r in per_role))); score += kz
 
-    ez = 10 * len([t for t in EVIDENCE_TOKENS if t.lower() in low]) / len(EVIDENCE_TOKENS)
+    ez = 10 * len([t for t in EVIDENCE_TOKENS if t.lower() in flat]) / len(EVIDENCE_TOKENS)
     rep.append(("Evidence & specificity", round(ez, 1), 10,
-                f"{len([t for t in EVIDENCE_TOKENS if t.lower() in low])}/{len(EVIDENCE_TOKENS)} tokens")); score += ez
+                f"{len([t for t in EVIDENCE_TOKENS if t.lower() in flat])}/{len(EVIDENCE_TOKENS)} tokens")); score += ez
 
     iz = 10 * qratio
     rep.append(("Quantified impact", round(iz, 1), 10, f"{len(quant)}/{len(bullets)} bullets have numbers")); score += iz
@@ -216,6 +245,21 @@ def main():
     print("Advanced learning gaps by role (NOT scored, NOT added as fake skills):")
     for role, gaps in ROLE_GAPS.items():
         print(f"  {role}: {gaps}")
+
+    print("-" * 72)
+    print("External-style JD alignment (full JD keyword sets incl. gaps — honest match %):")
+    print("  (approximates Jobscan/Resume Worded targeted match; NOT the internal score)")
+    def _has(term):
+        t = term.lower()
+        # match plain forms and common variants
+        if t == "arm cortex-m":
+            return "cortex-m" in flat
+        return t in flat
+    for role, kws in JD_ALIGNMENT.items():
+        present = [k for k in kws if _has(k)]
+        missing = [k for k in kws if not _has(k)]
+        pct = 100 * len(present) / len(kws)
+        print(f"  {role:<30} {len(present):>2}/{len(kws):<2} = {pct:4.0f}%   missing: {missing}")
 
     print("-" * 72)
     print("Format / parse checklist:")

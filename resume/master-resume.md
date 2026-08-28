@@ -14,16 +14,18 @@ Embedded Engineer | Automotive Embedded Systems
 Ballari, Karnataka | +91 79755 12403 | md.shabaz.2005@gmail.com | LinkedIn | GitHub
 
 SUMMARY
-Final-year Electronics & Communication Engineering student (CGPA 8.38) focused on
-embedded and automotive firmware — microcontroller systems, finite-state machines and
-non-blocking real-time design in Embedded C — with a working software/computer-vision
-foundation in C, C++ and Python. Internship experience at Nokia and iHelp Robotics.
+Final-year Electronics & Communication Engineering student (CGPA 8.38) focused on embedded
+and automotive firmware — ARM Cortex-M microcontroller systems, finite-state machines and
+non-blocking real-time design in Embedded C/C++ on ESP32 and STM32 — with a working software
+and computer-vision foundation in Python. Internship experience at Nokia and iHelp Robotics.
 
 TECHNICAL SKILLS
-Embedded: Embedded C, Microcontrollers
-Languages: C, C++, Python, SQL
-Tools & Platforms: Android Studio, Git & GitHub, OpenCV
-CS Fundamentals: Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks
+Languages: C, C++, Embedded C, Python, SQL
+Embedded & Firmware: Microcontrollers, ARM Cortex-M4, finite-state machines, non-blocking
+  real-time design, GPIO, I2C, ADC, timers, sensor interfacing, debugging
+Platforms & Tools: ESP32, STM32 (Nucleo-L476RG), STM32CubeIDE, Arduino, Android Studio, Git & GitHub
+Libraries & Foundations: OpenCV, TensorFlow Lite · Data Structures & Algorithms, Operating
+  Systems, DBMS, Computer Networks
 
 EXPERIENCE
 Student Intern                                             16 September 2026 – Present
@@ -51,18 +53,20 @@ IEEE EMBS Pune Section                                                          
 
 PROJECTS
 Automotive Body Control Module                                                 [GitHub]
-ESP32, Embedded C, Finite-State Machine, GPIO, OLED
+ESP32, Arduino/C++, Finite-State Machine, GPIO, I2C OLED
 - Programmed an ESP32 body-control module with a 3-state (OFF/ACC/ON) ignition FSM
-  driving 6+ vehicle functions: indicators, synchronized hazard, brake logic, buzzer
+  driving 6+ vehicle functions: turn indicators, synchronized hazard, brake logic, buzzer
   feedback and an OLED dashboard.
-- Architected a non-blocking millis()-based scheduler with brake debouncing, GPIO
-  abstraction and edge-triggered serial logging for predictable real-time behavior.
+- Architected a non-blocking millis()-based scheduler (zero delay() in the main loop) with
+  30 ms brake debouncing, throttled 10 Hz I2C OLED refresh, a clean GPIO abstraction and
+  edge-triggered serial logging for deterministic real-time behavior.
 
 Smart Wellness Desk Assistant                                                  [GitHub]
-STM32 Nucleo-L476RG, STM32 HAL, Embedded C, Sensors · College team project
-- Interfaced 2 sensor types (ultrasonic presence and ADC temperature), an I2C OLED,
-  timers and buzzer alerts on an STM32 Nucleo-L476RG as part of a college team; handled
-  wiring, testing and debugging in STM32CubeIDE.
+STM32 Nucleo-L476RG (ARM Cortex-M4), STM32 HAL, STM32CubeIDE, Embedded C · College team project
+- Interfaced ultrasonic presence and 12-bit ADC temperature sensors, an I2C SSD1306 OLED
+  and timer-driven buzzer alerts on an STM32 Nucleo-L476RG (ARM Cortex-M4) using STM32 HAL,
+  coordinated by a non-blocking finite-state machine; wired, tested and debugged in
+  STM32CubeIDE as part of a college team.
 
 VisionPay — Real-Time Indian Currency Detection                                [GitHub]
 Python, OpenCV, TensorFlow Lite, MobileNetV2, Text-to-Speech
@@ -97,7 +101,7 @@ Python Programming — EISystems (2024)
 
 - **Positioning pivot:** this master is **embedded/automotive-first** (headline `Embedded Engineer | Automotive Embedded Systems`), software/CV kept as visible secondary evidence. Supersedes the earlier software-first draft.
 - **Links (PDF/DOCX):** email, header LinkedIn, header GitHub, and each project "GitHub" are live hyperlinks; header LinkedIn/GitHub are icon+label (no raw URLs). `[GitHub]` marks the right-aligned clickable link per project.
-- **Skills = locked set only:** Embedded C, Microcontrollers, C, C++, Python, SQL, Android Studio, Git/GitHub, OpenCV (+ verified CS fundamentals). **No** Java/Firebase (removed from the current set), **no** individual boards, protocols, RTOS, CAN/AUTOSAR/MISRA/ISO 26262 as skills. Real platforms used (ESP32, STM32, I2C, OLED, TensorFlow Lite, MobileNetV2, RTSP) appear only in bullets.
+- **Skills = verified, bullet-backed set:** enriched into a JD-mirroring taxonomy where every token is also proven in a bullet — Languages (C, C++, Embedded C, Python, SQL); Embedded & Firmware (Microcontrollers, ARM Cortex-M4, FSM, non-blocking real-time design, GPIO, I2C, ADC, timers, sensor interfacing, debugging); Platforms & Tools (ESP32, STM32 Nucleo-L476RG, STM32CubeIDE, Arduino, Android Studio, Git/GitHub); Libraries & Foundations (OpenCV, TensorFlow Lite; DSA, OS, DBMS, CN). **No** Java/Firebase (removed), **no** ESP8266/Raspberry Pi (not demonstrated), **no** UART/SPI/RTOS/CAN/AUTOSAR/MISRA/ISO 26262/UDS/JTAG/DMA/Linux (learning gaps, never claimed). ARM Cortex-M4 is verified (Smart Wellness = STM32L476RG Cortex-M4).
 - **Projects shown (embedded-first):** Automotive BCM, Smart Wellness Desk Assistant (team), VisionPay. **AEGIS is omitted** — it is `PLANNED` (not built) and off-domain for an embedded/automotive resume; MITRA sits under the iHelp experience; Skin Disease Classification under the IEEE EMBS experience.
 - **Languages section dropped** and Nokia kept to one confidential/high-level line to preserve one-page density and signal-per-line.
 - **AEGIS** must never appear as completed. Nokia dates are always `16 September 2026 – Present`.

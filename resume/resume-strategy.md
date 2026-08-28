@@ -5,7 +5,7 @@
 - **Primary target:** Embedded Engineer / Automotive Embedded Systems. **Secondary:** Software Engineering.
 - **Headline:** `Embedded Engineer | Automotive Embedded Systems`.
 - **Section order:** Summary → Technical Skills → Experience → Projects → Education → Leadership & Activities → Certifications. (Spoken Languages section dropped for one-page signal density.)
-- **Skills = locked set only:** Embedded C, Microcontrollers, C, C++, Python, SQL, Android Studio, Git/GitHub, OpenCV, plus verified CS fundamentals. **Java and Firebase are removed** from the current set; individual boards, protocols, RTOS, and automotive standards are never skills.
+- **Skills = verified, bullet-backed taxonomy:** Languages (C, C++, Embedded C, Python, SQL); Embedded & Firmware (Microcontrollers, ARM Cortex-M4, FSM, non-blocking real-time design, GPIO, I2C, ADC, timers, sensor interfacing, debugging); Platforms & Tools (ESP32, STM32 Nucleo-L476RG, STM32CubeIDE, Arduino, Android Studio, Git/GitHub); Libraries & Foundations (OpenCV, TensorFlow Lite; DSA, OS, DBMS, CN). Every token is also evidenced in a bullet. **Java/Firebase removed; ESP8266/Raspberry Pi not demonstrated; UART/SPI/RTOS/CAN/AUTOSAR/MISRA/ISO 26262 are never skills** (learning gaps).
 
 ## One master, many versions
 

@@ -16,7 +16,23 @@ How the master resume is evaluated and how it maps to each target role. This is 
 | Quantified impact | 10 | fraction of bullets containing a number |
 | Hygiene / writing | 10 | no fabricated precise %, no verb over-use, valid links |
 
-**Current result: ~96/100** (Quantified impact intentionally partial — ~64% of bullets carry a number; Nokia is one confidential line with no metric by design).
+**Current result: ~97/100** (Quantified impact ~71% of bullets; Nokia is one confidential line with no metric by design).
+
+### External-style JD alignment (the honest ~85 answer)
+The internal readiness score above only counts *supportable* keywords, so it runs high (~97). External tools (Jobscan/Resume Worded targeted match) score a resume against a **whole JD, including terms the candidate lacks** — which is why the real external number was ~85, not 96. `validate_resume.py` now also prints an **external-style JD alignment** using representative full 2026 Tier-1 keyword sets (gaps included):
+
+| Target role | Alignment | Main missing (genuine gaps) |
+|---|---|---|
+| Embedded Engineer | **~79%** | UART, SPI, RTOS, interrupts |
+| Embedded Software Engineer | **~74%** | RTOS, UART, SPI, device drivers, Linux |
+| Automotive Embedded Engineer | **~68%** | CAN, AUTOSAR, MISRA, ISO 26262, UDS, diagnostics |
+| Automotive Software Engineer | **~65%** | CAN, AUTOSAR, MISRA, ISO 26262, ASPICE, Vector CANoe |
+| Software Engineer (secondary) | **~85%+** | REST APIs, OOP, system design |
+
+This optimization pass raised embedded/firmware alignment (added the verified **ARM Cortex-M4**, **STM32CubeIDE**, **Arduino**, **GPIO/I2C/ADC/timers/sensor interfacing** as JD-mirroring skills, all also proven in bullets) — the biggest honest lever from ~85. The automotive ceiling (~65–68%) is real: it is gated by CAN/AUTOSAR/MISRA/ISO 26262, which cannot be added without a verified project. Closing them (e.g. the planned MCP2515/TJA1050 CAN build) is the only honest way past it.
+
+### Skills-section design note (why it is fuller, not stuffed)
+Research finding (Jobscan 2026 playbook): flat lists of **>20** skills raise rejection; keywords score best when they appear in **both** a categorized skills block **and** the bullets. So the enriched Skills section is a focused, JD-mirroring taxonomy (Languages / Embedded & Firmware / Platforms & Tools / Libraries & Foundations) where **every token is also evidenced in a project or experience bullet** — richer match without a keyword dump.
 
 ### What the keyword dimension does and does NOT count
 The 25-point keyword dimension scores only terms Shabaz can **genuinely support**. Advanced specialization terms he does not hold (RTOS/FreeRTOS, UART/SPI as claimed skills, CAN/LIN, AUTOSAR, MISRA, ISO 26262, ASPICE, UDS, JTAG/SWD, DMA, bootloaders, device drivers) are tracked as **learning gaps** and are **never** added to the resume or counted as coverage. This keeps the score honest: it measures how well the *true* profile is surfaced, not how many buzzwords were stuffed.

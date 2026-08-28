@@ -5,13 +5,16 @@ Ballari, Karnataka  |  +91 79755 12403  |  md.shabaz.2005@gmail.com  |
  GitHub
 SUMMARY
 Final-year Electronics & Communication Engineering student (CGPA 8.38) focused on embedded and automotive firmware —
-microcontroller systems, finite-state machines and non-blocking real-time design in Embedded C — with a working software and
-computer-vision foundation in C, C++ and Python. Internship experience at Nokia and iHelp Robotics.
+ARM Cortex-M microcontroller systems, finite-state machines and non-blocking real-time design in Embedded C/C++ on ESP32
+and STM32 — with a working software and computer-vision foundation in Python. Internship experience at Nokia and iHelp
+Robotics.
 TECHNICAL SKILLS
-Embedded: Embedded C, Microcontrollers
-Languages: C, C++, Python, SQL
-Tools & Platforms: Android Studio, Git & GitHub, OpenCV
-CS Fundamentals: Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks
+Languages: C, C++, Embedded C, Python, SQL
+Embedded & Firmware: Microcontrollers, ARM Cortex-M4, finite-state machines, non-blocking real-time design, GPIO, I2C,
+ADC, timers, sensor interfacing, debugging
+Platforms & Tools: ESP32, STM32 (Nucleo-L476RG), STM32CubeIDE, Arduino, Android Studio, Git & GitHub
+Libraries & Foundations: OpenCV, TensorFlow Lite · Data Structures & Algorithms, Operating Systems, DBMS, Computer
+Networks
 EXPERIENCE
 Student Intern
 16 September 2026 – Present
@@ -38,16 +41,17 @@ selection, training, evaluation, and Python image-processing and testing; delive
 PROJECTS
 Automotive Body Control Module
 GitHub
-ESP32, Embedded C, Finite-State Machine, GPIO, OLED
-• Programmed an ESP32 body-control module with a 3-state (OFF/ACC/ON) ignition FSM driving 6+ vehicle functions:
+ESP32, Arduino/C++, Finite-State Machine, GPIO, I2C OLED
+• Programmed an ESP32 body-control module with a 3-state (OFF/ACC/ON) ignition FSM driving 6+ vehicle functions: turn
 indicators, synchronized hazard, brake logic, buzzer feedback and an OLED dashboard.
-• Architected a non-blocking millis()-based scheduler with brake debouncing, GPIO abstraction and edge-triggered serial
-logging for predictable real-time behavior.
+• Architected a non-blocking millis()-based scheduler (zero delay() in the main loop) with 30 ms brake debouncing, throttled 10
+Hz I2C OLED refresh, a clean GPIO abstraction and edge-triggered serial logging for deterministic real-time behavior.
 Smart Wellness Desk Assistant
 GitHub
-STM32 Nucleo-L476RG, STM32 HAL, Embedded C, Sensors · College team project
-• Interfaced 2 sensor types (ultrasonic presence and ADC temperature), an I2C OLED, timers and buzzer alerts on an STM32
-Nucleo-L476RG as part of a college team; handled wiring, testing and debugging in STM32CubeIDE.
+STM32 Nucleo-L476RG (ARM Cortex-M4), STM32 HAL, STM32CubeIDE, Embedded C · College team project
+• Interfaced ultrasonic presence and 12-bit ADC temperature sensors, an I2C SSD1306 OLED and timer-driven buzzer alerts
+on an STM32 Nucleo-L476RG (ARM Cortex-M4) using STM32 HAL, coordinated by a non-blocking finite-state machine;
+wired, tested and debugged in STM32CubeIDE as part of a college team.
 VisionPay — Real-Time Indian Currency Detection
 GitHub
 Python, OpenCV, TensorFlow Lite, MobileNetV2, Text-to-Speech
