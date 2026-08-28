@@ -25,63 +25,59 @@ NAVY = "#1F3A5F"
 LINK = "#1F5FA8"
 
 NAME = "MOHAMMED SHABAZ S"
-POSITION = "Software Developer  |  Embedded Engineer"
+POSITION = "Embedded Engineer  |  Automotive Embedded Systems"
 EMAIL = "md.shabaz.2005@gmail.com"
 PHONE = "+91 79755 12403"
 LINKEDIN_URL = "https://www.linkedin.com/in/shabaz17/"
 GITHUB_URL = "https://github.com/MdShabazS"
 LOCATION = "Ballari, Karnataka"
 
-SUMMARY = ("Final-year Electronics & Communication Engineering student (CGPA 8.38) building across "
-           "software and embedded systems. Internships at Nokia and iHelp Robotics, with projects in "
-           "Android, computer vision, and microcontroller firmware using C, C++, Python and Embedded C. "
-           "Currently deepening data structures, algorithms and SQL for software and embedded roles.")
+SUMMARY = ("Final-year Electronics & Communication Engineering student (CGPA 8.38) focused on embedded "
+           "and automotive firmware — microcontroller systems, finite-state machines and non-blocking "
+           "real-time design in Embedded C — with a working software and computer-vision foundation in "
+           "C, C++ and Python. Internship experience at Nokia and iHelp Robotics.")
 
 SKILLS = [
-    ("Languages", "C, C++, Python, Java, SQL"),
-    ("Software & Tools", "Android Studio, OpenCV, Firebase, Git, GitHub"),
     ("Embedded", "Embedded C, Microcontrollers"),
-    ("CS Fundamentals", "Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks"),
+    ("Languages", "C, C++, Python, SQL"),
+    ("Tools & Platforms", "Android Studio, Git & GitHub, OpenCV"),
+    ("CS Fundamentals", "Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks"),
 ]
 
 # (title, date, org, location, [bullets])
 EXPERIENCE = [
-    ("Student Intern", "Sep 2026 – Present",
+    ("Student Intern", "16 September 2026 – Present",
      "Nokia Solutions and Networks India", "Bangalore",
      ["Working as a Student Intern at Nokia."]),
-    ("AI Research Intern – Deep Learning & Model Development", "Mar 2026 – Aug 2026",
+    ("AI Research Intern – Deep Learning & Model Development", "23 March 2026 – 23 August 2026",
      "iHelp Robotics Private Limited  ·  Project: MITRA", "Remote",
      ["Improved live camera-stream reliability in the MITRA assistive Android app across 2 video sources (hardware WiFi/RTSP and phone-camera fallback): cut stream search delay, persisted the last working transport, and added refresh/stall recovery.",
-      "Engineered a visual-freeze watchdog plus 3 status/guard mechanisms — a stream-status panel, a cloud-status panel, and a WebSocket-gated send guard — and fixed a live-refresh loop that recurred after 5 minutes.",
+      "Engineered a visual-freeze watchdog plus 3 status/guard mechanisms — stream-status and cloud-status panels and a WebSocket-gated send guard — and fixed a live-refresh loop that recurred after 5 minutes.",
       "Hardened offline voice commands (offline-preferred recognition with model recovery and microphone retry backoff) and verified builds across multiple devices with Gradle test/lint/assemble; delivered 6+ app-side improvements while model and backend stayed with a separate team."]),
-    ("Student Intern – Skin Disease Classification", "Jun 2026",
+    ("Student Intern – Skin Disease Classification", "1–30 June 2026",
      "IEEE EMBS Pune Section", "Remote",
      ["Trained and evaluated a skin-disease image classifier in a 3-member team during a 1-month IEEE EMBS internship — model selection, training, evaluation, and Python image-processing and testing; delivered a working demo-level workflow."]),
 ]
 
 # (title, repo_text, repo_url, stack, [bullets])
 PROJECTS = [
-    ("VisionPay — Real-Time Indian Currency Detection",
-     "github.com/MdShabazS/visionpay", "https://github.com/MdShabazS/visionpay",
-     "Python, OpenCV, TensorFlow Lite, MobileNetV2, Text-to-Speech",
-     ["Developed an offline, real-time tool that recognizes Indian currency from a live webcam and speaks the result aloud for visually impaired users.",
-      "Collected ~400 images per denomination across 6 classes (Rs.10–Rs.500) and trained a MobileNetV2 classifier converted to TensorFlow Lite, reporting ~93% validation accuracy.",
-      "Improved reliability with 4 mechanisms: confidence/margin gating, temporal smoothing, a background class, and an auto-count mode."]),
     ("Automotive Body Control Module",
      "github.com/MdShabazS/Automotive-Body-Control-Module-ESP32",
      "https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32",
-     "ESP32, Embedded C, GPIO, OLED, State Machine",
-     ["Programmed an ESP32 body-control module with a 3-state (OFF/ACC/ON) ignition FSM driving 6+ functions: indicators, synchronized hazard, brake logic, buzzer and an OLED dashboard.",
-      "Architected a non-blocking millis()-based scheduler with brake debouncing, GPIO abstraction and edge-triggered logging for predictable real-time behavior."]),
+     "ESP32, Embedded C, Finite-State Machine, GPIO, OLED",
+     ["Programmed an ESP32 body-control module with a 3-state (OFF/ACC/ON) ignition FSM driving 6+ vehicle functions: indicators, synchronized hazard, brake logic, buzzer feedback and an OLED dashboard.",
+      "Architected a non-blocking millis()-based scheduler with brake debouncing, GPIO abstraction and edge-triggered serial logging for predictable real-time behavior."]),
     ("Smart Wellness Desk Assistant",
      "github.com/MdShabazS/Smart-Wellness-Desk-Assistant",
      "https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant",
      "STM32 Nucleo-L476RG, STM32 HAL, Embedded C, Sensors  ·  College team project",
      ["Interfaced 2 sensor types (ultrasonic presence and ADC temperature), an I2C OLED, timers and buzzer alerts on an STM32 Nucleo-L476RG as part of a college team; handled wiring, testing and debugging in STM32CubeIDE."]),
-    ("AEGIS — AI-Assisted Emergency Response Platform",
-     "", "",
-     "Team lead  ·  Architecture / design stage (in progress)",
-     ["Leading a 3-member team on an original concept, designing a 15-stage response architecture — from incident reporting and GPS/camera/audio inputs through AI analysis, human-dispatcher verification, resource dispatch and live tracking."]),
+    ("VisionPay — Real-Time Indian Currency Detection",
+     "github.com/MdShabazS/visionpay", "https://github.com/MdShabazS/visionpay",
+     "Python, OpenCV, TensorFlow Lite, MobileNetV2, Text-to-Speech",
+     ["Created an offline, real-time tool that recognizes Indian currency from a live webcam and speaks the result aloud for visually impaired users.",
+      "Collected ~400 images per denomination across 6 classes (Rs.10–Rs.500) and trained a MobileNetV2 classifier converted to TensorFlow Lite, reporting ~93% validation accuracy.",
+      "Strengthened real-time reliability with 4 mechanisms: confidence/margin gating, temporal smoothing, a background class, and an auto-count mode."]),
 ]
 
 EDUCATION = {
@@ -95,13 +91,12 @@ EDUCATION = {
 LEADERSHIP = [
     "Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (promoted from Treasurer); Treasurer, BITM Robotics Club.",
     "Google Student Ambassador (2025); Selected Participant, IEEE SPACE 2026 — B.Tech Initiative.",
+    "Embedded AI Systems workshop with STMicroelectronics (DigiToad, 2025); Participant, Techzone Nationals 2K25 Hardware Hackathon.",
 ]
 
-CERTS = ("Embedded Systems — Internshala Trainings (2025)  ·  Python Programming — EISystems (2024)  ·  "
-         "Google Cloud Generative AI — SmartBridge/SmartInternz (2025)  ·  SQL for Data Analytics with AI  ·  "
-         "Programming in C and C++ with AI")
-
-LANGS = "English  ·  Kannada  ·  Hindi  ·  Urdu"
+CERTS = ("Embedded Systems — Internshala Trainings (2025)  ·  Programming in C and C++ with AI  ·  "
+         "SQL for Data Analytics with AI  ·  Google Cloud Generative AI — SmartBridge/SmartInternz (2025)  ·  "
+         "Python Programming — EISystems (2024)")
 
 
 # ---------------------------------------------------------------- PDF (reportlab)
@@ -209,9 +204,6 @@ def build_pdf():
 
     section("CERTIFICATIONS")
     story.append(Paragraph(CERTS, body_st))
-
-    section("LANGUAGES")
-    story.append(Paragraph(LANGS, body_st))
 
     doc.build(story)
     return path
@@ -335,10 +327,7 @@ def build_docx():
         bullet(b)
 
     heading("CERTIFICATIONS")
-    p = doc.add_paragraph(); p.add_run(CERTS); spacing(p, after=2)
-
-    heading("LANGUAGES")
-    p = doc.add_paragraph(); p.add_run(LANGS); spacing(p, after=0)
+    p = doc.add_paragraph(); p.add_run(CERTS); spacing(p, after=0)
 
     doc.save(path)
     return path

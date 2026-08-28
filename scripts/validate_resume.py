@@ -17,24 +17,44 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PDF = os.path.join(ROOT, "resume", "Mohammed_Shabaz_S_Master_Resume.pdf")
 TXT = os.path.join(ROOT, "resume", "Mohammed_Shabaz_S_Master_Resume.txt")
 
+# Keyword lists per target role. Only terms Shabaz can genuinely support are scored here;
+# advanced specialization terms (RTOS/CAN/AUTOSAR/MISRA/ISO 26262/...) are tracked as
+# learning gaps in ROLE_GAPS below and are deliberately NOT counted as coverage.
 ROLE_KEYWORDS = {
-    "Software Engineer": [
-        "C", "C++", "Python", "Java", "SQL", "Git", "GitHub", "Android", "OpenCV",
-        "Firebase", "Data Structures", "Algorithms", "DBMS", "Operating Systems",
-        "Computer Networks", "TensorFlow Lite", "MobileNetV2", "testing", "debugging",
-    ],
     "Embedded Software Engineer": [
         "Embedded C", "Microcontrollers", "ESP32", "STM32", "firmware", "state machine",
-        "GPIO", "I2C", "OLED", "sensors", "debugging", "real-time",
+        "GPIO", "I2C", "OLED", "ADC", "sensors", "real-time", "debugging", "C", "C++", "Git",
+    ],
+    "Embedded Systems Engineer": [
+        "Embedded C", "Microcontrollers", "ESP32", "STM32", "firmware", "finite-state",
+        "GPIO", "I2C", "timers", "sensors", "real-time", "non-blocking", "debugging",
     ],
     "Automotive Embedded Engineer": [
-        "Automotive", "Body Control", "ESP32", "Embedded C", "state machine", "FSM",
-        "ignition", "real-time", "firmware", "OLED",
+        "Automotive", "Body Control", "ESP32", "Embedded C", "ignition", "FSM",
+        "state machine", "real-time", "firmware", "OLED", "GPIO",
+    ],
+    "Automotive Software Engineer": [
+        "Automotive", "Embedded C", "C", "C++", "state machine", "real-time", "firmware",
+        "testing", "debugging", "Git",
+    ],
+    "Software Engineer (secondary)": [
+        "C", "C++", "Python", "SQL", "Git", "GitHub", "Android", "OpenCV",
+        "Data Structures", "Algorithms", "DBMS", "Operating Systems",
+        "Computer Networks", "TensorFlow Lite", "MobileNetV2", "testing", "debugging",
     ],
 }
 
-EVIDENCE_TOKENS = ["~93%", "15-stage", "MobileNetV2", "TensorFlow Lite", "ESP32", "STM32",
-                   "3-state", "~400", "6 classes", "2 video sources", "3-member", "I2C"]
+# Advanced terms NOT held — reported as gaps, never scored as coverage, never added as skills.
+ROLE_GAPS = {
+    "Embedded Software Engineer": ["UART", "SPI", "CAN", "RTOS", "FreeRTOS", "JTAG/SWD", "device drivers"],
+    "Embedded Systems Engineer": ["UART", "SPI", "RTOS", "DMA", "bootloader", "JTAG/SWD"],
+    "Automotive Embedded Engineer": ["CAN", "LIN", "AUTOSAR", "MISRA", "ISO 26262", "UDS", "ASPICE"],
+    "Automotive Software Engineer": ["CAN", "AUTOSAR", "MISRA", "ISO 26262", "Vector CANoe"],
+    "Software Engineer (secondary)": ["REST APIs", "OOP", "system design", "concurrency"],
+}
+
+EVIDENCE_TOKENS = ["~93%", "MobileNetV2", "TensorFlow Lite", "ESP32", "STM32", "ignition",
+                   "3-state", "~400", "6 classes", "2 video sources", "3-member", "I2C", "FSM"]
 
 SECTIONS = ["SUMMARY", "TECHNICAL SKILLS", "EXPERIENCE", "PROJECTS", "EDUCATION",
             "LEADERSHIP", "CERTIFICATIONS"]
@@ -87,7 +107,8 @@ def main():
         "Expected 2027": "2027" in text,
         "BITM": "Ballari Institute of Technology" in text,
         "Nokia Present": bool(re.search(r"Nokia", text)) and "Present" in text,
-        "iHelp dates": "Mar 2026" in text and "Aug 2026" in text,
+        "Nokia exact date": "16 September 2026" in text,
+        "iHelp dates": "March 2026" in text and "August 2026" in text,
         "MITRA is project": "Project: MITRA" in text or "MITRA" in text,
     }
     for k, v in fact_checks.items():
@@ -189,9 +210,12 @@ def main():
     print(f"  {'TOTAL':<24} {round(score,1):>5} / 100")
     print("-" * 72)
     print(f"Quantified-bullet ratio: {len(quant)}/{len(bullets)} = {qratio*100:.0f}%")
-    print("Keyword gaps by role (learnable; NOT added as fake skills):")
+    print("Scored-keyword coverage by role (only genuinely supportable terms are scored):")
     for role, (p, t, gaps) in per_role.items():
-        print(f"  {role}: missing {gaps if gaps else 'none'}")
+        print(f"  {role}: {p}/{t} present" + (f"; missing {gaps}" if gaps else ""))
+    print("Advanced learning gaps by role (NOT scored, NOT added as fake skills):")
+    for role, gaps in ROLE_GAPS.items():
+        print(f"  {role}: {gaps}")
 
     print("-" * 72)
     print("Format / parse checklist:")
