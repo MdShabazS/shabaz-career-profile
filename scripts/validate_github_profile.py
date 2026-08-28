@@ -84,6 +84,14 @@ def main():
     banner = [s for s in img_srcs if "profile-banner" in s]
     if not banner:
         errors.append("profile banner image not referenced")
+    # relative image assets must exist on disk (broken-image guard)
+    readme_dir = os.path.dirname(README)
+    for s in img_srcs:
+        if s.startswith(("http://", "https://", "data:")):
+            continue
+        rel = s.lstrip("./")
+        if not os.path.exists(os.path.join(readme_dir, rel)):
+            errors.append(f"referenced image asset not found on disk: {s}")
     # every <img> should have alt text (accessibility); empty alt="" allowed for decorative
     for tag in re.findall(r"<img[^>]*>", md):
         if "alt=" not in tag:

@@ -72,40 +72,35 @@ I build embedded and automotive firmware — microcontroller systems, state mach
 
 ## Featured Projects
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32">Automotive Body Control Module</a></h3>
-      <p><sub><b>Individual · Embedded / Automotive</b></sub></p>
-      <p>ESP32 firmware modelling a vehicle body-control ECU.</p>
-      <p><sub><code>ESP32 · Arduino/C++ · FSM · GPIO · I2C OLED</code></sub></p>
-      <ul>
-        <li>OFF/ACC/ON ignition FSM driving 6+ functions: indicators, synchronized hazard, brake logic, buzzer, OLED dashboard.</li>
-        <li>Non-blocking <code>millis()</code> loop · 30&nbsp;ms brake debounce · 10&nbsp;Hz OLED refresh · clean GPIO abstraction · edge-triggered logging.</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant">Smart Wellness Desk Assistant</a></h3>
-      <p><sub><b>College team project · Embedded</b></sub></p>
-      <p>STM32 desk-wellness device on ARM Cortex-M4.</p>
-      <p><sub><code>STM32 Nucleo-L476RG · STM32 HAL · STM32CubeIDE · Embedded C</code></sub></p>
-      <ul>
-        <li>Ultrasonic + 12-bit ADC sensing, I2C SSD1306 OLED and timer-driven alerts via a non-blocking finite-state machine.</li>
-        <li>My contribution: sensor interfacing, wiring, and testing/debugging within the team.</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/MdShabazS/visionpay">VisionPay</a></h3>
-      <p><sub><b>Individual · AI / Computer Vision</b></sub></p>
-      <p>Offline, real-time Indian-currency detector with spoken output for visually impaired users.</p>
-      <p><sub><code>Python · OpenCV · TensorFlow Lite · MobileNetV2 · TTS</code></sub></p>
-      <ul>
-        <li>~400 images/denomination across 6 classes; MobileNetV2 → TFLite (~93% reported validation accuracy), offline on CPU.</li>
-        <li>Confidence/margin gating · temporal smoothing · background class · auto-count mode.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<h3><a href="https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32">Automotive Body Control Module</a> &nbsp;<sub>Individual · Embedded / Automotive</sub></h3>
+
+<a href="https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32"><img src="./assets/project-bcm.png" alt="Automotive Body Control Module — ESP32 breadboard build with OLED dashboard, rotary ignition switch, buzzer and wiring" width="820"/></a>
+
+ESP32 firmware modelling a vehicle body-control ECU (photo: the actual breadboard build).
+
+- **OFF/ACC/ON ignition FSM** driving 6+ functions — indicators, synchronized hazard, brake logic, buzzer, OLED dashboard.
+- Non-blocking `millis()` loop (zero `delay()`), 30&nbsp;ms brake debounce, 10&nbsp;Hz I2C OLED refresh, clean GPIO abstraction, edge-triggered logging.
+- **Stack:** ESP32 · Arduino/C++ · Finite-State Machine · GPIO · I2C OLED &nbsp;—&nbsp; [Repository →](https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32)
+
+<h3><a href="https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant">Smart Wellness Desk Assistant</a> &nbsp;<sub>College team project · Embedded</sub></h3>
+
+<a href="https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant"><img src="./assets/project-smart-wellness.png" alt="Smart Wellness Desk Assistant — STM32 Nucleo-L476RG wiring diagram showing ultrasonic sensor, temperature sensor, I2C OLED and buzzer" width="820"/></a>
+
+STM32 desk-wellness device on ARM Cortex-M4 (image: the project wiring diagram).
+
+- Ultrasonic presence + 12-bit ADC temperature sensing, I2C SSD1306 OLED and timer-driven alerts via a non-blocking finite-state machine.
+- **My contribution:** sensor interfacing, wiring, and testing/debugging in STM32CubeIDE within the team.
+- **Stack:** STM32 Nucleo-L476RG · ARM Cortex-M4 · STM32 HAL · STM32CubeIDE · Embedded C &nbsp;—&nbsp; [Repository →](https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant)
+
+<h3><a href="https://github.com/MdShabazS/visionpay">VisionPay</a> &nbsp;<sub>Individual · AI / Computer Vision</sub></h3>
+
+<a href="https://github.com/MdShabazS/visionpay"><img src="./assets/project-visionpay.png" alt="VisionPay — real-time Indian currency detection reading a 500 rupee note at 93% confidence with spoken output" width="820"/></a>
+
+Offline, real-time Indian-currency detector with spoken output for visually impaired users.
+
+- ~400 images/denomination across 6 classes (₹10–₹500); MobileNetV2 → TensorFlow Lite (~93% reported validation accuracy), running offline on CPU.
+- Confidence/margin gating, temporal smoothing, a background class and an auto-count mode.
+- **Stack:** Python · OpenCV · TensorFlow Lite · MobileNetV2 · Text-to-Speech &nbsp;—&nbsp; [Repository →](https://github.com/MdShabazS/visionpay)
 
 ---
 

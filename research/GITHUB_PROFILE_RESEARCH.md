@@ -67,6 +67,33 @@ Accessed **2026-08-28**. The profile README is `MdShabazS/MdShabazS/README.md` (
 
 ---
 
+## 8. Project images / screenshots (the centerpiece)
+
+- **SOURCE:** pushpen.dev "README best practices 2026"; UniLink README templates 2026; Quillly 2026.
+  - `RESEARCH`: "A screenshot or short GIF of the tool in action is almost always worth more than another badge." Visuals should support a message, not fill space — "pick one source, one card, and let the README breathe." For every featured repo, write one sentence a non-developer understands.
+  - **WHY IT MATTERS:** Real project imagery is the single strongest "this person actually builds things" signal — far stronger than text cards, which read like a resume.
+  - `RECOMMENDATION`: Make Featured Projects the visual centerpiece with **real project imagery**: the Automotive BCM uses the actual breadboard build photo (`images/hardware_setup.jpg` from the repo); Smart Wellness uses its real wiring diagram (`Media/Wiring_Diagram.png`); VisionPay has no repo image, so a **clean designed thumbnail** in the same visual language is used (labelled by content, not a fake screenshot). Each card = full-width image + one-line summary + 2 highlights + stack + repo link. Consistent 820×440 dark cards with a tag, title, stack line and accent bar.
+
+## 9. Image hosting, light/dark & accessibility
+
+- **SOURCE:** GitHub docs (supported HTML/images); codeboards / Markdown Studios 2026; general camo/proxy behaviour.
+  - `RESEARCH`: GitHub proxies external images (camo) and strips `<style>`/scripts/most CSS; there are **no media queries** in README, so true responsive stacking is impossible — multi-column HTML tables squish on mobile rather than stacking. Repo-hosted assets are more reliable than fragile third-party widgets. Readers use light or dark GitHub themes.
+  - `RECOMMENDATION`: Host the banner and project thumbnails **in the repo** (`assets/`), not on external services, so they never break. The cards are self-contained **dark** images with their own background, so they read as intentional "cards" in both light and dark GitHub themes (no `<picture>`/theme-swap needed). Body text/tables use GitHub's own theme colours and adapt automatically. Every image carries alt text. Because media queries aren't available, keep table cell text short so the unavoidable mobile squish stays readable; the full-width image cards (the centerpiece) reflow perfectly on mobile.
+
+## 10. OLD → CURRENT → TARGET comparison
+
+| Aspect | OLD README (badge-heavy, software-first) | CURRENT minimal (before this build) | TARGET (this build) |
+|---|---|---|---|
+| Positioning | Software-first ("Primary: Software Developer") | Embedded-first (correct) but plain | **Embedded/automotive-first + visually rich** |
+| Hero | Banner with software-first baked text | None (plain heading) | **New embedded/automotive banner** (MCU + OFF/ACC/ON motif) |
+| Visual identity | Present but noisy (skillicons wall, profile-views, YOLO) | Absent (reads like a document) | **Present and controlled** (cards, one stats card, tech icons) |
+| Projects | Text cards; NexCast present | Text bullets | **Image cards with real hardware photo + wiring diagram** |
+| Facts | Stale (NexCast/Pega/Java/YOLO) | Correct | Correct + richer, verified evidence |
+| Vanity widgets | Many (views/streak/langs/followers) | None | **Exactly one** summary card |
+| Mobile | 2–3 col tables squish; ok | Perfect (plain) | Image cards reflow; tables squish (accepted, GitHub limit) |
+
+**Kept from OLD:** banner concept, credential/contact badges, snapshot table, 3-column focus, technology icons, project cards, one activity component, footer. **Removed from OLD:** software-first framing, NexCast/Pega/Java/YOLO, profile-views counter, multi-widget stat pileup. **Improved:** real project images, embedded/automotive banner, honest present-tense Nokia, controlled badge/widget count.
+
 ### Sources (accessed 2026-08-28)
 - [Instahyre — GitHub Profile Checklist 2026: what recruiters actually look at](https://resources.instahyre.com/blog/github-profile-checklist/)
 - [readmedesign — what tech recruiters actually look for in a GitHub profile](https://readmedesign.com/blog/what-recruiters-look-for)
@@ -75,3 +102,6 @@ Accessed **2026-08-28**. The profile README is `MdShabazS/MdShabazS/README.md` (
 - [codeboards.io — GitHub profile README guide 2026](https://codeboards.io/blog/github-profile-readme-guide)
 - [Markdown Studios — standout GitHub profile README in 2026](https://www.markdownstudios.com/blog/github-profile-readme-guide)
 - [DEV — top GitHub profile tools and stats generators 2026 (directional)](https://dev.to/_d7eb1c1703182e3ce1782/top-github-profile-tools-and-stats-generators-2026-2h3h)
+- [pushpen.dev — GitHub README best practices 2026](https://pushpen.dev/blog/github-readme-best-practices-2026)
+- [UniLink — GitHub README templates 2026](https://app.unilink.us/blog/github-readme-templates-2026)
+- [tandpfun/skill-icons — technology icons for READMEs](https://github.com/tandpfun/skill-icons)
