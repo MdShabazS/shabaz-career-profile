@@ -74,7 +74,7 @@ I build embedded and automotive firmware — microcontroller systems, state mach
 
 <h3><a href="https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32">Automotive Body Control Module</a> &nbsp;<sub>Individual · Embedded / Automotive</sub></h3>
 
-<a href="https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32"><img src="./assets/project-bcm.png" alt="Automotive Body Control Module — ESP32 breadboard build with OLED dashboard, rotary ignition switch, buzzer and wiring" width="820"/></a>
+<a href="https://github.com/MdShabazS/Automotive-Body-Control-Module-ESP32"><img src="./assets/project-bcm.png" alt="Automotive Body Control Module — ESP32 breadboard build with OLED dashboard, rotary ignition switch, buzzer and wiring" width="560"/></a>
 
 ESP32 firmware modelling a vehicle body-control ECU (photo: the actual breadboard build).
 
@@ -84,7 +84,7 @@ ESP32 firmware modelling a vehicle body-control ECU (photo: the actual breadboar
 
 <h3><a href="https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant">Smart Wellness Desk Assistant</a> &nbsp;<sub>College team project · Embedded</sub></h3>
 
-<a href="https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant"><img src="./assets/project-smart-wellness.png" alt="Smart Wellness Desk Assistant — STM32 Nucleo-L476RG wiring diagram showing ultrasonic sensor, temperature sensor, I2C OLED and buzzer" width="820"/></a>
+<a href="https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant"><img src="./assets/project-smart-wellness.png" alt="Smart Wellness Desk Assistant — STM32 Nucleo-L476RG wiring diagram showing ultrasonic sensor, temperature sensor, I2C OLED and buzzer" width="560"/></a>
 
 STM32 desk-wellness device on ARM Cortex-M4 (image: the project wiring diagram).
 
@@ -94,7 +94,7 @@ STM32 desk-wellness device on ARM Cortex-M4 (image: the project wiring diagram).
 
 <h3><a href="https://github.com/MdShabazS/visionpay">VisionPay</a> &nbsp;<sub>Individual · AI / Computer Vision</sub></h3>
 
-<a href="https://github.com/MdShabazS/visionpay"><img src="./assets/project-visionpay.png" alt="VisionPay — real-time Indian currency detection reading a 500 rupee note at 93% confidence with spoken output" width="820"/></a>
+<a href="https://github.com/MdShabazS/visionpay"><img src="./assets/project-visionpay.png" alt="VisionPay — real-time Indian currency detection reading a 500 rupee note at 93% confidence with spoken output" width="560"/></a>
 
 Offline, real-time Indian-currency detector with spoken output for visually impaired users.
 
