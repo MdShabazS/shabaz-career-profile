@@ -11,13 +11,14 @@
 | Duration shown | 16 September 2026 – Present | `VERIFIED` |
 | Work location | Bangalore | `VERIFIED` |
 | Project / domain | Not yet known | `CONFIDENTIAL` / `TO_VERIFY` |
+| Internship study | LTE and 5G curriculum; completed as part of internship study | `VERIFIED` (user-confirmed) |
 | Lifecycle | `CURRENT` / `IN_PROGRESS` | — |
 
 ## Public description (high-level only)
 
-Student Intern at Nokia Solutions and Networks India (Bangalore), 16 September 2026 – Present. Project domain to be confirmed.
+Student Intern at Nokia Solutions and Networks India (Bangalore), 16 September 2026 – Present. Completed study in LTE and 5G network topics as part of the internship. The assigned project/domain remains unconfirmed.
 
-That is the ceiling for public detail until Shabaz provides shareable information.
+Keep public detail to this high-level internship study and role. Do not include internal assignment, architecture, customer, implementation, or proprietary details.
 
 ## Representation rule
 

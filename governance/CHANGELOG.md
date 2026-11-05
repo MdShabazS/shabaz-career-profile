@@ -10,7 +10,7 @@
 ## 2026-11-06 — Skills and mobile-network study update
 
 - Updated confirmed programming, embedded, computer-science, and spoken-language proficiencies.
-- Added the user-confirmed completed LTE and 5G self-study curricula, with no dates or formal credential claim.
+- Added the user-confirmed completed LTE and 5G curriculum, with no dates or formal credential claim; its study context is the Nokia internship.
 - Kept Android Studio under MITRA and OpenCV under VisionPay project details; removed the unwanted technology reference from the profile.
 - Updated current profile snapshots and resume sources.
 

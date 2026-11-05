@@ -34,12 +34,12 @@ LOCATION = "Ballari, Karnataka"
 
 SUMMARY = ("Final-year ECE student (CGPA 8.38) focused on embedded and automotive firmware using ARM Cortex-M "
            "microcontrollers, finite-state machines, and non-blocking Embedded C/C++ on ESP32 and STM32. "
-           "Internship experience at Nokia and iHelp Robotics; completed LTE/5G self-study.")
+           "Internship experience at Nokia and iHelp Robotics; completed LTE/5G study during the Nokia internship.")
 
 SKILLS = [
     ("Programming", "C, C++, Python, SQL (Intermediate); Java (currently learning)"),
     ("Embedded", "Embedded C, Microcontrollers (Intermediate); ARM Cortex-M4, FSM, non-blocking design, GPIO, I2C, ADC, timers, sensors, debugging"),
-    ("Mobile Networks", "LTE/5G architecture, EPC/RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN, troubleshooting, test automation (completed self-study)"),
+    ("Mobile Networks", "LTE/5G architecture, EPC/RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN, troubleshooting, test automation (Nokia internship study)"),
     ("Tools & Foundations", "Git/GitHub; TensorFlow Lite; DSA, DBMS, OS, Computer Networks (Basic)"),
 ]
 

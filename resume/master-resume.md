@@ -16,14 +16,14 @@ Ballari, Karnataka | +91 79755 12403 | md.shabaz.2005@gmail.com | LinkedIn | Git
 SUMMARY
 Final-year ECE student (CGPA 8.38) focused on embedded and automotive firmware using ARM Cortex-M
 microcontrollers, finite-state machines, and non-blocking Embedded C/C++ on ESP32 and STM32.
-Internship experience at Nokia and iHelp Robotics; completed LTE/5G self-study.
+Internship experience at Nokia and iHelp Robotics; completed LTE/5G study during the Nokia internship.
 
 TECHNICAL SKILLS
 Programming: C, C++, Python, SQL (Intermediate); Java (currently learning)
 Embedded: Embedded C, Microcontrollers (Intermediate); ARM Cortex-M4, finite-state machines,
   non-blocking design, GPIO, I2C, ADC, timers, sensor interfacing, debugging
 Mobile Networks: LTE & 5G architecture, EPC, RAN, interfaces, call flows, QoS, RRM, EN-DC,
-  NSA/SA mobility, VoNR, O-RAN, troubleshooting, automation (completed self-study)
+  NSA/SA mobility, VoNR, O-RAN, troubleshooting, automation (Nokia internship study)
 Tools / Foundations: Git, GitHub; TensorFlow Lite; DSA, DBMS, Operating Systems, Computer Networks (Basic)
 
 EXPERIENCE
@@ -97,7 +97,7 @@ Python Programming — EISystems (2024)
 
 - **Positioning pivot:** this master is **embedded/automotive-first** (headline `Embedded Engineer | Automotive Embedded Systems`), software/CV kept as visible secondary evidence. Supersedes the earlier software-first draft.
 - **Links (PDF/DOCX):** email, header LinkedIn, header GitHub, and each project "GitHub" are live hyperlinks; header LinkedIn/GitHub are icon+label (no raw URLs). `[GitHub]` marks the right-aligned clickable link per project.
-- **Skills:** follow `../skills/current-skills.md`; mobile-network topics are completed self-study documented in `../skills/mobile-networks.md`. Keep Android Studio within MITRA project details and OpenCV within VisionPay project details. Do not claim credentials or production network experience. Project stacks may name tools used in those projects.
+- **Skills:** follow `../skills/current-skills.md`; mobile-network study completed during the Nokia internship is documented in `../skills/mobile-networks.md`. Keep Android Studio within MITRA project details and OpenCV within VisionPay project details. Do not claim credentials or production network experience. Project stacks may name tools used in those projects.
 - **Projects shown (embedded-first):** Automotive BCM, Smart Wellness Desk Assistant (team), VisionPay. AEGIS is omitted from the embedded/automotive resume because coding has not started and it is off-domain; MITRA sits under iHelp experience. IEEE EMBS remains an internship entry; its associated project is removed from current outputs.
 - **Languages section dropped** and Nokia kept to one confidential/high-level line to preserve one-page density and signal-per-line.
 - **AEGIS** is an individual project in the design/planning-complete, coding-not-started state, with no target date. Never present it as coded or completed. Nokia dates are always `16 September 2026 – Present`.

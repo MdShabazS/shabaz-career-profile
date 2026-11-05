@@ -18,7 +18,7 @@ This is a career knowledge base, not a resume. It holds verified facts and the r
 | [`profile/`](profile/) | Identity, positioning, contact, education, languages, interests |
 | [`experience/`](experience/) | Nokia, iHelp Robotics, IEEE EMBS Pune (fixed order) |
 | [`projects/`](projects/) | Five current projects + exclusions |
-| [`skills/`](skills/) | Current verified skills, completed LTE/5G self-study, and Tier-1 development roadmap |
+| [`skills/`](skills/) | Current verified skills, completed LTE/5G study during the Nokia internship, and Tier-1 development roadmap |
 | [`certifications/`](certifications/) | Completed (with evidence) and planned certifications |
 | [`leadership/`](leadership/) | Leadership positions and memberships |
 | [`professional-activities/`](professional-activities/) | IEEE SPACE 2026, competitions, workshops, volunteering |
@@ -45,7 +45,7 @@ Never convert planned→completed, learning/basic→advanced, internship→emplo
 - **Education:** B.E. ECE, BITM — Final Year — CGPA 8.38 — graduating 2027.
 - **Experience:** Nokia Student Intern (16 Sep 2026 – Present); iHelp Robotics AI Research Intern (~5 months, completed, project MITRA); IEEE EMBS Pune (1 month, completed). Internship/industry experience only — no full-time employment.
 - **Projects (5):** AEGIS (individual; design/planning complete, coding not started), MITRA, VisionPay, Automotive BCM, Smart Wellness Desk Assistant. The IEEE EMBS internship and its certificate remain in Experience/evidence; the associated project was removed.
-- **Skills:** C, C++, Python, SQL — Intermediate; Java — currently learning; Embedded C and Microcontrollers — Intermediate; Git/GitHub; DSA, DBMS, OS, CN — Basic. LTE and 5G self-study curricula completed. Android Studio (MITRA) and OpenCV (VisionPay) appear only in project details.
+- **Skills:** C, C++, Python, SQL — Intermediate; Java — currently learning; Embedded C and Microcontrollers — Intermediate; Git/GitHub; DSA, DBMS, OS, CN — Basic. LTE and 5G study completed during the Nokia internship. Android Studio (MITRA) and OpenCV (VisionPay) appear only in project details.
 - **Target:** Tier-1 Software Developer and Tier-1 Embedded Engineer. Plan in [`skills/tier1-skills-roadmap.md`](skills/tier1-skills-roadmap.md).
 
 ## Updating

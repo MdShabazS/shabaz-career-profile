@@ -29,7 +29,7 @@
 | **Engineering focus** | Microcontroller firmware, finite-state machines, non-blocking real-time control |
 | **Education** | BITM · Expected 2027 · CGPA 8.38 |
 
-I build embedded and automotive firmware — microcontroller systems, state machines and deterministic real-time loops in Embedded C/C++ on ESP32 and STM32 (ARM Cortex-M) — and have completed LTE and 5G self-study. I also have project-level software and computer-vision experience. Currently working as a Student Intern at Nokia.
+I build embedded and automotive firmware — microcontroller systems, state machines and deterministic real-time loops in Embedded C/C++ on ESP32 and STM32 (ARM Cortex-M) — and completed LTE and 5G study during my Nokia internship. I also have project-level software and computer-vision experience. Currently working as a Student Intern at Nokia.
 
 ---
 
@@ -47,7 +47,7 @@ I build embedded and automotive firmware — microcontroller systems, state mach
     </td>
     <td width="33%" valign="top">
       <h3>📡 Mobile Networks</h3>
-      <p>Completed LTE and 5G self-study covering EPC/5G architecture, call flows, mobility, RRM, EN-DC, VoNR, O-RAN, and troubleshooting.</p>
+      <p>Completed LTE and 5G study during the Nokia internship, covering EPC/5G architecture, call flows, mobility, RRM, EN-DC, VoNR, O-RAN, and troubleshooting.</p>
     </td>
   </tr>
 </table>
@@ -63,7 +63,7 @@ I build embedded and automotive firmware — microcontroller systems, state mach
 - **Embedded:** Embedded C · Microcontrollers (Intermediate)
 - **Programming:** C · C++ · Python · SQL (Intermediate); Java (currently learning)
 - **Tools:** Git · GitHub
-- **Mobile networks:** Completed LTE and 5G self-study — architecture, EPC, RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN, troubleshooting, Robot Framework and testing
+- **Mobile networks:** Completed LTE and 5G study during the Nokia internship — architecture, EPC, RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN, troubleshooting, Robot Framework and testing
 - **CS foundations:** DSA · DBMS · Operating Systems · Computer Networks (Basic)
 - **Project-only tools:** Android Studio (MITRA) · OpenCV (VisionPay)
 

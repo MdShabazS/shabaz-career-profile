@@ -1,6 +1,6 @@
 # LTE and 5G Mobile Networks
 
-**Status:** Completed self-study, user-confirmed. No dates recorded. This is not a formal certification and does not claim professional or production-network experience.
+**Status:** Completed study during the Nokia internship, user-confirmed. No dates recorded. This is not a formal certification and does not claim production-network experience.
 
 ## LTE curriculum — completed
 

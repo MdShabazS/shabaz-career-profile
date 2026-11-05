@@ -5,7 +5,7 @@
 - **Primary target:** Embedded Engineer / Automotive Embedded Systems. **Secondary:** Software Engineering.
 - **Headline:** `Embedded Engineer | Automotive Embedded Systems`.
 - **Section order:** Summary → Technical Skills → Experience → Projects → Education → Leadership & Activities → Certifications. (Spoken Languages section dropped for one-page signal density.)
-- **Skills:** use [`../skills/current-skills.md`](../skills/current-skills.md); completed LTE/5G self-study keywords are documented in [`../skills/mobile-networks.md`](../skills/mobile-networks.md). Keep Android Studio in MITRA and OpenCV in VisionPay project details. Do not claim a mobile-network credential or production deployment.
+- **Skills:** use [`../skills/current-skills.md`](../skills/current-skills.md); LTE/5G study completed during the Nokia internship is documented in [`../skills/mobile-networks.md`](../skills/mobile-networks.md). Keep Android Studio in MITRA and OpenCV in VisionPay project details. Do not claim a mobile-network credential or production deployment.
 
 ## One master, many versions
 

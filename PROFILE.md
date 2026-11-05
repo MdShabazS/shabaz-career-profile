@@ -47,7 +47,7 @@ Removed from current profile: NexCast Pro, Pega. Excluded: NIDAR, undocumented h
 - **Programming:** C, C++, Python, SQL — Intermediate; Java — currently learning, not yet proficient.
 - **Software / development:** Git, GitHub.
 - **Embedded:** Embedded C and Microcontrollers — Intermediate.
-- **Mobile networks:** LTE and 5G curricula completed as user-confirmed self-study; topics are in [`skills/mobile-networks.md`](skills/mobile-networks.md). No credential or production deployment claim.
+- **Mobile networks:** LTE and 5G curriculum completed during Nokia internship study; topics are in [`skills/mobile-networks.md`](skills/mobile-networks.md). No credential or production deployment claim.
 - **Computer science:** DSA, DBMS, OS, Computer Networks — Basic.
 - **Project-only tools:** Android Studio under MITRA; OpenCV under VisionPay.
 - **Spoken languages:** English, Kannada, Hindi — Conversational; Urdu — Native / bilingual.

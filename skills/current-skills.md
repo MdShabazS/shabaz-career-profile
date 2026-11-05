@@ -30,7 +30,7 @@ Specific boards and tools belong in relevant project details, not this general s
 
 ## Mobile networks
 
-Completed self-study, user-confirmed. These are knowledge areas, not a professional certification or claim of production network experience. See [`mobile-networks.md`](mobile-networks.md) for the full curriculum.
+Completed as part of Nokia internship study, user-confirmed. These are knowledge areas, not a professional certification or claim of production network experience. See [`mobile-networks.md`](mobile-networks.md) for the full curriculum.
 
 - LTE architecture, EPC, network interfaces, air-interface protocols, attach procedures and call flows, solution architecture, radio access systems, bearer management, serving gateway, QoS, control plane/user plane, physical layer, RRM/IRAT, LTE-Advanced, Nokia FSM4 architecture, eNodeB software architecture, and UTE Cloud fundamentals/contributing.
 - 5G system principles and 3GPP Release 18, gNodeB product/software architecture, RAN, Massive MIMO/beamforming, radio updates, RRM, cloud/transport, IoT/user plane, control plane, advanced software architecture, EN-DC/NSA Option 3x, VoNR, NSA/SA mobility, Xn mobility, inter-frequency/inter-SgNB mobility, O-RAN, troubleshooting, log collection, SoC hardware/IWK, automation, Robot Framework and testing.

@@ -18,7 +18,7 @@ Right now I'm a Student Intern at Nokia and a final-year Electronics and Communi
 
 On my own I've built projects I can point to: VisionPay, an offline Indian-currency detector with spoken feedback (MobileNetV2 + TensorFlow Lite, ~93% reported validation accuracy), and an ESP32 Automotive Body Control Module with an ignition state machine and non-blocking firmware. I have also completed planning and design for AEGIS, an individual emergency-response project where AI recommends and a human dispatcher decides; coding has not started.
 
-I work in C, C++, Python and SQL, with Embedded C and microcontroller project experience. I have completed self-study in LTE and 5G architecture, interfaces, call flows, mobility, radio resource management, O-RAN and troubleshooting. Android Studio is part of MITRA; OpenCV is used in VisionPay. I'm looking for software, embedded and mobile-network roles.
+I work in C, C++, Python and SQL, with Embedded C and microcontroller project experience. During my Nokia internship, I completed study in LTE and 5G architecture, interfaces, call flows, mobility, radio resource management, O-RAN and troubleshooting. Android Studio is part of MITRA; OpenCV is used in VisionPay. I'm looking for software, embedded and mobile-network roles.
 ```
 
 Note: keep "~93% reported" wording — it is a reported figure, not a verified benchmark.
