@@ -105,9 +105,9 @@ Offline, real-time Indian-currency detector with spoken output for visually impa
 
 ---
 
-## 🚧 Currently Building
+## Project Planning
 
-- **[AEGIS](https://github.com/MdShabazS/aegis)** — an AI-assisted emergency-response platform where **AI recommends and a human dispatcher decides**. *Team project · architecture / design stage — not yet built.*
+- **[AEGIS](https://github.com/MdShabazS/aegis)** — an AI-assisted emergency-response platform where **AI recommends and a human dispatcher decides**. *Individual project · design and planning complete; coding not started; no target completion date.*
 - **Automotive-embedded depth** — moving from I2C toward UART/SPI, an RTOS/FreeRTOS port, and a CAN-bus build. *(Learning goals — not presented as current skills.)*
 
 ---
@@ -121,7 +121,7 @@ Offline, real-time Indian-currency detector with spoken output for visually impa
       <ul>
         <li><b>Nokia Solutions and Networks India</b> — Student Intern. Currently working as a Student Intern at Nokia.</li>
         <li><b>iHelp Robotics</b> — AI Research Intern – Deep Learning &amp; Model Development (Mar–Aug 2026). On <b>MITRA</b>, an assistive-vision Android app, I worked the app side: camera-stream reliability, offline voice-command robustness, and multi-device testing. Backend and model belonged to a separate team.</li>
-        <li><b>IEEE EMBS Pune Section</b> — Skin Disease Classification (1 month, 3-member team). Model selection, training and evaluation plus Python image-processing — a demo-level prototype.</li>
+        <li><b>IEEE EMBS Pune Section</b> — Student Intern (1–30 June 2026, remote; one month).</li>
       </ul>
     </td>
     <td width="45%" valign="top">

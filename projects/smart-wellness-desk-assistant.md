@@ -4,6 +4,7 @@
 |---|---|---|
 | Type | **College team project** | `VERIFIED` |
 | Platform | STM32 Nucleo-L476RG | `VERIFIED` |
+| Team size | Not specified | — |
 | Lifecycle | `COMPLETED` | — |
 | GitHub | https://github.com/MdShabazS/Smart-Wellness-Desk-Assistant | `VERIFIED` |
 

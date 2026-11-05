@@ -12,7 +12,7 @@ Real-time Indian currency-denomination detection with spoken feedback, aimed at 
 
 ## Dataset
 
-Approximately 400 personally collected images per denomination for ₹10, ₹20, ₹50, ₹100, ₹200, and ₹500.
+Approximately 400 personally collected images per denomination across six classes: ₹10, ₹20, ₹50, ₹100, ₹200, and ₹500 (about 2,400 images total).
 
 ## Known stack
 

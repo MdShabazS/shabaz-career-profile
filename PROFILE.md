@@ -28,18 +28,17 @@ _Last correction: 2026-11-06._
 
 1. **Nokia Solutions and Networks India — Student Intern** — Bangalore — **16 September 2026 – Present** (`CURRENT`). Project/domain: not yet known / confidential. High-level only.
 2. **iHelp Robotics Private Limited — AI Research Intern – Deep Learning & Model Development** — Remote — **23 March 2026 – 23 August 2026** (`COMPLETED`). Project: **MITRA**. Completed the assigned Android app-development work; backend/AI belonged to another team. Public positioning: Software / Android.
-3. **IEEE EMBS Pune Section — Skin Disease Classification** — **1 month**, team of 3 (`COMPLETED`, demo-level prototype).
+3. **IEEE EMBS Pune Section — Student Intern** — **1 month** (1–30 June 2026, remote, `COMPLETED`). Internship certificate retained; associated project removed from the current project list.
 
-## Projects (6)
+## Projects (5)
 
 | # | Project | Type | Status |
 |---|---|---|---|
-| 1 | AEGIS | Team project (Shabaz: lead / originator) | `PLANNED` / `IN_PROGRESS` (intended flagship) |
+| 1 | AEGIS | Individual project | Design/planning complete; coding not started; no target date |
 | 2 | MITRA | iHelp Robotics internship project (under Experience) | `COMPLETED` |
 | 3 | VisionPay | Individual — main resume project | `COMPLETED` (~93% reported validation accuracy) |
 | 4 | Automotive BCM | Individual embedded (ESP32) — main resume project | `COMPLETED` |
 | 5 | Smart Wellness Desk Assistant | College team project (STM32 Nucleo-L476RG) | `COMPLETED` |
-| 6 | Skin Disease Classification | Team internship (IEEE EMBS Pune) — portfolio-first | `COMPLETED` (demo-level) |
 
 Removed from current profile: NexCast Pro, Pega. Excluded: NIDAR, undocumented hackathon.
 
@@ -78,7 +77,12 @@ Future/target skills are in [`skills/tier1-skills-roadmap.md`](skills/tier1-skil
 
 ## Languages
 
-English, Kannada, Hindi, Urdu
+| Language | Proficiency |
+|---|---|
+| English | Conversational |
+| Kannada | Conversational |
+| Hindi | Conversational |
+| Urdu | Native / bilingual |
 
 ## Interests
 

@@ -52,7 +52,7 @@ Accessed **2026-08-28**. The profile README is `MdShabazS/MdShabazS/README.md` (
 
 - **SOURCE:** Quillly; reskilll; readmedesign 2026.
   - `RESEARCH`: For each pinned/featured project: **one-line description of what it does and for whom**, the stack, a couple of evidence points (metrics / engineering decisions), and a link. A screenshot/live demo helps most; text walls hurt.
-  - `RECOMMENDATION`: Feature exactly **3** completed, relevant repos with clean READMEs — **Automotive BCM, Smart Wellness Desk Assistant, VisionPay** — each as: bold name → one-line problem → `Stack:` line → 1–2 evidence bullets → repo link. No fabricated demo links (none of the repos deploy a live demo). AEGIS goes under *Currently working on* (planned), not Featured. MITRA stays under Experience (company product; not linked, per the confidentiality boundary in the source of truth). Excluded repos (NexCast, drone/NIDAR/YOLO, MineGuard, etc.) are never featured.
+  - `RECOMMENDATION`: Feature exactly **3** completed, relevant repos with clean READMEs — **Automotive BCM, Smart Wellness Desk Assistant, VisionPay** — each as: bold name → one-line problem → `Stack:` line → 1–2 evidence bullets → repo link. No fabricated demo links (none of the repos deploy a live demo). AEGIS goes under *Project Planning* with design/planning complete and coding not started, not among completed Featured projects. MITRA stays under Experience (company product; not linked, per the confidentiality boundary in the source of truth). Excluded repos (NexCast, drone/NIDAR/YOLO, MineGuard, etc.) are never featured.
 
 ## 6. Mobile & accessibility
 

@@ -1,6 +1,6 @@
 # Leadership
 
-Exactly these three positions, in this order. Do **not** add AEGIS Team Lead here (AEGIS is a project — see [`../projects/aegis.md`](../projects/aegis.md)).
+Exactly these three positions, in this order. AEGIS is an individual project, not a leadership position (see [`../projects/aegis.md`](../projects/aegis.md)).
 
 | # | Organization | Position | Notes | Status |
 |---|---|---|---|---|

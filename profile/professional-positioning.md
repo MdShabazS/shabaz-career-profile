@@ -28,4 +28,4 @@ Do **not** state "1.5 years of professional employment" or equivalent.
 
 ## AI/ML positioning
 
-AI/ML is an interest and appears through projects (VisionPay, Skin Disease Classification) and the official iHelp designation. It is **not** a finalized specialization or a claimed area of proficiency. Software and embedded are the stated tracks.
+AI/ML is an interest and appears through VisionPay and the official iHelp designation. It is **not** a finalized specialization or a claimed area of proficiency. Software and embedded are the stated tracks.

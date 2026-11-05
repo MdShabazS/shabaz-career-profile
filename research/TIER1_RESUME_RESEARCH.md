@@ -87,14 +87,14 @@ The prior PDF Shabaz attached is used **only** as a design/layout reference. Its
 
 ## 7. Project selection & ordering (embedded-first)
 
-- `USER FACT`: Six projects exist; AEGIS is `PLANNED` (design stage, not built); Automotive BCM, Smart Wellness (college team), VisionPay, Skin Disease Classification (team, demo-level) are `COMPLETED`; MITRA sits under the iHelp experience.
+- `USER FACT`: Five current projects exist; AEGIS is an individual project with design/planning complete and coding not started; Automotive BCM, Smart Wellness (college team), and VisionPay are `COMPLETED`; MITRA sits under the iHelp experience.
   - `RESEARCH`: Automotive/embedded recruiters weight *relevant, completed, firmware* projects highest; a planned or off-domain project is weak top-of-resume signal.
   - `RECOMMENDATION` — ranked by embedded/automotive hiring signal:
     1. **Automotive Body Control Module (ESP32)** — the single most on-target artifact: automotive domain + FSM + non-blocking real-time firmware. **Lead project.**
     2. **Smart Wellness Desk Assistant (STM32 Nucleo-L476RG)** — second embedded proof: peripheral interfacing (ultrasonic, ADC, I2C OLED, timers) + STM32CubeIDE debugging. Labeled a **college team project**.
     3. **VisionPay** — secondary-target (software/CV) proof with the resume's one real metric (~93% reported); shows Python/TensorFlow Lite/OpenCV breadth.
-    - **AEGIS: omit from the embedded master.** It is planned (not completed) and its domain is AI emergency-response, not embedded/automotive — low embedded signal for a one-page embedded resume. Its leadership value is already captured by the Leadership section and the iHelp/BITM roles. (Include only on a software/systems-leaning version if space allows, always labeled in-progress.)
-    - Skin Disease Classification stays under the IEEE EMBS experience line, not as a standalone project.
+    - **AEGIS: omit from the embedded master.** It is planned (not completed) and its domain is AI emergency-response, not embedded/automotive — low embedded signal for a one-page embedded resume. It is an individual project, not a leadership role. Include only on a software/systems-leaning version if useful, with design/planning complete and coding not started stated clearly.
+    - The IEEE EMBS internship remains in Experience; its associated project was removed from current profile and portfolio outputs.
 
 ## 8. Sections to compress or cut (one-page economics)
 

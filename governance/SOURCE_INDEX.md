@@ -2,12 +2,13 @@
 
 Maps important facts to their source category. It does not create new facts.
 
-## User-confirmed (current, per the 2026-08-28 correction pass)
+## User-confirmed (current through the 2026-11-06 correction pass)
 
 - Identity, location (Ballari), positioning (Software Developer | Embedded Engineer), contact details.
+- Languages: English, Kannada, Hindi (Conversational); Urdu (Native / bilingual).
 - Education: B.E. ECE at BITM, **Final Year**, CGPA **8.38** (current, verified), graduating 2027, Class 12 80%, Class 10 86.88%.
 - Experience: Nokia (Student Intern, 16 Sep 2026 – Present, Bangalore), iHelp Robotics (AI Research Intern – Deep Learning & Model Development, 23 Mar – 23 Aug 2026, project MITRA), IEEE EMBS Pune (1 month, 3 members, demo-level).
-- Projects (6): AEGIS (planned), MITRA, VisionPay, Automotive BCM, Smart Wellness Desk Assistant, Skin Disease Classification.
+- Projects (5): AEGIS (individual, design/planning complete, coding not started), MITRA, VisionPay, Automotive BCM, Smart Wellness Desk Assistant.
 - Skills: C/C++/Python/SQL Intermediate; Java currently learning/not yet proficient; Embedded C and Microcontrollers Intermediate; Git/GitHub current; DSA/DBMS/OS/CN Basic. LTE/5G completed self-study: [`../skills/mobile-networks.md`](../skills/mobile-networks.md). Android Studio (MITRA) and OpenCV (VisionPay) are project-specific.
 - Leadership (3, ordered): IEEE CAS Vice-Chair; BITM Robotics Club Treasurer; Google Student Ambassador 2025. Memberships: IEEE, AESS.
 - Interests, languages.
@@ -19,7 +20,7 @@ Maps important facts to their source category. It does not create new facts.
 - Python Programming — EISystems (9–28 Sep 2024).
 - Embedded Systems — Internshala Trainings (Credential `jcfe5qjm9sw`, 1 Sep 2025).
 - Google Cloud Generative AI — SmartBridge/SmartInternz (Credential `VIP-AI-2025-14929`, 14 Jul–1 Sep 2025).
-- IEEE EMBS Skin Disease Classification internship certificate (June 2026).
+- IEEE EMBS internship (1–30 June 2026, remote) and its certificate are retained; its associated project was removed from the current project list.
 - STM Embedded AI workshop (DigiToad × STMicroelectronics, 5–9 May 2025).
 - Google Student Ambassador participation.
 - Techzone 2K25 hardware hackathon; Technognition 2025.
@@ -30,7 +31,6 @@ Maps important facts to their source category. It does not create new facts.
 - Certifications 1–2 (SQL for Data Analytics with AI; Programming in C and C++ with AI): issuer, exact title, date — not yet provided; no certificate attached.
 - Nokia project/domain — confidential and not yet known.
 - IEEE SPACE 2026 certificate PDF (participation itself is verified).
-- Skin Disease Classification exact model.
 
 ## Resolved (no longer TO_VERIFY)
 

@@ -34,9 +34,8 @@ Grounded in 2026 ATS guidance ([`../research/TIER1_ROLE_RESEARCH.md`](../researc
 ## Project selection
 
 - **Embedded/automotive master (current):** Automotive BCM → Smart Wellness Desk Assistant → VisionPay. This is the shipped order.
-- **AEGIS is omitted** from the embedded master: it is `PLANNED` (design stage, not built) and off-domain for an embedded/automotive resume. Use it only on a software/systems-leaning version, always labelled Planned/In Progress — never as completed.
+- **AEGIS is omitted** from the embedded master because coding has not started and it is off-domain for an embedded/automotive resume. It is an individual project with completed design/planning and no target date; if included in a systems-leaning version, label the status precisely.
 - **MITRA:** shown under the iHelp experience (not a standalone project); strongest for Software / Android emphasis.
-- **Skin Disease Classification:** shown under the IEEE EMBS experience; portfolio-first otherwise.
 - **Smart Wellness Desk Assistant:** resume-eligible; always labelled a team project.
 - Role ordering:
   - **Embedded / Automotive (primary):** Automotive BCM, Smart Wellness Desk Assistant, then VisionPay.
@@ -47,7 +46,6 @@ Grounded in 2026 ATS guidance ([`../research/TIER1_ROLE_RESEARCH.md`](../researc
 - Experience is internship/industry, not full-time employment.
 - Nokia is **Present** (16 Sep 2026 – Present), high-level, project/domain confidential.
 - iHelp/MITRA: MITRA is the project name; app-side software contribution only; backend/model belonged to another team; keep confidential detail out.
-- Skin Disease Classification: demo-level team project; not productized.
 - Smart Wellness Desk Assistant: team project.
 - C, C++, Python, SQL, Embedded C and Microcontrollers are Intermediate; Java is currently learning/not yet proficient; DSA, DBMS, Operating Systems and Computer Networks are Basic. Skills section uses "Microcontrollers", not individual boards.
 - VisionPay ~93% is a reported figure, not a verified benchmark.

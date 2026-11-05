@@ -127,7 +127,7 @@ if re.search(r"14 Aug(ust)? 2027", nk):
 # 8. Required project files exactly (6) and NexCast absent
 proj_dir = os.path.join(ROOT, "projects")
 expected_projects = {"aegis.md", "mitra.md", "visionpay.md", "automotive-bcm.md",
-                     "smart-wellness-desk-assistant.md", "skin-disease-classification.md"}
+                     "smart-wellness-desk-assistant.md"}
 present = {f for f in os.listdir(proj_dir) if f.endswith(".md")
            and f not in ("README.md", "EXCLUDED.md")}
 if present != expected_projects:

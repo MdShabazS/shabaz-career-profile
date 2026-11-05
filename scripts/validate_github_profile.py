@@ -12,7 +12,7 @@ Checks:
   - removed projects / excluded tech absent (NexCast, Pega, YOLO/Ultralytics, ...)
   - future/gap skills not listed as current in the Tech Stack skills block
   - Nokia: present-tense phrase; NO future "16 September 2026" date; no confidentiality
-  - AEGIS labelled design/in-progress, never completed
+  - AEGIS labelled design/planning complete and coding not started, never completed
   - one stats component only (no streak/trophy/top-langs/profile-views pileup)
   - badge count sane (not a 30+ wall); banner has alt text
   - balanced HTML tags; no duplicate sections
@@ -145,12 +145,12 @@ def main():
     if "confidential" in low:
         errors.append("confidentiality wording present for Nokia (must be removed)")
 
-    # ---- AEGIS must be labelled planned/in-progress ---------------------
+    # ---- AEGIS must be labelled as planned, with code not started -------
     if "aegis" in low:
         i = low.index("aegis")
         ctx = low[i:i + 260]
         if not any(w in ctx for w in ["design", "in-progress", "in progress", "not yet built", "currently building", "planned"]):
-            errors.append("AEGIS present but not clearly labelled design/in-progress")
+            errors.append("AEGIS present but design/coding status is unclear")
 
     # ---- Duplicate sections ---------------------------------------------
     headings = re.findall(r"(?m)^#{1,6}\s+(.*)$", md)

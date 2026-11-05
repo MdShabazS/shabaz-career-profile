@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-06 — Project status and portfolio corrections
+
+- Corrected AEGIS to an individual project with design/planning complete, coding not started, no target date, and hardware not finalized.
+- Removed Skin Disease Classification from current projects and portfolio outputs while retaining the IEEE EMBS internship record and certificate evidence.
+- Added confirmed Automotive BCM timing details and updated Smart Wellness team/contribution notes.
+
+
 ## 2026-11-06 — Skills and mobile-network study update
 
 - Updated confirmed programming, embedded, computer-science, and spoken-language proficiencies.

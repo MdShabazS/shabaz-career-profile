@@ -16,7 +16,9 @@ An ESP32-based Automotive Body Control Module prototype that simulates ignition 
 - OFF / ACC / ON ignition finite-state machine
 - Brake control with debouncing
 - Left/right indicators and a synchronized hazard mode
-- Non-blocking `millis()`-based scheduling
+- Non-blocking `millis()`-based scheduling with zero `delay()` calls in the main loop
+- Brake input debounce: 30 ms
+- OLED refresh throttled to 10 Hz
 - Buzzer feedback
 - OLED dashboard
 - Edge-triggered serial logging

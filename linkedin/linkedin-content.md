@@ -16,7 +16,7 @@ I build across two sides of engineering: application/software and embedded firmw
 
 Right now I'm a Student Intern at Nokia and a final-year Electronics and Communication Engineering student at BITM (CGPA 8.38). Before Nokia, I interned at iHelp Robotics on MITRA, an assistive-vision Android app, where I worked on the app side — making the live camera stream reliable over WiFi/RTSP, adding stream and cloud status indicators, hardening offline voice commands, and testing across devices.
 
-On my own I've built projects I can point to: VisionPay, an offline Indian-currency detector with spoken feedback (MobileNetV2 + TensorFlow Lite, ~93% reported validation accuracy), and an ESP32 Automotive Body Control Module with an ignition state machine and non-blocking firmware. I'm also leading AEGIS, an emergency-response platform my team is designing where AI recommends and a human dispatcher makes the call.
+On my own I've built projects I can point to: VisionPay, an offline Indian-currency detector with spoken feedback (MobileNetV2 + TensorFlow Lite, ~93% reported validation accuracy), and an ESP32 Automotive Body Control Module with an ignition state machine and non-blocking firmware. I have also completed planning and design for AEGIS, an individual emergency-response project where AI recommends and a human dispatcher decides; coding has not started.
 
 I work in C, C++, Python and SQL, with Embedded C and microcontroller project experience. I have completed self-study in LTE and 5G architecture, interfaces, call flows, mobility, radio resource management, O-RAN and troubleshooting. Android Studio is part of MITRA; OpenCV is used in VisionPay. I'm looking for software, embedded and mobile-network roles.
 ```
@@ -37,17 +37,17 @@ Remote · Mar 2026 – Aug 2026 · Project: MITRA
 Worked on the Android app side of MITRA, an assistive-vision product. Improved WiFi/RTSP live-stream handling (reduced search delay, transport memory, refresh/stall recovery), added a visual-freeze watchdog and on-screen stream/cloud status, and hardened offline voice commands. Verified behaviour across devices with logs and Gradle build checks. Backend and model development were handled by another team.
 ```
 
-**IEEE EMBS Pune Section — Student Intern (Skin Disease Classification)**
-Jun 2026 · 1 month
+**IEEE EMBS Pune Section — Student Intern**
+Remote · 1–30 June 2026 · 1 month
 ```
-Built a demo-level skin-disease image classifier with a team of three: model selection, training, evaluation, image processing, UI and testing in Python.
+Completed a one-month remote internship with IEEE EMBS Pune Section. The internship certificate is retained in the career evidence archive.
 ```
 
 ## Featured projects (select 3–4)
 
 - VisionPay — real-time Indian currency detection with spoken feedback (individual). Link the GitHub repo.
 - Automotive BCM — ESP32 body-control-module firmware (individual). Link the repo.
-- AEGIS — AI-assisted emergency-response platform (team, design stage). Mark it as in progress.
+- AEGIS — individual emergency-response project; design/planning complete, coding not started, no target date. Clearly label as not yet implemented.
 - MITRA — assistive Android app (iHelp internship). Keep high-level.
 
 ## Skills (aim for ~20–30; only verified)
@@ -71,5 +71,5 @@ BITM — B.E. Electronics & Communication Engineering — Final Year — Expecte
 
 - Do write in first person; keep sentences short and specific.
 - Don't use "passionate about", "results-driven", "leveraging cutting-edge technology", "proven track record".
-- Don't claim full-time employment, completed AEGIS, or backend/model ownership of MITRA.
+- Don't claim full-time employment, implemented/completed AEGIS, or backend/model ownership of MITRA.
 - Don't publish Nokia project details.
