@@ -44,7 +44,7 @@ FORBIDDEN = ["NexCast", "Pega", "Bharatiya", "NIDAR", "YOLO", "Ultralytics", "Mi
 # never in the Tech Stack skills block.
 FUTURE_SKILLS = ["RTOS", "FreeRTOS", "CAN", "LIN", "UDS", "AUTOSAR", "MISRA",
                  "ISO 26262", "ASPICE", "JTAG", "SWD", "DMA", "UART", "SPI", "Linux"]
-REMOVED_SKILLS = ["Java", "Firebase", "React", "Node.js", "Flask", "REST API"]
+REMOVED_SKILLS = ["React", "Node.js", "Flask", "REST API"]
 
 
 def main():

@@ -1,77 +1,69 @@
 MOHAMMED SHABAZ S
-Embedded Engineer | Automotive Embedded Systems
-Ballari, Karnataka  |  +91 79755 12403  |  md.shabaz.2005@gmail.com  |  
- LinkedIn  |  
- GitHub
+ Embedded Engineer | Automotive Embedded Systems
+ Ballari, Karnataka  |  +91 79755 12403  |  md.shabaz.2005@gmail.com  |   LinkedIn  |   GitHub
 SUMMARY
-Final-year Electronics & Communication Engineering student (CGPA 8.38) focused on embedded and automotive firmware —
-ARM Cortex-M microcontroller systems, finite-state machines and non-blocking real-time design in Embedded C/C++ on ESP32
-and STM32 — with a working software and computer-vision foundation in Python. Internship experience at Nokia and iHelp
-Robotics.
+Final-year ECE student (CGPA 8.38) focused on embedded and automotive firmware using ARM Cortex-M microcontrollers,
+finite-state machines, and non-blocking Embedded C/C++ on ESP32 and STM32. Internship experience at Nokia and iHelp Robotics;
+completed LTE/5G self-study.
 TECHNICAL SKILLS
-Languages: C, C++, Embedded C, Python, SQL
-Embedded & Firmware: Microcontrollers, ARM Cortex-M4, finite-state machines, non-blocking real-time design, GPIO, I2C,
-ADC, timers, sensor interfacing, debugging
-Platforms & Tools: ESP32, STM32 (Nucleo-L476RG), STM32CubeIDE, Arduino, Android Studio, Git & GitHub
-Libraries & Foundations: OpenCV, TensorFlow Lite · Data Structures & Algorithms, Operating Systems, DBMS, Computer
-Networks
+Programming: C, C++, Python, SQL (Intermediate); Java (currently learning)
+Embedded: Embedded C, Microcontrollers (Intermediate); ARM Cortex-M4, FSM, non-blocking design, GPIO, I2C, ADC, timers,
+sensors, debugging
+Mobile Networks: LTE/5G architecture, EPC/RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN,
+troubleshooting, test automation (completed self-study)
+Tools & Foundations: Git/GitHub; TensorFlow Lite; DSA, DBMS, OS, Computer Networks (Basic)
 EXPERIENCE
 Student Intern
-16 September 2026 – Present
+ 16 September 2026 – Present
 Nokia Solutions and Networks India
-Bangalore
-• Working as a Student Intern at Nokia.
+ Bangalore
+ Working as a Student Intern at Nokia.
 AI Research Intern – Deep Learning & Model Development
-23 March 2026 – 23 August 2026
+ 23 March 2026 – 23 August 2026
 iHelp Robotics Private Limited · Project: MITRA
-Remote
-• Improved live camera-stream reliability in the MITRA assistive Android app across 2 video sources (hardware WiFi/RTSP and
+ Remote
+ Improved live camera-stream reliability in the MITRA assistive Android app across 2 video sources (hardware WiFi/RTSP and
 phone-camera fallback): cut stream search delay, persisted the last working transport, and added refresh/stall recovery.
-• Engineered a visual-freeze watchdog plus 3 status/guard mechanisms — stream-status and cloud-status panels and a
+ Engineered a visual-freeze watchdog plus 3 status/guard mechanisms — stream-status and cloud-status panels and a
 WebSocket-gated send guard — and fixed a live-refresh loop that recurred after 5 minutes.
-• Hardened offline voice commands (offline-preferred recognition with model recovery and microphone retry backoff) and
-verified builds across multiple devices with Gradle test/lint/assemble; delivered 6+ app-side improvements while model and
-backend stayed with a separate team.
-Student Intern – Skin Disease Classification
-1–30 June 2026
+ Hardened offline voice commands (offline-preferred recognition with model recovery and microphone retry backoff) and verified
+builds across multiple devices with Gradle test/lint/assemble; delivered 6+ app-side improvements while model and backend stayed
+with a separate team.
+Student Intern
+ 1–30 June 2026
 IEEE EMBS Pune Section
-Remote
-• Trained and evaluated a skin-disease image classifier in a 3-member team during a 1-month IEEE EMBS internship — model
-selection, training, evaluation, and Python image-processing and testing; delivered a working demo-level workflow.
+ Remote
 PROJECTS
 Automotive Body Control Module
-GitHub
+ GitHub
 ESP32, Arduino/C++, Finite-State Machine, GPIO, I2C OLED
-• Programmed an ESP32 body-control module with a 3-state (OFF/ACC/ON) ignition FSM driving 6+ vehicle functions: turn
+ Programmed an ESP32 body-control module with a 3-state (OFF/ACC/ON) ignition FSM driving 6+ vehicle functions: turn
 indicators, synchronized hazard, brake logic, buzzer feedback and an OLED dashboard.
-• Architected a non-blocking millis()-based scheduler (zero delay() in the main loop) with 30 ms brake debouncing, throttled 10
-Hz I2C OLED refresh, a clean GPIO abstraction and edge-triggered serial logging for deterministic real-time behavior.
+ Architected a non-blocking millis()-based scheduler (zero delay() in the main loop) with 30 ms brake debouncing, throttled 10 Hz
+I2C OLED refresh, a clean GPIO abstraction and edge-triggered serial logging for deterministic real-time behavior.
 Smart Wellness Desk Assistant
-GitHub
+ GitHub
 STM32 Nucleo-L476RG (ARM Cortex-M4), STM32 HAL, STM32CubeIDE, Embedded C · College team project
-• Interfaced ultrasonic presence and 12-bit ADC temperature sensors, an I2C SSD1306 OLED and timer-driven buzzer alerts
-on an STM32 Nucleo-L476RG (ARM Cortex-M4) using STM32 HAL, coordinated by a non-blocking finite-state machine;
-wired, tested and debugged in STM32CubeIDE as part of a college team.
+ Interfaced ultrasonic presence and 12-bit ADC temperature sensors, an I2C SSD1306 OLED and timer-driven buzzer alerts on an
+STM32 Nucleo-L476RG (ARM Cortex-M4) using STM32 HAL, coordinated by a non-blocking finite-state machine; wired, tested and
+debugged in STM32CubeIDE as part of a college team.
 VisionPay — Real-Time Indian Currency Detection
-GitHub
+ GitHub
 Python, OpenCV, TensorFlow Lite, MobileNetV2, Text-to-Speech
-• Created an offline, real-time tool that recognizes Indian currency from a live webcam and speaks the result aloud for visually
+ Created an offline, real-time tool that recognizes Indian currency from a live webcam and speaks the result aloud for visually
 impaired users.
-• Collected ~400 images per denomination across 6 classes (Rs.10–Rs.500) and trained a MobileNetV2 classifier converted to
+ Collected ~400 images per denomination across 6 classes (Rs.10–Rs.500) and trained a MobileNetV2 classifier converted to
 TensorFlow Lite, reporting ~93% validation accuracy.
-• Strengthened real-time reliability with 4 mechanisms: confidence/margin gating, temporal smoothing, a background class, and
-an auto-count mode.
+ Strengthened real-time reliability with 4 mechanisms: confidence/margin gating, temporal smoothing, a background class, and an
+auto-count mode.
 EDUCATION
 B.E. Electronics & Communication Engineering
-Expected 2027
+ Expected 2027
 Ballari Institute of Technology and Management (BITM), Ballari
-Final Year · CGPA 8.38
-Class 12: 80% · Class 10: 86.88%
+ Final Year · CGPA 8.38
 LEADERSHIP & ACTIVITIES
-• Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (promoted from Treasurer); Treasurer, BITM Robotics Club.
-• Google Student Ambassador (2025); Selected Participant, IEEE SPACE 2026 — B.Tech Initiative.
-• Embedded AI Systems workshop with STMicroelectronics (DigiToad, 2025); Participant, Techzone Nationals 2K25 Hardware
-Hackathon.
+ Vice-Chair, IEEE CAS Society, BITM; Treasurer, BITM Robotics Club; Google Student Ambassador (2025).
+ IEEE SPACE 2026 participant; STMicroelectronics Embedded AI workshop; Techzone Nationals 2K25 participant.
 CERTIFICATIONS
-Embedded Systems — Internshala Trainings (2025) · Programming in C and C++ with AI · SQL for Data Analytics with AI ·
-Google Cloud Generative AI — SmartBridge/SmartInternz (2025) · Python Programming — EISystems (2024)
+Embedded Systems — Internshala Trainings (2025) · Programming in C and C++ with AI · SQL for Data Analytics with AI · Google
+Cloud Generative AI — SmartBridge/SmartInternz (2025) · Python Programming — EISystems (2024)

@@ -18,7 +18,7 @@ This is a career knowledge base, not a resume. It holds verified facts and the r
 | [`profile/`](profile/) | Identity, positioning, contact, education, languages, interests |
 | [`experience/`](experience/) | Nokia, iHelp Robotics, IEEE EMBS Pune (fixed order) |
 | [`projects/`](projects/) | All 6 projects + exclusions |
-| [`skills/`](skills/) | Current verified skills + Tier-1 development roadmap |
+| [`skills/`](skills/) | Current verified skills, completed LTE/5G self-study, and Tier-1 development roadmap |
 | [`certifications/`](certifications/) | Completed (with evidence) and planned certifications |
 | [`leadership/`](leadership/) | Leadership positions and memberships |
 | [`professional-activities/`](professional-activities/) | IEEE SPACE 2026, competitions, workshops, volunteering |
@@ -38,14 +38,14 @@ This is a career knowledge base, not a resume. It holds verified facts and the r
 `VERIFIED` · `TO_VERIFY` · `CONFIDENTIAL` · `EXCLUDED` — for fact confidence.
 `COMPLETED` · `IN_PROGRESS` · `UPCOMING` · `PLANNED` · `LEARNING` · `BASIC` — for lifecycle/level.
 
-Never convert planned→completed, learning/basic→advanced, internship→employment, team→individual, or reported→verified. Full definitions in [`governance/STATUS_SYSTEM.md`](governance/STATUS_SYSTEM.md).
+Never convert planned→completed, learning/basic→advanced, internship→employment, team→individual, or reported→verified. LTE/5G study completion is user-confirmed and is not a credential. Full definitions in [`governance/STATUS_SYSTEM.md`](governance/STATUS_SYSTEM.md).
 
 ## Snapshot (verified)
 
 - **Education:** B.E. ECE, BITM — Final Year — CGPA 8.38 — graduating 2027.
 - **Experience:** Nokia Student Intern (16 Sep 2026 – Present); iHelp Robotics AI Research Intern (~5 months, completed, project MITRA); IEEE EMBS Pune (1 month, completed). Internship/industry experience only — no full-time employment.
 - **Projects (6):** AEGIS (planned), MITRA, VisionPay, Automotive BCM, Smart Wellness Desk Assistant, Skin Disease Classification.
-- **Skills:** C, C++, Python, Java, SQL — Basic; DSA, DBMS, OS, CN — Basic; Embedded C, Microcontrollers; Android Studio, OpenCV, Firebase, Git/GitHub.
+- **Skills:** C, C++, Python, SQL — Intermediate; Java — currently learning; Embedded C and Microcontrollers — Intermediate; Git/GitHub; DSA, DBMS, OS, CN — Basic. LTE and 5G self-study curricula completed. Android Studio (MITRA) and OpenCV (VisionPay) appear only in project details.
 - **Target:** Tier-1 Software Developer and Tier-1 Embedded Engineer. Plan in [`skills/tier1-skills-roadmap.md`](skills/tier1-skills-roadmap.md).
 
 ## Updating

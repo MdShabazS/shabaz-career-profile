@@ -18,7 +18,7 @@ Right now I'm a Student Intern at Nokia and a final-year Electronics and Communi
 
 On my own I've built projects I can point to: VisionPay, an offline Indian-currency detector with spoken feedback (MobileNetV2 + TensorFlow Lite, ~93% reported validation accuracy), and an ESP32 Automotive Body Control Module with an ignition state machine and non-blocking firmware. I'm also leading AEGIS, an emergency-response platform my team is designing where AI recommends and a human dispatcher makes the call.
 
-I work in C, C++, Python, Java and SQL, with hands-on Android, OpenCV, Firebase and microcontrollers, and I'm steadily deepening data structures, algorithms and core CS. I'm looking for software and embedded roles where I can write reliable code and learn from real systems.
+I work in C, C++, Python and SQL, with Embedded C and microcontroller project experience. I have completed self-study in LTE and 5G architecture, interfaces, call flows, mobility, radio resource management, O-RAN and troubleshooting. Android Studio is part of MITRA; OpenCV is used in VisionPay. I'm looking for software, embedded and mobile-network roles.
 ```
 
 Note: keep "~93% reported" wording — it is a reported figure, not a verified benchmark.
@@ -52,7 +52,7 @@ Built a demo-level skin-disease image classifier with a team of three: model sel
 
 ## Skills (aim for ~20–30; only verified)
 
-C, C++, Python, Java, SQL, Embedded C, Microcontrollers, ESP32, STM32, Android Studio, Android development, OpenCV, TensorFlow Lite, Firebase, Git, GitHub, REST APIs, Computer Vision, Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, Firmware, Testing/Debugging.
+C (Intermediate), C++ (Intermediate), Python (Intermediate), SQL (Intermediate), Java (Learning), Embedded C (Intermediate), Microcontrollers (Intermediate), Git, GitHub, LTE, 5G, LTE EPC, 5G RAN, EN-DC, NSA/SA mobility, VoNR, O-RAN, Robot Framework, DSA (Basic), DBMS (Basic), Operating Systems (Basic), Computer Networks (Basic), Firmware, Testing/Debugging. Android Studio belongs to MITRA project details; OpenCV belongs to VisionPay project details.
 
 (These name specific technologies for recruiter search. Where a technology is project-only exposure rather than a claimed proficiency, keep it as a skill tag but do not describe yourself as advanced. Do not add RTOS, Linux, CAN/LIN, AUTOSAR, MISRA, ISO 26262 until learned.)
 

@@ -8,7 +8,7 @@ Maps important facts to their source category. It does not create new facts.
 - Education: B.E. ECE at BITM, **Final Year**, CGPA **8.38** (current, verified), graduating 2027, Class 12 80%, Class 10 86.88%.
 - Experience: Nokia (Student Intern, 16 Sep 2026 – Present, Bangalore), iHelp Robotics (AI Research Intern – Deep Learning & Model Development, 23 Mar – 23 Aug 2026, project MITRA), IEEE EMBS Pune (1 month, 3 members, demo-level).
 - Projects (6): AEGIS (planned), MITRA, VisionPay, Automotive BCM, Smart Wellness Desk Assistant, Skin Disease Classification.
-- Skills: C/C++/Python/Java/SQL Basic; DSA/DBMS/OS/CN Basic; Embedded C, Microcontrollers; Android Studio, OpenCV, Firebase, Git/GitHub.
+- Skills: C/C++/Python/SQL Intermediate; Java currently learning/not yet proficient; Embedded C and Microcontrollers Intermediate; Git/GitHub current; DSA/DBMS/OS/CN Basic. LTE/5G completed self-study: [`../skills/mobile-networks.md`](../skills/mobile-networks.md). Android Studio (MITRA) and OpenCV (VisionPay) are project-specific.
 - Leadership (3, ordered): IEEE CAS Vice-Chair; BITM Robotics Club Treasurer; Google Student Ambassador 2025. Memberships: IEEE, AESS.
 - Interests, languages.
 - IEEE SPACE 2026 — Selected Participant (no report-submission claim).

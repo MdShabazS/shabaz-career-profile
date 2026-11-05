@@ -30,7 +30,7 @@ The prior PDF Shabaz attached is used **only** as a design/layout reference. Its
 **What must NOT be copied:**
 - Any stale fact: Pega, NexCast, "iHelp – Present", missing Nokia.
 - Skills line listing `ESP32, STM32 (Nucleo-L476RG), STM32CubeIDE, STM32 HAL, Arduino IDE, I2C, timers` as **skills** — these are `USER FACT` platforms he used, but per the locked skills policy they belong in **project bullets**, not the Skills section.
-- `Java` and `Firebase, REST APIs` as headline skills — dropped from the current locked skill set (2026-08-28 user list).
+- `REST APIs` as a headline skill — dropped from the current user-confirmed skill set.
 - The multi-line SUMMARY that leaned software-first.
 
 ## 2. Length, layout, file format
@@ -74,7 +74,7 @@ The prior PDF Shabaz attached is used **only** as a design/layout reference. Its
   - `RESEARCH`: Embedded/automotive postings search exact terms: **C, C++, Embedded C, RTOS/FreeRTOS, firmware, device drivers, BSP, HAL, microcontroller, ARM Cortex-M, UART, SPI, I2C, CAN, LIN, GPIO, ADC, PWM, interrupts, debugging (JTAG/SWD, Trace32), Git.** Automotive adds **AUTOSAR, MISRA C, ISO 26262 / functional safety / ASIL, ASPICE, Vector CANoe/CANalyzer, diagnostics/UDS.**
   - **WHY IT MATTERS:** Missing the exact token can drop the resume below an ATS keyword threshold — but fabricating held skills fails the first technical screen and is disqualifying at Tier-1.
   - `RECOMMENDATION` (the honesty firewall):
-    - **Honestly present (in Skills and/or bullets):** C, C++, Embedded C, Python, SQL, microcontrollers, firmware, finite-state machine, GPIO, I2C, ADC, timers, real-time/non-blocking design, debugging, Git/GitHub, OpenCV, TensorFlow Lite, MobileNetV2, Android.
+    - **Honestly present (in Skills and/or bullets):** C, C++, Embedded C, Python, SQL, microcontrollers, firmware, finite-state machine, GPIO, I2C, ADC, timers, real-time/non-blocking design, debugging, Git/GitHub, TensorFlow Lite and MobileNetV2; OpenCV and Android are project-specific evidence.
     - **Honestly present in bullets only (real platforms used, not Skills-section claims):** ESP32, STM32 Nucleo-L476RG, STM32CubeIDE/HAL, OLED, ultrasonic + ADC temperature sensing, RTSP.
     - **NEVER add (learning gaps, logged in [`../skills/tier1-skills-roadmap.md`](../skills/tier1-skills-roadmap.md)):** RTOS/FreeRTOS, UART/SPI as claimed competencies, CAN/LIN, AUTOSAR, MISRA, ISO 26262, ASPICE, UDS, JTAG/SWD, DMA, bootloaders, embedded Linux, device drivers/BSP. These belong in a cover letter as *targets*, never on the resume as skills.
     - **Component inventory** (ESP32/MCP2515/TJA1050/NRF24L01/etc.) proves *intent to build*, not experience — excluded until a verified project exists.

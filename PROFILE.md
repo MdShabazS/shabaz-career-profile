@@ -2,7 +2,7 @@
 
 **Authoritative current snapshot.** This is the single master profile. The topic folders (`profile/`, `experience/`, `projects/`, `skills/`, `certifications/`, `leadership/`, `professional-activities/`) hold the detailed record and must agree with this file. If anything conflicts, the latest user-confirmed information wins and both are corrected. Status labels: [`governance/STATUS_SYSTEM.md`](governance/STATUS_SYSTEM.md).
 
-_Last correction: 2026-08-28._
+_Last correction: 2026-11-06._
 
 ## Identity
 
@@ -45,10 +45,13 @@ Removed from current profile: NexCast Pro, Pega. Excluded: NIDAR, undocumented h
 
 ## Current skills
 
-- **Programming:** C, C++, Python, Java, SQL — Basic
-- **Software / development:** Android Studio, OpenCV, Firebase, Git/GitHub
-- **Embedded:** Embedded C, Microcontrollers
-- **Computer science:** DSA, DBMS, OS, Computer Networks — Basic
+- **Programming:** C, C++, Python, SQL — Intermediate; Java — currently learning, not yet proficient.
+- **Software / development:** Git, GitHub.
+- **Embedded:** Embedded C and Microcontrollers — Intermediate.
+- **Mobile networks:** LTE and 5G curricula completed as user-confirmed self-study; topics are in [`skills/mobile-networks.md`](skills/mobile-networks.md). No credential or production deployment claim.
+- **Computer science:** DSA, DBMS, OS, Computer Networks — Basic.
+- **Project-only tools:** Android Studio under MITRA; OpenCV under VisionPay.
+- **Spoken languages:** English, Kannada, Hindi — Conversational; Urdu — Native / bilingual.
 
 Future/target skills are in [`skills/tier1-skills-roadmap.md`](skills/tier1-skills-roadmap.md) and are never presented as current.
 

@@ -29,7 +29,7 @@
 | **Engineering focus** | Microcontroller firmware, finite-state machines, non-blocking real-time control |
 | **Education** | BITM · Expected 2027 · CGPA 8.38 |
 
-I build embedded and automotive firmware — microcontroller systems, state machines and deterministic real-time loops in Embedded C/C++ on ESP32 and STM32 (ARM Cortex-M) — and back it with practical software and computer-vision work. Currently working as a Student Intern at Nokia.
+I build embedded and automotive firmware — microcontroller systems, state machines and deterministic real-time loops in Embedded C/C++ on ESP32 and STM32 (ARM Cortex-M) — and have completed LTE and 5G self-study. I also have project-level software and computer-vision experience. Currently working as a Student Intern at Nokia.
 
 ---
 
@@ -43,11 +43,11 @@ I build embedded and automotive firmware — microcontroller systems, state mach
     </td>
     <td width="33%" valign="top">
       <h3>💻 Software</h3>
-      <p>Practical software in C, C++, Python and SQL, with Android Studio and Git/GitHub. I care about clean, testable, debuggable code and predictable behaviour.</p>
+      <p>Practical software in C, C++, Python and SQL, with Git/GitHub. I care about clean, testable, debuggable code and predictable behaviour.</p>
     </td>
     <td width="33%" valign="top">
-      <h3>👁️ AI / Computer Vision</h3>
-      <p>Project-level work with OpenCV, TensorFlow Lite and MobileNetV2 — real-time, offline inference pipelines that run on plain CPUs.</p>
+      <h3>📡 Mobile Networks</h3>
+      <p>Completed LTE and 5G self-study covering EPC/5G architecture, call flows, mobility, RRM, EN-DC, VoNR, O-RAN, and troubleshooting.</p>
     </td>
   </tr>
 </table>
@@ -57,14 +57,15 @@ I build embedded and automotive firmware — microcontroller systems, state mach
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,arduino,opencv,tensorflow,androidstudio,git,github&perline=9" alt="Core technologies: C, C++, Python, Arduino, OpenCV, TensorFlow, Android Studio, Git, GitHub"/>
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,git,github&perline=5" alt="Core technologies: C, C++, Python, Git, GitHub"/>
 </p>
 
-- **Embedded &amp; Firmware:** Embedded C · Microcontrollers · ARM Cortex-M4 · finite-state machines · non-blocking real-time design · GPIO · I2C · ADC · timers · sensor interfacing · debugging
-- **Platforms &amp; Tools:** ESP32 · STM32 (Nucleo-L476RG) · STM32CubeIDE · Arduino · Android Studio · Git/GitHub
-- **Programming:** C · C++ · Embedded C · Python · SQL
-- **AI / Computer Vision:** OpenCV · TensorFlow Lite · MobileNetV2 · Text-to-Speech
-- **CS Foundations:** Data Structures &amp; Algorithms · Operating Systems · DBMS · Computer Networks
+- **Embedded:** Embedded C · Microcontrollers (Intermediate)
+- **Programming:** C · C++ · Python · SQL (Intermediate); Java (currently learning)
+- **Tools:** Git · GitHub
+- **Mobile networks:** Completed LTE and 5G self-study — architecture, EPC, RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN, troubleshooting, Robot Framework and testing
+- **CS foundations:** DSA · DBMS · Operating Systems · Computer Networks (Basic)
+- **Project-only tools:** Android Studio (MITRA) · OpenCV (VisionPay)
 
 <sub>Learning next (not current skills): UART/SPI · RTOS/FreeRTOS · CAN-bus networking toward automotive systems.</sub>
 

@@ -5,7 +5,7 @@
 - **Primary target:** Embedded Engineer / Automotive Embedded Systems. **Secondary:** Software Engineering.
 - **Headline:** `Embedded Engineer | Automotive Embedded Systems`.
 - **Section order:** Summary → Technical Skills → Experience → Projects → Education → Leadership & Activities → Certifications. (Spoken Languages section dropped for one-page signal density.)
-- **Skills = verified, bullet-backed taxonomy:** Languages (C, C++, Embedded C, Python, SQL); Embedded & Firmware (Microcontrollers, ARM Cortex-M4, FSM, non-blocking real-time design, GPIO, I2C, ADC, timers, sensor interfacing, debugging); Platforms & Tools (ESP32, STM32 Nucleo-L476RG, STM32CubeIDE, Arduino, Android Studio, Git/GitHub); Libraries & Foundations (OpenCV, TensorFlow Lite; DSA, OS, DBMS, CN). Every token is also evidenced in a bullet. **Java/Firebase removed; ESP8266/Raspberry Pi not demonstrated; UART/SPI/RTOS/CAN/AUTOSAR/MISRA/ISO 26262 are never skills** (learning gaps).
+- **Skills:** use [`../skills/current-skills.md`](../skills/current-skills.md); completed LTE/5G self-study keywords are documented in [`../skills/mobile-networks.md`](../skills/mobile-networks.md). Keep Android Studio in MITRA and OpenCV in VisionPay project details. Do not claim a mobile-network credential or production deployment.
 
 ## One master, many versions
 
@@ -49,7 +49,7 @@ Grounded in 2026 ATS guidance ([`../research/TIER1_ROLE_RESEARCH.md`](../researc
 - iHelp/MITRA: MITRA is the project name; app-side software contribution only; backend/model belonged to another team; keep confidential detail out.
 - Skin Disease Classification: demo-level team project; not productized.
 - Smart Wellness Desk Assistant: team project.
-- Skill levels are Basic (C, C++, Python, SQL, DSA, DBMS, OS, CN) — do not imply advanced/expert. Skills section uses "Microcontrollers", not individual boards. Java and Firebase are not in the current resume skill set.
+- C, C++, Python, SQL, Embedded C and Microcontrollers are Intermediate; Java is currently learning/not yet proficient; DSA, DBMS, Operating Systems and Computer Networks are Basic. Skills section uses "Microcontrollers", not individual boards.
 - VisionPay ~93% is a reported figure, not a verified benchmark.
 - Exclude NIDAR, the undocumented hackathon project, NexCast Pro, and Pega from current resume material.
 

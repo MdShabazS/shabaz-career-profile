@@ -32,16 +32,15 @@ LINKEDIN_URL = "https://www.linkedin.com/in/shabaz17/"
 GITHUB_URL = "https://github.com/MdShabazS"
 LOCATION = "Ballari, Karnataka"
 
-SUMMARY = ("Final-year Electronics & Communication Engineering student (CGPA 8.38) focused on embedded "
-           "and automotive firmware — ARM Cortex-M microcontroller systems, finite-state machines and "
-           "non-blocking real-time design in Embedded C/C++ on ESP32 and STM32 — with a working software "
-           "and computer-vision foundation in Python. Internship experience at Nokia and iHelp Robotics.")
+SUMMARY = ("Final-year ECE student (CGPA 8.38) focused on embedded and automotive firmware using ARM Cortex-M "
+           "microcontrollers, finite-state machines, and non-blocking Embedded C/C++ on ESP32 and STM32. "
+           "Internship experience at Nokia and iHelp Robotics; completed LTE/5G self-study.")
 
 SKILLS = [
-    ("Languages", "C, C++, Embedded C, Python, SQL"),
-    ("Embedded & Firmware", "Microcontrollers, ARM Cortex-M4, finite-state machines, non-blocking real-time design, GPIO, I2C, ADC, timers, sensor interfacing, debugging"),
-    ("Platforms & Tools", "ESP32, STM32 (Nucleo-L476RG), STM32CubeIDE, Arduino, Android Studio, Git & GitHub"),
-    ("Libraries & Foundations", "OpenCV, TensorFlow Lite  ·  Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks"),
+    ("Programming", "C, C++, Python, SQL (Intermediate); Java (currently learning)"),
+    ("Embedded", "Embedded C, Microcontrollers (Intermediate); ARM Cortex-M4, FSM, non-blocking design, GPIO, I2C, ADC, timers, sensors, debugging"),
+    ("Mobile Networks", "LTE/5G architecture, EPC/RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN, troubleshooting, test automation (completed self-study)"),
+    ("Tools & Foundations", "Git/GitHub; TensorFlow Lite; DSA, DBMS, OS, Computer Networks (Basic)"),
 ]
 
 # (title, date, org, location, [bullets])
@@ -54,9 +53,8 @@ EXPERIENCE = [
      ["Improved live camera-stream reliability in the MITRA assistive Android app across 2 video sources (hardware WiFi/RTSP and phone-camera fallback): cut stream search delay, persisted the last working transport, and added refresh/stall recovery.",
       "Engineered a visual-freeze watchdog plus 3 status/guard mechanisms — stream-status and cloud-status panels and a WebSocket-gated send guard — and fixed a live-refresh loop that recurred after 5 minutes.",
       "Hardened offline voice commands (offline-preferred recognition with model recovery and microphone retry backoff) and verified builds across multiple devices with Gradle test/lint/assemble; delivered 6+ app-side improvements while model and backend stayed with a separate team."]),
-    ("Student Intern – Skin Disease Classification", "1–30 June 2026",
-     "IEEE EMBS Pune Section", "Remote",
-     ["Trained and evaluated a skin-disease image classifier in a 3-member team during a 1-month IEEE EMBS internship — model selection, training, evaluation, and Python image-processing and testing; delivered a working demo-level workflow."]),
+    ("Student Intern", "1–30 June 2026",
+     "IEEE EMBS Pune Section", "Remote", []),
 ]
 
 # (title, repo_text, repo_url, stack, [bullets])
@@ -85,13 +83,12 @@ EDUCATION = {
     "date": "Expected 2027",
     "org": "Ballari Institute of Technology and Management (BITM), Ballari",
     "right": "Final Year  ·  CGPA 8.38",
-    "extra": "Class 12: 80%     ·     Class 10: 86.88%",
+    "extra": "",
 }
 
 LEADERSHIP = [
-    "Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (promoted from Treasurer); Treasurer, BITM Robotics Club.",
-    "Google Student Ambassador (2025); Selected Participant, IEEE SPACE 2026 — B.Tech Initiative.",
-    "Embedded AI Systems workshop with STMicroelectronics (DigiToad, 2025); Participant, Techzone Nationals 2K25 Hardware Hackathon.",
+    "Vice-Chair, IEEE CAS Society, BITM; Treasurer, BITM Robotics Club; Google Student Ambassador (2025).",
+    "IEEE SPACE 2026 participant; STMicroelectronics Embedded AI workshop; Techzone Nationals 2K25 participant.",
 ]
 
 CERTS = ("Embedded Systems — Internshala Trainings (2025)  ·  Programming in C and C++ with AI  ·  "
@@ -112,7 +109,7 @@ def build_pdf():
     path = os.path.join(OUT, BASENAME + ".pdf")
     doc = SimpleDocTemplate(path, pagesize=A4,
                             leftMargin=13 * mm, rightMargin=13 * mm,
-                            topMargin=8 * mm, bottomMargin=8 * mm,
+                            topMargin=6 * mm, bottomMargin=6 * mm,
                             title="Mohammed Shabaz S - Resume", author="Mohammed Shabaz S")
     navy = HexColor(NAVY)
     dark = HexColor("#1a1a1a")
@@ -126,14 +123,14 @@ def build_pdf():
                                 textColor=dark, alignment=TA_CENTER)
     head_st = ParagraphStyle("head", fontName="Helvetica-Bold", fontSize=10, leading=11.5,
                              textColor=navy, spaceBefore=2, spaceAfter=0.5)
-    body_st = ParagraphStyle("body", fontName="Helvetica", fontSize=9.0, leading=10.6, textColor=dark)
+    body_st = ParagraphStyle("body", fontName="Helvetica", fontSize=8.6, leading=9.7, textColor=dark)
     title_st = ParagraphStyle("etitle", fontName="Helvetica-Bold", fontSize=9.4, leading=10.8, textColor=dark)
     date_st = ParagraphStyle("date", fontName="Helvetica", fontSize=8.8, leading=10.8, textColor=dark, alignment=TA_RIGHT)
     org_st = ParagraphStyle("org", fontName="Helvetica-Oblique", fontSize=9.0, leading=10.6, textColor=dark)
     loc_st = ParagraphStyle("loc", fontName="Helvetica-Oblique", fontSize=8.8, leading=10.6, textColor=dark, alignment=TA_RIGHT)
     stack_st = ParagraphStyle("stack", fontName="Helvetica-Oblique", fontSize=8.6, leading=10.2, textColor=dark)
     repo_st = ParagraphStyle("repo", fontName="Helvetica", fontSize=8.4, leading=10.8, textColor=HexColor(LINK), alignment=TA_RIGHT)
-    bullet_st = ParagraphStyle("bullet", fontName="Helvetica", fontSize=9.0, leading=10.6, textColor=dark,
+    bullet_st = ParagraphStyle("bullet", fontName="Helvetica", fontSize=8.6, leading=9.7, textColor=dark,
                                leftIndent=10, bulletIndent=1, spaceBefore=0.3)
 
     story = []
@@ -197,7 +194,8 @@ def build_pdf():
     section("EDUCATION")
     two_col(Paragraph(EDUCATION["title"], title_st), Paragraph(EDUCATION["date"], date_st))
     two_col(Paragraph(EDUCATION["org"], org_st), Paragraph(EDUCATION["right"], loc_st))
-    story.append(Paragraph(EDUCATION["extra"], body_st))
+    if EDUCATION["extra"]:
+        story.append(Paragraph(EDUCATION["extra"], body_st))
 
     section("LEADERSHIP & ACTIVITIES")
     bullets(LEADERSHIP)
@@ -242,14 +240,14 @@ def build_docx():
     doc = Document()
     st = doc.styles["Normal"]
     st.font.name = "Calibri"
-    st.font.size = Pt(10)
+    st.font.size = Pt(9.3)
     sec = doc.sections[0]
     sec.page_height = Inches(11.69); sec.page_width = Inches(8.27)  # A4
     sec.top_margin = sec.bottom_margin = Inches(0.4)
     sec.left_margin = sec.right_margin = Inches(0.5)
     RIGHT_TAB = Inches(7.27)
 
-    def spacing(p, before=0, after=1.5, line=1.0):
+    def spacing(p, before=0, after=0.5, line=0.98):
         pf = p.paragraph_format
         pf.space_before = Pt(before); pf.space_after = Pt(after); pf.line_spacing = line
 
@@ -259,7 +257,7 @@ def build_docx():
     def heading(text):
         p = doc.add_paragraph(); r = p.add_run(text); r.bold = True; r.font.size = Pt(10.5)
         r.font.color.rgb = NAVY_RGB
-        spacing(p, before=6, after=1)
+        spacing(p, before=4, after=0.5)
         pPr = p._p.get_or_add_pPr(); pbdr = OxmlElement("w:pBdr")
         bottom = OxmlElement("w:bottom")
         for k, v in (("w:val", "single"), ("w:sz", "6"), ("w:space", "1"), ("w:color", "1F3A5F")):
@@ -270,7 +268,7 @@ def build_docx():
         p.paragraph_format.tab_stops.add_tab_stop(RIGHT_TAB, WD_TAB_ALIGNMENT.RIGHT)
 
     def bullet(text):
-        p = doc.add_paragraph(style="List Bullet"); p.add_run(text); spacing(p, after=1.5)
+        p = doc.add_paragraph(style="List Bullet"); p.add_run(text); spacing(p, after=0.5)
 
     # header
     p = doc.add_paragraph(); center(p); r = p.add_run(NAME); r.bold = True; r.font.size = Pt(17)
@@ -320,7 +318,8 @@ def build_docx():
     p.add_run("\t" + EDUCATION["date"]); spacing(p, before=3, after=0)
     p = doc.add_paragraph(); tabbed(p); ri = p.add_run(EDUCATION["org"]); ri.italic = True
     rr = p.add_run("\t" + EDUCATION["right"]); rr.italic = True; spacing(p, after=1)
-    p = doc.add_paragraph(); p.add_run(EDUCATION["extra"]); spacing(p, after=1)
+    if EDUCATION["extra"]:
+        p = doc.add_paragraph(); p.add_run(EDUCATION["extra"]); spacing(p, after=1)
 
     heading("LEADERSHIP & ACTIVITIES")
     for b in LEADERSHIP:

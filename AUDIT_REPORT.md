@@ -73,7 +73,7 @@ Full audit and rebuild of the career profile repository into a single source of 
 
 ## 8. Current skills (verified)
 
-C, C++, Python, Java, SQL — Basic. DSA, DBMS, OS, CN — Basic. Hands-on: ESP32, STM32, Arduino, Raspberry Pi, Embedded C, Android Studio, OpenCV, Firebase, Git/GitHub. Project-demonstrated tools listed as exposure only.
+C, C++, Python, SQL — Intermediate; Java currently learning/not yet proficient. DSA, DBMS, OS, CN — Basic. Embedded C and Microcontrollers — Intermediate. Git/GitHub current. Android Studio is MITRA-specific; OpenCV is VisionPay-specific. LTE and 5G self-study completed.
 
 ## 9. Future skills (targets, not claims)
 

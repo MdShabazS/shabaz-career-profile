@@ -14,18 +14,17 @@ Embedded Engineer | Automotive Embedded Systems
 Ballari, Karnataka | +91 79755 12403 | md.shabaz.2005@gmail.com | LinkedIn | GitHub
 
 SUMMARY
-Final-year Electronics & Communication Engineering student (CGPA 8.38) focused on embedded
-and automotive firmware — ARM Cortex-M microcontroller systems, finite-state machines and
-non-blocking real-time design in Embedded C/C++ on ESP32 and STM32 — with a working software
-and computer-vision foundation in Python. Internship experience at Nokia and iHelp Robotics.
+Final-year ECE student (CGPA 8.38) focused on embedded and automotive firmware using ARM Cortex-M
+microcontrollers, finite-state machines, and non-blocking Embedded C/C++ on ESP32 and STM32.
+Internship experience at Nokia and iHelp Robotics; completed LTE/5G self-study.
 
 TECHNICAL SKILLS
-Languages: C, C++, Embedded C, Python, SQL
-Embedded & Firmware: Microcontrollers, ARM Cortex-M4, finite-state machines, non-blocking
-  real-time design, GPIO, I2C, ADC, timers, sensor interfacing, debugging
-Platforms & Tools: ESP32, STM32 (Nucleo-L476RG), STM32CubeIDE, Arduino, Android Studio, Git & GitHub
-Libraries & Foundations: OpenCV, TensorFlow Lite · Data Structures & Algorithms, Operating
-  Systems, DBMS, Computer Networks
+Programming: C, C++, Python, SQL (Intermediate); Java (currently learning)
+Embedded: Embedded C, Microcontrollers (Intermediate); ARM Cortex-M4, finite-state machines,
+  non-blocking design, GPIO, I2C, ADC, timers, sensor interfacing, debugging
+Mobile Networks: LTE & 5G architecture, EPC, RAN, interfaces, call flows, QoS, RRM, EN-DC,
+  NSA/SA mobility, VoNR, O-RAN, troubleshooting, automation (completed self-study)
+Tools / Foundations: Git, GitHub; TensorFlow Lite; DSA, DBMS, Operating Systems, Computer Networks (Basic)
 
 EXPERIENCE
 Student Intern                                             16 September 2026 – Present
@@ -45,11 +44,8 @@ iHelp Robotics Private Limited · Project: MITRA                                
   test/lint/assemble; delivered 6+ app-side improvements while model and backend stayed
   with a separate team.
 
-Student Intern – Skin Disease Classification                        1–30 June 2026
+Student Intern                                                            1–30 June 2026
 IEEE EMBS Pune Section                                                          Remote
-- Trained and evaluated a skin-disease image classifier in a 3-member team during a
-  1-month IEEE EMBS internship — model selection, training, evaluation, and Python
-  image-processing and testing; delivered a working demo-level workflow.
 
 PROJECTS
 Automotive Body Control Module                                                 [GitHub]
@@ -80,7 +76,7 @@ Python, OpenCV, TensorFlow Lite, MobileNetV2, Text-to-Speech
 EDUCATION
 B.E. Electronics & Communication Engineering                             Expected 2027
 Ballari Institute of Technology and Management (BITM), Ballari    Final Year · CGPA 8.38
-Class 12: 80% · Class 10: 86.88%
+ 
 
 LEADERSHIP & ACTIVITIES
 - Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (promoted from Treasurer);
@@ -101,7 +97,7 @@ Python Programming — EISystems (2024)
 
 - **Positioning pivot:** this master is **embedded/automotive-first** (headline `Embedded Engineer | Automotive Embedded Systems`), software/CV kept as visible secondary evidence. Supersedes the earlier software-first draft.
 - **Links (PDF/DOCX):** email, header LinkedIn, header GitHub, and each project "GitHub" are live hyperlinks; header LinkedIn/GitHub are icon+label (no raw URLs). `[GitHub]` marks the right-aligned clickable link per project.
-- **Skills = verified, bullet-backed set:** enriched into a JD-mirroring taxonomy where every token is also proven in a bullet — Languages (C, C++, Embedded C, Python, SQL); Embedded & Firmware (Microcontrollers, ARM Cortex-M4, FSM, non-blocking real-time design, GPIO, I2C, ADC, timers, sensor interfacing, debugging); Platforms & Tools (ESP32, STM32 Nucleo-L476RG, STM32CubeIDE, Arduino, Android Studio, Git/GitHub); Libraries & Foundations (OpenCV, TensorFlow Lite; DSA, OS, DBMS, CN). **No** Java/Firebase (removed), **no** ESP8266/Raspberry Pi (not demonstrated), **no** UART/SPI/RTOS/CAN/AUTOSAR/MISRA/ISO 26262/UDS/JTAG/DMA/Linux (learning gaps, never claimed). ARM Cortex-M4 is verified (Smart Wellness = STM32L476RG Cortex-M4).
+- **Skills:** follow `../skills/current-skills.md`; mobile-network topics are completed self-study documented in `../skills/mobile-networks.md`. Keep Android Studio within MITRA project details and OpenCV within VisionPay project details. Do not claim credentials or production network experience. Project stacks may name tools used in those projects.
 - **Projects shown (embedded-first):** Automotive BCM, Smart Wellness Desk Assistant (team), VisionPay. **AEGIS is omitted** — it is `PLANNED` (not built) and off-domain for an embedded/automotive resume; MITRA sits under the iHelp experience; Skin Disease Classification under the IEEE EMBS experience.
 - **Languages section dropped** and Nokia kept to one confidential/high-level line to preserve one-page density and signal-per-line.
 - **AEGIS** must never appear as completed. Nokia dates are always `16 September 2026 – Present`.

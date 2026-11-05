@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-06 — Skills and mobile-network study update
+
+- Updated confirmed programming, embedded, computer-science, and spoken-language proficiencies.
+- Added the user-confirmed completed LTE and 5G self-study curricula, with no dates or formal credential claim.
+- Kept Android Studio under MITRA and OpenCV under VisionPay project details; removed the unwanted technology reference from the profile.
+- Updated current profile snapshots and resume sources.
+
+
 ## 2026-08-28 — Tier-1 resume rebuild (Phase 1)
 
 Rebuilt the master resume on the user's proven prior template (which scored ~83), correcting all facts and fixing the writing issues that scored a later draft at 52.

@@ -14,9 +14,9 @@ Accessed **2026-08-28**. The profile README is `MdShabazS/MdShabazS/README.md` (
 
 `USER FACT` — the live `MdShabazS/MdShabazS/README.md` today is **software-first and decoration-heavy**, and contradicts the current source of truth:
 - Positions "Primary Track: Software Engineer / Software Developer" — should now be **Embedded / Automotive first**.
-- Badge/vanity load: image banner, `for-the-badge` shields, a **profile-views counter (komarev)**, and a **skillicons wall** listing `react, nodejs, flask, firebase` — none are current verified skills.
+- Badge/vanity load: image banner, `for-the-badge` shields, a **profile-views counter (komarev)**, and a **skillicons wall** listing unverified web frameworks — none are current verified skills.
 - Lists **YOLO / Ultralytics exposure** — explicitly `EXCLUDED` in the source of truth (tied to the excluded drone/NIDAR work).
-- Skill badges claim "Java – Learning", "REST APIs", "C – Intermediate" — inconsistent with the finalized resume (Java/Firebase removed; levels are Basic; REST is a gap).
+- Skill badges claim "REST APIs" and show a stale skill snapshot — inconsistent with the updated profile.
 - Multi-column HTML `<table>` layout (fixed `width="33%"`) — poor mobile reflow.
 - Uses "7th Semester" and other stale framings.
 
