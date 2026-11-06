@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-06 — Career positioning and public-output update
+
+- Set the headline to Software & Embedded Engineer and the primary target to Telecom / 5G Engineer; software and embedded remain supporting strengths.
+- Recorded the user’s full name with no preferred name and updated the professional interests to Embedded Systems and Automotive.
+- Kept MITRA clearly internship-only under iHelp, with a high-level public contribution summary; removed it from personal-project counts and cards.
+- Refreshed public profile and resume wording, added verified skill levels for Testing/Debugging and Robot Framework learning status, and updated certification issuer/evidence status.
+- Omitted the private phone number from public resume copies and left internal Nokia department details out of public descriptions.
+
+
 ## 2026-11-06 — Project status and portfolio corrections
 
 - Corrected AEGIS to an individual project with design/planning complete, coding not started, no target date, and hardware not finalized.

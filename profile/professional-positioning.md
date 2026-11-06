@@ -2,30 +2,26 @@
 
 ## Headline
 
-**Software Developer | Embedded Engineer**
+**Software & Embedded Engineer**
 
-This is the primary positioning for the portfolio, LinkedIn, GitHub, and resume. Do **not** make "Final Year ECE Student" the main positioning — final-year student is context, not the headline.
+Use this exact headline as the primary identity across resume, LinkedIn, and GitHub profile content.
 
 ## Career direction
 
-| Track | Role | Status |
+| Priority | Role / strength | Status |
 |---|---|---|
-| Primary | Software Developer | `VERIFIED` |
-| Parallel | Embedded Engineer | `VERIFIED` |
+| Primary target | Telecom / 5G Engineer | VERIFIED |
+| Headline | Software & Embedded Engineer | VERIFIED |
+| Supporting strengths | Software engineering and embedded systems | VERIFIED |
 
-Both tracks are targeted together, not one instead of the other.
+**Long-term target:** develop Tier-1 readiness as a Telecom/5G Engineer. Software and embedded work support this direction.
 
-**Long-term target:** reach Tier-1 capability level as a Software Developer *and* an Embedded Engineer. The concrete skill plan is [`../skills/tier1-skills-roadmap.md`](../skills/tier1-skills-roadmap.md); the market research behind it is [`../research/TIER1_ROLE_RESEARCH.md`](../research/TIER1_ROLE_RESEARCH.md).
+## Experience framing
 
-## How to represent experience
+- The record includes internships, not full-time employment.
+- Current: Student Intern at NOKIA SOLUTIONS AND NETWORKS INDIA PRIVATE LIMITED, 16 September 2026–Present.
+- Completed: iHelp Robotics internship, 23 March–23 August 2026; IEEE EMBS Pune internship, 1–30 June 2026.
+- Nokia public description: role, Bangalore work location, and LTE/5G study completed during the internship. Do not publish internal team codes or detailed assignment information.
+- iHelp/MITRA: lead with Android app-side software and testing, described briefly. MITRA is a company internship project, not a personal project.
 
-- Shabaz has **internship / industry experience**, not full-time employment. Do not claim years of professional employment.
-- Current: Nokia Student Intern (16 Sep 2026 – Present).
-- Completed: iHelp Robotics AI Research Intern (~5 months, 23 Mar – 23 Aug 2026) and a 1-month IEEE EMBS Pune internship.
-- Keep Nokia high-level and confidential; keep the iHelp contribution to the app-side software work Shabaz actually did.
-
-Do **not** state "1.5 years of professional employment" or equivalent.
-
-## AI/ML positioning
-
-AI/ML is an interest and appears through VisionPay and the official iHelp designation. It is **not** a finalized specialization or a claimed area of proficiency. Software and embedded are the stated tracks.
+Do not state “1.5 years of professional employment” or equivalent.

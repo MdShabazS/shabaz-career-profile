@@ -1,13 +1,13 @@
 <!-- Profile banner -->
 <p align="center">
-  <img src="./assets/profile-banner.png" alt="Mohammed Shabaz S — Embedded Engineer and Automotive Embedded Systems: firmware, microcontrollers, real-time systems on ESP32 and STM32" width="100%"/>
+  <img src="./assets/profile-banner.png" alt="MOHAMMED SHABAZ S — Software & Embedded Engineer | Telecom/5G" width="100%"/>
 </p>
 
 <p align="center">
   <img alt="B.E. ECE, BITM" src="https://img.shields.io/badge/B.E._ECE-BITM-0b1220?style=for-the-badge&labelColor=0b1220&color=38BDF8"/>
   <img alt="CGPA 8.38" src="https://img.shields.io/badge/CGPA-8.38-0b1220?style=for-the-badge&labelColor=0b1220&color=34D399"/>
   <img alt="Expected graduation 2027" src="https://img.shields.io/badge/Expected-2027-0b1220?style=for-the-badge&labelColor=0b1220&color=F59E0B"/>
-  <img alt="Focus: Embedded and Automotive" src="https://img.shields.io/badge/Focus-Embedded_%7C_Automotive-0b1220?style=for-the-badge&labelColor=0b1220&color=2563EB"/>
+  <img alt="Focus: Telecom and 5G" src="https://img.shields.io/badge/Focus-Telecom_%7C_5G-0b1220?style=for-the-badge&labelColor=0b1220&color=2563EB"/>
 </p>
 
 <p align="center">
@@ -23,13 +23,13 @@
 | Area | Details |
 |---|---|
 | **Current** | Final-year B.E. Electronics & Communication Engineering, BITM · Student Intern @ Nokia |
-| **Primary track** | Embedded Engineer · Automotive Embedded Systems |
-| **Secondary** | Software Engineering |
-| **Supporting** | AI / Computer Vision |
-| **Engineering focus** | Microcontroller firmware, finite-state machines, non-blocking real-time control |
+| **Primary track** | Telecom / 5G Engineering |
+| **Headline** | Software & Embedded Engineer |
+| **Supporting** | Software, embedded, automotive and project-level computer vision |
+| **Engineering focus** | LTE/5G study, network architecture, mobility, RRM, O-RAN, troubleshooting, software and embedded projects |
 | **Education** | BITM · Expected 2027 · CGPA 8.38 |
 
-I build embedded and automotive firmware — microcontroller systems, state machines and deterministic real-time loops in Embedded C/C++ on ESP32 and STM32 (ARM Cortex-M) — and completed LTE and 5G study during my Nokia internship. I also have project-level software and computer-vision experience. Currently working as a Student Intern at Nokia.
+I’m a final-year ECE student targeting Telecom/5G engineering roles. During my current Nokia internship, I completed study in LTE and 5G network topics. I also bring software and embedded strengths from application work and microcontroller projects. My project-level computer-vision experience is represented through VisionPay.
 
 ---
 
@@ -38,16 +38,16 @@ I build embedded and automotive firmware — microcontroller systems, state mach
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🚗 Automotive &amp; Embedded</h3>
-      <p>Firmware for microcontrollers — finite-state machines, sensor interfacing, GPIO/I2C/ADC, and non-blocking real-time control, including automotive-oriented prototypes on ESP32 and STM32 (ARM Cortex-M4).</p>
+      <h3>📡 Telecom &amp; Mobile Networks</h3>
+      <p>Completed LTE and 5G study during the Nokia internship, covering network architecture, interfaces, call flows, mobility, RRM, EN-DC, VoNR, O-RAN and troubleshooting.</p>
     </td>
     <td width="33%" valign="top">
       <h3>💻 Software</h3>
       <p>Practical software in C, C++, Python and SQL, with Git/GitHub. I care about clean, testable, debuggable code and predictable behaviour.</p>
     </td>
     <td width="33%" valign="top">
-      <h3>📡 Mobile Networks</h3>
-      <p>Completed LTE and 5G study during the Nokia internship, covering EPC/5G architecture, call flows, mobility, RRM, EN-DC, VoNR, O-RAN, and troubleshooting.</p>
+      <h3>🚗 Embedded &amp; Automotive</h3>
+      <p>Microcontroller project work on ESP32 and STM32, including finite-state machines, sensor interfacing and non-blocking firmware.</p>
     </td>
   </tr>
 </table>
@@ -63,7 +63,8 @@ I build embedded and automotive firmware — microcontroller systems, state mach
 - **Embedded:** Embedded C · Microcontrollers (Intermediate)
 - **Programming:** C · C++ · Python · SQL (Intermediate); Java (currently learning)
 - **Tools:** Git · GitHub
-- **Mobile networks:** Completed LTE and 5G study during the Nokia internship — architecture, EPC, RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN, troubleshooting, Robot Framework and testing
+- **Mobile networks:** Completed LTE and 5G study during the Nokia internship — architecture, EPC, RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN and troubleshooting.
+- **Testing / automation:** Testing/Debugging (Basic); Robot Framework (currently learning).
 - **CS foundations:** DSA · DBMS · Operating Systems · Computer Networks (Basic)
 - **Project-only tools:** Android Studio (MITRA) · OpenCV (VisionPay)
 
@@ -119,8 +120,8 @@ Offline, real-time Indian-currency detector with spoken output for visually impa
     <td width="55%" valign="top">
       <h3>Experience</h3>
       <ul>
-        <li><b>Nokia Solutions and Networks India</b> — Student Intern. Currently working as a Student Intern at Nokia.</li>
-        <li><b>iHelp Robotics</b> — AI Research Intern – Deep Learning &amp; Model Development (Mar–Aug 2026). On <b>MITRA</b>, an assistive-vision Android app, I worked the app side: camera-stream reliability, offline voice-command robustness, and multi-device testing. Backend and model belonged to a separate team.</li>
+        <li><b>NOKIA SOLUTIONS AND NETWORKS INDIA PRIVATE LIMITED</b> — Student Intern. Completed LTE and 5G study as part of the internship.</li>
+        <li><b>iHelp Robotics Private Limited</b> — AI Research Intern – Deep Learning &amp; Model Development (Mar–Aug 2026). Contributed Android app-side software and testing for MITRA, an iHelp company product; backend and model work belonged to another team. Keep descriptions high-level.</li>
         <li><b>IEEE EMBS Pune Section</b> — Student Intern (1–30 June 2026, remote; one month).</li>
       </ul>
     </td>

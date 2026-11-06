@@ -1,25 +1,20 @@
-# MITRA
+# MITRA — iHelp Internship Project Reference
 
-> Company product from the iHelp Robotics internship — not a personal project. Keep public descriptions high-level ([`../governance/CONFIDENTIALITY.md`](../governance/CONFIDENTIALITY.md)).
+> MITRA is an iHelp Robotics company product and internship project, not a personal project. Keep it under Experience → iHelp Robotics and use high-level public wording.
 
 | Field | Value | Status |
 |---|---|---|
-| Type | Internship project (iHelp Robotics Private Limited) | `VERIFIED` |
-| Positioning | Software / Android Development | `VERIFIED` |
-| Lifecycle | `COMPLETED` (Shabaz's internship contribution) | — |
-| Ownership | Company product; Shabaz contributed app-side software | `VERIFIED` |
+| Type | Internship project at iHelp Robotics Private Limited | VERIFIED |
+| Positioning | Android app-side software and testing | VERIFIED |
+| Ownership | Company product; Shabaz contributed on the app side | VERIFIED |
+| Lifecycle | Internship contribution completed | VERIFIED |
 
-## Overview (high-level, shareable)
+## High-level description
 
-MITRA is an assistive product in which an Android phone receives a live camera stream from hardware over WiFi/RTSP, supports app-side interaction and guidance, and includes a phone-camera fallback. Shabaz worked on the **Android app side**: stream reliability, cloud/stream status handling, offline voice-command robustness, and testing.
-
-## Shabaz's contribution
-
-See the full confirmed list in [`../experience/ihelp-robotics.md`](../experience/ihelp-robotics.md). In summary: WiFi/RTSP stream handling and reliability (search-delay reduction, transport memory, refresh/stall handling, a visual-freeze watchdog), stream- and cloud-status panels, a cloud send-guard tied to WebSocket connectivity, offline-preferred speech recognition with recovery and retry backoff, and extensive multi-device testing with logs and build verification.
+MITRA is an assistive product with an Android app. During the iHelp internship, Shabaz contributed Android app-side software and testing, focusing on app interaction, stream reliability, status handling, and voice-command robustness. Backend and model work were handled by a separate team.
 
 ## Boundaries
 
-- Do **not** claim Shabaz developed the entire MITRA system.
-- Backend and AI/model development belonged to another team — do not claim them.
-- Do **not** expose confidential internal implementation, tooling, or proprietary detail. Public wording stays at the level above.
-- No public GitHub link for MITRA (company/ongoing-sensitive).
+- Do not count MITRA as a personal project or include it as a standalone project card.
+- Do not claim the whole product, backend, or AI/model development.
+- Keep descriptions high-level; exclude detailed company implementation or proprietary information.

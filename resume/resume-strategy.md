@@ -1,61 +1,50 @@
 # Resume Strategy
 
-## Positioning (current build)
+## Current positioning
 
-- **Primary target:** Embedded Engineer / Automotive Embedded Systems. **Secondary:** Software Engineering.
-- **Headline:** `Embedded Engineer | Automotive Embedded Systems`.
-- **Section order:** Summary → Technical Skills → Experience → Projects → Education → Leadership & Activities → Certifications. (Spoken Languages section dropped for one-page signal density.)
-- **Skills:** use [`../skills/current-skills.md`](../skills/current-skills.md); LTE/5G study completed during the Nokia internship is documented in [`../skills/mobile-networks.md`](../skills/mobile-networks.md). Keep Android Studio in MITRA and OpenCV in VisionPay project details. Do not claim a mobile-network credential or production deployment.
+- **Target role:** Telecom / 5G Engineer.
+- **Headline:** Software & Embedded Engineer.
+- **Supporting strengths:** software development and embedded systems.
+- **Section order:** Summary → Technical Skills → Experience → Projects → Education → Leadership & Activities → Certifications.
+- **Study:** LTE/5G study was completed during the Nokia internship. It is neither self-study nor a certification.
 
 ## One master, many versions
 
-Keep **one** master resume source of truth: [`master-resume.md`](master-resume.md). Generate role/JD-specific versions from it. Across versions, change only:
-
-- emphasis and ordering
-- keywords (aligned to the JD)
-- selected projects
-- bullet prioritization
+Keep one master source of verified facts in [master-resume.md](master-resume.md). Generate JD-specific resumes from the master by changing emphasis and ordering, matching supported keywords, selecting projects, and prioritizing relevant bullets.
 
 Never change facts, dates, ownership, titles, or metrics between versions.
 
-## Format rules (ATS)
+## ATS formatting
 
-Grounded in 2026 ATS guidance ([`../research/TIER1_ROLE_RESEARCH.md`](../research/TIER1_ROLE_RESEARCH.md)):
-
-- One page target; two pages only when genuinely justified by future experience.
-- Single column. **No** tables, graphics, skill bars, rating percentages, decorative icons, photo, or multi-column layouts.
-- Standard fonts; consistent job-title formatting.
-- Skills section uses full tool names (parsed first on major ATS).
-- Put the strongest keywords in the summary and the first bullet under each role.
-- Header links must be clickable: Email, LinkedIn, GitHub, Portfolio.
-- No "Download Resume" button on the portfolio.
-- Do **not** claim a numeric "ATS score." Optimize for parseability, keyword alignment, verified evidence, role relevance, clean structure, and concise bullets.
+- Build for clean parsing and relevance to the actual job description; no universal ATS score can be guaranteed.
+- Use one column and conventional section headings.
+- Keep content selectable and text-based. Avoid skill bars, decorative charts, and unsupported proficiency ratings.
+- Use keywords only when supported by verified experience or study.
+- Do not claim a numeric ATS score or market match without a specific job description and tool.
+- Public resume copies omit the phone number. Add it only to a resume prepared for direct employer submission.
 
 ## Project selection
 
-- **Embedded/automotive master (current):** Automotive BCM → Smart Wellness Desk Assistant → VisionPay. This is the shipped order.
-- **AEGIS is omitted** from the embedded master because coding has not started and it is off-domain for an embedded/automotive resume. It is an individual project with completed design/planning and no target date; if included in a systems-leaning version, label the status precisely.
-- **MITRA:** shown under the iHelp experience (not a standalone project); strongest for Software / Android emphasis.
-- **Smart Wellness Desk Assistant:** resume-eligible; always labelled a team project.
-- Role ordering:
-  - **Embedded / Automotive (primary):** Automotive BCM, Smart Wellness Desk Assistant, then VisionPay.
-  - **Software Developer (secondary):** VisionPay, MITRA (via experience), then embedded projects.
+- The portfolio pool contains four personal/team projects: AEGIS, VisionPay, Automotive BCM, and Smart Wellness Desk Assistant.
+- MITRA is an iHelp internship project, included only under Experience and described briefly.
+- AEGIS may be included when its planning status is relevant; always state coding has not started.
+- Smart Wellness is always labeled a college team project.
+- VisionPay accuracy remains explicitly reported.
+- For each JD, select only the strongest matching evidence; no project needs to appear in every resume.
 
-## Honesty guardrails (apply every time)
+## Honesty and privacy
 
-- Experience is internship/industry, not full-time employment.
-- Nokia is **Present** (16 Sep 2026 – Present), high-level, project/domain confidential.
-- iHelp/MITRA: MITRA is the project name; app-side software contribution only; backend/model belonged to another team; keep confidential detail out.
-- Smart Wellness Desk Assistant: team project.
-- C, C++, Python, SQL, Embedded C and Microcontrollers are Intermediate; Java is currently learning/not yet proficient; DSA, DBMS, Operating Systems and Computer Networks are Basic. Skills section uses "Microcontrollers", not individual boards.
-- VisionPay ~93% is a reported figure, not a verified benchmark.
-- Exclude NIDAR, the undocumented hackathon project, NexCast Pro, and Pega from current resume material.
+- Experience is internships, not full-time employment.
+- Nokia is current and high-level; do not publish internal department codes or assignment detail.
+- iHelp/MITRA: Android app-side software and testing only; do not claim backend/model development.
+- Skills levels: C/C++/Python/SQL Intermediate; Java and Robot Framework currently learning; Embedded C/Microcontrollers Intermediate; Testing/Debugging Basic; DSA/DBMS/OS/CN Basic.
+- Keep the phone number private in public copies.
+- NIDAR and the undocumented hackathon project remain excluded. NexCast Pro and Pega remain removed.
 
 ## Per-JD workflow
 
-1. Read the JD; identify role type and required keywords.
-2. Map requirements to verified facts; note gaps honestly (do not invent coverage).
-3. Pick 3–4 strongest matching projects from the pool.
-4. Move matching skills to the front.
-5. Keep to one page; cut weaker sections.
-6. Final check: name spelled "Mohammed Shabaz S", location Ballari, CGPA 8.38, Nokia Present, dates correct, ownership honest, no confidential content, no unsupported claims.
+1. Identify the role and requirements in the JD.
+2. Map each requirement to verified evidence; state genuine gaps clearly.
+3. Prioritize the matching skills, internships, and projects.
+4. Keep one page unless future experience justifies two.
+5. Check dates, ownership, metrics, public-safe detail, and phone privacy before exporting.

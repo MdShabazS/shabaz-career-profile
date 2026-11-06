@@ -1,42 +1,44 @@
 # AI Context
 
-First file any AI system (Claude, ChatGPT, Codex) should read. This repository is Mohammed Shabaz S's private career source of truth. Use it to generate resumes, portfolio copy, LinkedIn/GitHub text, interview prep, and gap analysis — not as a creative biography.
+This repository is MOHAMMED SHABAZ S's career source of truth. Use it to prepare a master resume, portfolio, GitHub profile, LinkedIn content, interview preparation, and job-description-specific applications.
 
 ## Non-negotiable rules
 
-- Never invent facts. Missing info is `Not yet known` or `TO_VERIFY`.
-- Never convert `PLANNED`/`UPCOMING` → completed, `LEARNING`/`BASIC` → advanced, internship → employment, team → individual, or reported/estimated metric → verified.
-- Never expose confidential Nokia or MITRA information ([`governance/CONFIDENTIALITY.md`](governance/CONFIDENTIALITY.md)).
-- Never invent certificate issuers, dates, awards, metrics, technologies, titles, responsibilities, team sizes, or model architectures.
-- Keep external research ([`research/`](research/)) separate from Shabaz's facts. Market requirements never become his credentials.
-- Spell the name exactly: **Mohammed Shabaz S**.
+- Do not invent facts. Missing information remains unknown or TO_VERIFY.
+- Do not turn planned work into completed work, learning/basic skill levels into advanced proficiency, internships into full-time employment, team projects into individual projects, or reported metrics into verified results.
+- Keep the full name exactly **MOHAMMED SHABAZ S**. There is no preferred name.
+- Current headline: **Software & Embedded Engineer**. Current target role: **Telecom / 5G Engineer**. Software and embedded strengths support that target.
+- Keep Nokia content public-safe: Student Intern in Bangalore; LTE/5G study completed as part of the internship. Omit internal department codes and detailed internal assignment information.
+- MITRA is an iHelp Robotics company product and internship project, not a personal project. Keep it under iHelp experience, at a high level. Do not claim backend or model development.
+- Never invent certificate issuers, dates, awards, metrics, technologies, roles, responsibilities, team sizes, or model architectures.
+- External research is not a user credential. Keep it separate from verified facts.
+- Phone number is private and must not appear as plain text in public repository copies.
 
-## Canonical ownership (one fact, one file)
+## Canonical ownership
 
-- Identity / positioning / contact / education / languages / interests → [`profile/`](profile/)
-- Experience → [`experience/`](experience/) (order: Nokia, iHelp Robotics, IEEE EMBS Pune)
-- Projects → [`projects/`](projects/) (5 current projects: AEGIS, MITRA, VisionPay, Automotive BCM, Smart Wellness Desk Assistant; exclusions in [`projects/EXCLUDED.md`](projects/EXCLUDED.md))
-- Current skills → [`skills/current-skills.md`](skills/current-skills.md); LTE/5G study completed during Nokia internship → [`skills/mobile-networks.md`](skills/mobile-networks.md); future/target skills → [`skills/tier1-skills-roadmap.md`](skills/tier1-skills-roadmap.md)
-- Certifications → [`certifications/certifications.md`](certifications/certifications.md)
-- Leadership / memberships → [`leadership/`](leadership/)
-- Activities → [`professional-activities/`](professional-activities/)
-- Resume rules + master → [`resume/`](resume/)
-- Evidence PDFs → [`evidence/`](evidence/)
+- Identity, positioning, contact, education, languages, interests: profile/
+- Experience: experience/ (Nokia, iHelp Robotics, IEEE EMBS Pune)
+- Personal projects: AEGIS, VisionPay, Automotive BCM, Smart Wellness Desk Assistant. MITRA remains an internship reference in projects/mitra.md and is not part of the personal-project count.
+- Current skills: skills/current-skills.md
+- LTE/5G internship study: skills/mobile-networks.md
+- Certifications: certifications/certifications.md
+- Leadership and memberships: leadership/
+- Activities: professional-activities/
+- Resume outputs and strategy: resume/
+- Evidence PDFs: evidence/
 
-When files overlap, prefer the canonical owner and flag any contradiction instead of inventing a merge.
+When files conflict, prefer the latest user-confirmed information and correct all affected output files.
 
-## Key boundaries (memorize)
+## Verified boundaries
 
-- **Nokia:** current Student Intern (16 Sep 2026 – Present), Bangalore. The assigned project/domain remains `Not yet known` / confidential. User confirms LTE/5G study as part of the internship; keep any description to those high-level training topics and do not expose internal material. Never a fixed end date; never describe the internship as completed.
-- **iHelp / MITRA:** completed internship (23 Mar – 23 Aug 2026), official title "AI Research Intern – Deep Learning & Model Development", project MITRA. App-side software/Android contribution only; backend/model belonged to another team. Present primarily as Software/Android, not AI/ML. MITRA is the project name and is shown under the iHelp experience, not as a standalone personal project.
-- **IEEE EMBS:** retain the one-month remote internship record (1–30 June 2026) and certificate evidence. The associated project has been removed from current project/profile outputs.
-- **AEGIS:** individual project; design/planning complete, coding not started, no target date, hardware not finalized. The emergency-response concept is accurate. AI recommends; a human dispatcher reviews, decides, and dispatches.
-- **VisionPay:** individual; ~93% accuracy is reported, not verified; training code AI-assisted.
-- **Automotive BCM:** completed individual ESP32 project using Arduino/C++; includes OFF/ACC/ON FSM, indicators/synchronized hazards, brake logic, buzzer/OLED, non-blocking `millis()` loop, 30 ms brake debounce, 10 Hz OLED refresh, and zero `delay()` calls in the main loop.
-- **Smart Wellness Desk Assistant:** completed college team project on STM32 Nucleo-L476RG with STM32 HAL/STM32CubeIDE; team size not specified. Shabaz handled sensor interfacing, wiring, testing, and debugging.
-- **Skills:** C/C++/Python/SQL Intermediate; Java currently learning/not yet proficient; DSA/DBMS/OS/CN Basic. Embedded C and Microcontrollers Intermediate. Git/GitHub are current. Android Studio belongs only under MITRA; OpenCV only under VisionPay. LTE/5G study was completed during the Nokia internship; it is not a credential. Do not list boards individually as current skills.
-- **Excluded / removed:** NIDAR and an undocumented hackathon project stay out of the primary profile. NexCast Pro and Pega are removed from the current profile (historical note in `archive/`).
-
-## Output discipline
-
-Resumes/portfolio/LinkedIn are outputs generated from canonical facts. Do not edit a canonical fact to fit an output. Follow [`resume/resume-strategy.md`](resume/resume-strategy.md) and [`portfolio/portfolio-requirements.md`](portfolio/portfolio-requirements.md). Record meaningful changes in [`governance/CHANGELOG.md`](governance/CHANGELOG.md).
+- Nokia: current Student Intern at NOKIA SOLUTIONS AND NETWORKS INDIA PRIVATE LIMITED, Bangalore, 16 September 2026–Present. LTE/5G study was completed during the internship; it is not a credential or claim of production network experience. Keep internal department details out of public text.
+- iHelp Robotics: AI Research Intern – Deep Learning & Model Development, remote, 23 March–23 August 2026, completed. MITRA contribution was Android app-side software and testing. Keep descriptions high-level.
+- IEEE EMBS: remote Student Intern, 1–30 June 2026. Keep the internship and certificate evidence; the related Skin Disease Classification project was removed.
+- AEGIS: individual project; design/planning complete; coding not started; no target date; hardware not finalized. AI recommends and a human dispatcher decides.
+- VisionPay: individual offline currency-recognition project. About 400 images per denomination across six classes; MobileNetV2/TensorFlow Lite; ~93% is explicitly reported accuracy; training code was AI-assisted.
+- Automotive BCM: completed individual ESP32/Arduino C++ project. User-confirmed FSM, indicators/hazards, brake logic, buzzer/OLED, non-blocking millis loop, 30 ms debounce, 10 Hz display refresh, and no delay calls in the main loop.
+- Smart Wellness Desk Assistant: completed college team project using STM32 Nucleo-L476RG, STM32 HAL and STM32CubeIDE. Team size unspecified; personal contribution was sensor interfacing, wiring, testing, and debugging.
+- Skin Disease Classification was removed as a project; retain the IEEE EMBS internship and evidence.
+- NIDAR and the undocumented hackathon project remain excluded. NexCast Pro and Pega remain removed.
+- Current levels: C/C++/Python/SQL Intermediate; Java learning/not proficient; Embedded C and Microcontrollers Intermediate; DSA/DBMS/OS/CN Basic; Testing/Debugging Basic; Robot Framework currently learning. Firmware is represented through project experience. Android Studio is MITRA-only; OpenCV is VisionPay-only.
+- Completed LTE and 5G study is attributed to the Nokia internship. Do not call it self-study, a certification, or production experience.

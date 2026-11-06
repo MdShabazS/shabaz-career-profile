@@ -1,104 +1,73 @@
-# Master Resume — Mohammed Shabaz S
+# Master Resume — MOHAMMED SHABAZ S
 
-Single source of truth for resume content. The PDF/DOCX in this folder are generated from this content by [`../scripts/build_resume.py`](../scripts/build_resume.py) and validated by [`../scripts/validate_resume.py`](../scripts/validate_resume.py). Design follows Shabaz's prior resume template (centered navy header, ruled sections, right-aligned dates); facts are current and verified against [`../PROFILE.md`](../PROFILE.md). Research: [`../research/TIER1_RESUME_RESEARCH.md`](../research/TIER1_RESUME_RESEARCH.md). Strategy & ATS analysis: [`resume-strategy.md`](resume-strategy.md), [`ats-analysis.md`](ats-analysis.md).
+This public copy is the source for the current one-page resume. Phone number is deliberately omitted from public copies. Add it only to a resume prepared for direct employer submission.
 
-**Primary target:** Embedded Engineer / Automotive Embedded Systems. **Secondary target:** Software Engineering. **Headline:** `Embedded Engineer | Automotive Embedded Systems`.
+**Target role:** Telecom / 5G Engineer. **Headline:** Software & Embedded Engineer.
 
-**Header:** name, headline, then `Ballari, Karnataka | +91 79755 12403 | <email, clickable> | [icon] LinkedIn | [icon] GitHub`. LinkedIn/GitHub are clickable labels (icon + word), not raw URLs; email is shown and clickable. No portfolio URL (not deployed).
+**Header:** name, headline, Ballari, Karnataka, email, LinkedIn, GitHub. Phone is private in the public repository.
 
 ---
 
-```
 MOHAMMED SHABAZ S
-Embedded Engineer | Automotive Embedded Systems
-Ballari, Karnataka | +91 79755 12403 | md.shabaz.2005@gmail.com | LinkedIn | GitHub
+Software & Embedded Engineer
+Ballari, Karnataka | md.shabaz.2005@gmail.com | LinkedIn | GitHub
 
 SUMMARY
-Final-year ECE student (CGPA 8.38) focused on embedded and automotive firmware using ARM Cortex-M
-microcontrollers, finite-state machines, and non-blocking Embedded C/C++ on ESP32 and STM32.
-Internship experience at Nokia and iHelp Robotics; completed LTE/5G study during the Nokia internship.
+Final-year ECE student (CGPA 8.38) targeting Telecom/5G engineering roles. Completed LTE and 5G study during a Nokia internship, covering network architecture, interfaces, call flows, mobility, RRM, O-RAN and troubleshooting. Brings software and embedded strengths from application work and microcontroller projects.
 
 TECHNICAL SKILLS
 Programming: C, C++, Python, SQL (Intermediate); Java (currently learning)
-Embedded: Embedded C, Microcontrollers (Intermediate); ARM Cortex-M4, finite-state machines,
-  non-blocking design, GPIO, I2C, ADC, timers, sensor interfacing, debugging
-Mobile Networks: LTE & 5G architecture, EPC, RAN, interfaces, call flows, QoS, RRM, EN-DC,
-  NSA/SA mobility, VoNR, O-RAN, troubleshooting, automation (Nokia internship study)
-Tools / Foundations: Git, GitHub; TensorFlow Lite; DSA, DBMS, Operating Systems, Computer Networks (Basic)
+Telecom / 5G: LTE, EPC, interfaces, call flows, QoS, RRM, LTE-Advanced; 5G, 3GPP Release 18, gNodeB, RAN, EN-DC, VoNR, NSA/SA mobility, Xn, O-RAN, troubleshooting (Nokia internship study)
+Embedded: Embedded C, Microcontrollers (Intermediate); ARM Cortex-M, FSM, non-blocking design, GPIO, I2C, ADC, timers, sensor interfacing
+Tools and foundations: Git, GitHub; Testing/Debugging (Basic); DSA, DBMS, Operating Systems, Computer Networks (Basic); Robot Framework (currently learning)
 
 EXPERIENCE
-Student Intern                                             16 September 2026 – Present
-Nokia Solutions and Networks India                                          Bangalore
-- Working as a Student Intern at Nokia.
+Student Intern | 16 September 2026–Present
+NOKIA SOLUTIONS AND NETWORKS INDIA PRIVATE LIMITED | Bangalore
+- Completed LTE and 5G study as part of the internship, covering mobile-network architecture, call flows, mobility, radio-resource management, O-RAN and troubleshooting.
 
-AI Research Intern – Deep Learning & Model Development   23 March 2026 – 23 August 2026
-iHelp Robotics Private Limited · Project: MITRA                                 Remote
-- Improved live camera-stream reliability in the MITRA assistive Android app across 2
-  video sources (hardware WiFi/RTSP and phone-camera fallback): cut stream search delay,
-  persisted the last working transport, and added refresh/stall recovery.
-- Engineered a visual-freeze watchdog plus 3 status/guard mechanisms — stream-status and
-  cloud-status panels and a WebSocket-gated send guard — and fixed a live-refresh loop
-  that recurred after 5 minutes.
-- Hardened offline voice commands (offline-preferred recognition with model recovery and
-  microphone retry backoff) and verified builds across multiple devices with Gradle
-  test/lint/assemble; delivered 6+ app-side improvements while model and backend stayed
-  with a separate team.
+AI Research Intern – Deep Learning & Model Development | 23 March 2026–23 August 2026
+iHelp Robotics Private Limited | Remote | MITRA internship project
+- Contributed Android app-side software and testing for MITRA, an iHelp company product. Work focused on app interaction, stream reliability, status handling and voice-command robustness; backend and model work were handled by another team.
 
-Student Intern                                                            1–30 June 2026
-IEEE EMBS Pune Section                                                          Remote
+Student Intern | 1–30 June 2026
+IEEE EMBS Pune Section | Remote
 
 PROJECTS
-Automotive Body Control Module                                                 [GitHub]
-ESP32, Arduino/C++, Finite-State Machine, GPIO, I2C OLED
-- Programmed an ESP32 body-control module with a 3-state (OFF/ACC/ON) ignition FSM
-  driving 6+ vehicle functions: turn indicators, synchronized hazard, brake logic, buzzer
-  feedback and an OLED dashboard.
-- Architected a non-blocking millis()-based scheduler (zero delay() in the main loop) with
-  30 ms brake debouncing, throttled 10 Hz I2C OLED refresh, a clean GPIO abstraction and
-  edge-triggered serial logging for deterministic real-time behavior.
+Automotive Body Control Module | Individual
+ESP32, Arduino/C++, FSM, GPIO, I2C OLED
+- Implemented an OFF/ACC/ON ignition FSM controlling 6+ functions, including indicators, synchronized hazards, brake logic, buzzer and OLED.
+- Built a non-blocking millis-based loop with zero delay calls, 30 ms brake debounce and 10 Hz OLED refresh.
 
-Smart Wellness Desk Assistant                                                  [GitHub]
-STM32 Nucleo-L476RG (ARM Cortex-M4), STM32 HAL, STM32CubeIDE, Embedded C · College team project
-- Interfaced ultrasonic presence and 12-bit ADC temperature sensors, an I2C SSD1306 OLED
-  and timer-driven buzzer alerts on an STM32 Nucleo-L476RG (ARM Cortex-M4) using STM32 HAL,
-  coordinated by a non-blocking finite-state machine; wired, tested and debugged in
-  STM32CubeIDE as part of a college team.
+Smart Wellness Desk Assistant | College team project
+STM32 Nucleo-L476RG, STM32 HAL, STM32CubeIDE, Embedded C
+- Interfaced ultrasonic presence and ADC temperature sensors, I2C OLED and timer-driven buzzer alerts. Contributed sensor interfacing, wiring, testing and debugging.
 
-VisionPay — Real-Time Indian Currency Detection                                [GitHub]
-Python, OpenCV, TensorFlow Lite, MobileNetV2, Text-to-Speech
-- Created an offline, real-time tool that recognizes Indian currency from a live webcam
-  and speaks the result aloud for visually impaired users.
-- Collected ~400 images per denomination across 6 classes (Rs.10–Rs.500) and trained a
-  MobileNetV2 classifier converted to TensorFlow Lite, reporting ~93% validation accuracy.
-- Strengthened real-time reliability with 4 mechanisms: confidence/margin gating,
-  temporal smoothing, a background class, and an auto-count mode.
+VisionPay | Individual
+Python, OpenCV, TensorFlow Lite, MobileNetV2, text-to-speech
+- Built an offline live-camera Indian-currency detector with spoken output for visually impaired users.
+- Collected about 400 images per denomination across six classes; converted MobileNetV2 to TensorFlow Lite. Reported validation accuracy: about 93%.
+- Added confidence/margin gating, temporal smoothing, a background class and auto-count.
 
 EDUCATION
-B.E. Electronics & Communication Engineering                             Expected 2027
-Ballari Institute of Technology and Management (BITM), Ballari    Final Year · CGPA 8.38
- 
+B.E. Electronics & Communication Engineering | Expected 2027
+Ballari Institute of Technology and Management (BITM), Ballari | Final Year | CGPA 8.38
 
 LEADERSHIP & ACTIVITIES
-- Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (promoted from Treasurer);
-  Treasurer, BITM Robotics Club.
-- Google Student Ambassador (2025); Selected Participant, IEEE SPACE 2026 — B.Tech Initiative.
-- Embedded AI Systems workshop with STMicroelectronics (DigiToad, 2025); Participant,
-  Techzone Nationals 2K25 Hardware Hackathon.
+- Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (previously Treasurer); Treasurer, BITM Robotics Club.
+- Google Student Ambassador (2025); Selected Participant, IEEE SPACE 2026 B.Tech Initiative; Techzone Nationals 2K25 Hardware Hackathon participant.
+- Attended the three-day Embedded AI Systems workshop organized by DigiToad Technologies with STMicroelectronics; Technognition 2025 participant; Explorika 2K24 volunteer.
 
 CERTIFICATIONS
-Embedded Systems — Internshala Trainings (2025) · Programming in C and C++ with AI · SQL for
-Data Analytics with AI · Google Cloud Generative AI — SmartBridge/SmartInternz (2025) ·
-Python Programming — EISystems (2024)
-```
+Embedded Systems — Internshala Trainings (2025) · Programming in C and C++ with AI · SQL for Data Analytics with AI — Internshala Trainings · Google Cloud Generative AI — SmartBridge/SmartInternz (2025) · Python Programming — EISystems (2024)
 
 ---
 
 ## Notes
 
-- **Positioning pivot:** this master is **embedded/automotive-first** (headline `Embedded Engineer | Automotive Embedded Systems`), software/CV kept as visible secondary evidence. Supersedes the earlier software-first draft.
-- **Links (PDF/DOCX):** email, header LinkedIn, header GitHub, and each project "GitHub" are live hyperlinks; header LinkedIn/GitHub are icon+label (no raw URLs). `[GitHub]` marks the right-aligned clickable link per project.
-- **Skills:** follow `../skills/current-skills.md`; mobile-network study completed during the Nokia internship is documented in `../skills/mobile-networks.md`. Keep Android Studio within MITRA project details and OpenCV within VisionPay project details. Do not claim credentials or production network experience. Project stacks may name tools used in those projects.
-- **Projects shown (embedded-first):** Automotive BCM, Smart Wellness Desk Assistant (team), VisionPay. AEGIS is omitted from the embedded/automotive resume because coding has not started and it is off-domain; MITRA sits under iHelp experience. IEEE EMBS remains an internship entry; its associated project is removed from current outputs.
-- **Languages section dropped** and Nokia kept to one confidential/high-level line to preserve one-page density and signal-per-line.
-- **AEGIS** is an individual project in the design/planning-complete, coding-not-started state, with no target date. Never present it as coded or completed. Nokia dates are always `16 September 2026 – Present`.
-- Regenerate after edits: `python3 scripts/build_resume.py` then `python3 scripts/validate_resume.py`.
+- This is a Telecom/5G-targeted version of the master resume. Create JD-specific versions by reordering verified facts and keywords only.
+- MITRA is internship work under iHelp, not a personal project. Keep the contribution high-level.
+- AEGIS remains an individual design/planning project with coding not started; it is omitted from this one-page resume.
+- Nokia details remain high-level. LTE/5G study was completed during the internship.
+- VisionPay’s ~93% accuracy is a reported figure, not independently verified.
+- Phone number is omitted from this public file and the public PDF/DOCX/TXT outputs.

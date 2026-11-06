@@ -1,32 +1,27 @@
 # Projects
 
-Exactly **five** current projects, in this portfolio order:
+Four personal/team projects are in the portfolio pool. MITRA is retained as an internship-only reference and is not counted as a personal project.
 
 | # | Project | Type | Lifecycle | File |
 |---|---|---|---|---|
 | 1 | AEGIS | Individual project | Design/planning complete; coding not started | [aegis.md](aegis.md) |
-| 2 | MITRA | iHelp Robotics internship project (shown under Experience) | `COMPLETED` | [mitra.md](mitra.md) |
-| 3 | VisionPay | Individual project | `COMPLETED` | [visionpay.md](visionpay.md) |
-| 4 | Automotive BCM | Individual embedded project | `COMPLETED` | [automotive-bcm.md](automotive-bcm.md) |
-| 5 | Smart Wellness Desk Assistant | College team project | `COMPLETED` | [smart-wellness-desk-assistant.md](smart-wellness-desk-assistant.md) |
+| 2 | VisionPay | Individual project | Completed | [visionpay.md](visionpay.md) |
+| 3 | Automotive BCM | Individual embedded project | Completed | [automotive-bcm.md](automotive-bcm.md) |
+| 4 | Smart Wellness Desk Assistant | College team project | Completed | [smart-wellness-desk-assistant.md](smart-wellness-desk-assistant.md) |
+
+## Internship-only reference
+
+- [MITRA](mitra.md) is an iHelp Robotics company product worked on during the internship. Keep it under Experience → iHelp Robotics, described briefly and at a high level. Do not list it as a personal project.
 
 ## Presentation notes
 
-- **MITRA** is presented under Experience → iHelp Robotics → MITRA, not as a standalone personal project.
-- **AEGIS** is Shabaz's individual project. Design and planning are complete, coding has not started, and there is no target completion date. Do not present it as built or completed.
+- AEGIS is an individual project. Design and planning are complete; coding has not started; there is no target completion date. Do not present it as built or completed.
+- Smart Wellness Desk Assistant is a college team project; do not describe it as individually built.
+- The IEEE EMBS internship and its evidence remain in Experience/evidence. Skin Disease Classification was removed as a project.
+- NIDAR and an undocumented hackathon project remain excluded. NexCast Pro and Pega remain removed.
 
-## Portfolio vs resume
+## Resume and portfolio
 
-- **Portfolio:** include the five projects above in the listed order.
-- **Main resume project pool:** VisionPay, Automotive BCM, and Smart Wellness Desk Assistant. AEGIS may appear on a systems-leaning version only with its design/planning status clear. MITRA is shown under iHelp Robotics experience.
-- The IEEE EMBS internship remains in Experience and its evidence PDF remains in the repository. Skin Disease Classification has been removed as a project.
+For the Telecom/5G target, prioritize the Nokia internship study and map projects to each job description. Keep the project pool accurate and select only relevant evidence for a tailored resume. The future portfolio should show the four personal/team projects above; MITRA belongs in the internship experience section.
 
-See [`../resume/resume-strategy.md`](../resume/resume-strategy.md).
-
-## Excluded / removed
-
-NIDAR and an undocumented hackathon project are excluded. NexCast Pro and Pega have been removed from the current profile (historical note in [`../archive/README.md`](../archive/README.md)). See [EXCLUDED.md](EXCLUDED.md).
-
-## Ownership legend
-
-Every project file states whether it is individual, team, or internship work, and separates Shabaz's contribution from the whole. Do not present a team project as individually built.
+See [../resume/resume-strategy.md](../resume/resume-strategy.md).

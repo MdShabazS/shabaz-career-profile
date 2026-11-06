@@ -2,17 +2,14 @@
 
 | Field | Value | Status |
 |---|---|---|
-| Full name | Mohammed Shabaz S | `VERIFIED` |
-| Preferred name | Shabaz | `VERIFIED` |
-| Location | Ballari, Karnataka, India | `VERIFIED` |
-| Current context | B.E. ECE student (BITM), graduating 2027; preparing for software and embedded roles | `VERIFIED` |
+| Full name | MOHAMMED SHABAZ S | VERIFIED |
+| Preferred name | None | VERIFIED |
+| Location | Ballari, Karnataka, India | VERIFIED |
+| Headline | Software & Embedded Engineer | VERIFIED |
+| Target role | Telecom / 5G Engineer | VERIFIED |
 
-## Name spelling (canonical)
+## Name and location rules
 
-The name is spelled **Mohammed Shabaz S** everywhere. Do not vary it (not "Mohammad", "Shabaz S", or reordered forms) in any generated output.
+Use the full name exactly as **MOHAMMED SHABAZ S**. There is no preferred name to use.
 
-## Location rule
-
-Profile location is **Ballari, Karnataka, India**. Do **not** use Bangalore as the profile location. Bangalore appears only as the *work location* of specific experiences (Nokia, iHelp Robotics).
-
-See [`professional-positioning.md`](professional-positioning.md), [`contact.md`](contact.md), [`education.md`](education.md).
+The profile location is Ballari, Karnataka, India. Bangalore is listed only as a work location for the Nokia and iHelp experiences.

@@ -25,34 +25,35 @@ NAVY = "#1F3A5F"
 LINK = "#1F5FA8"
 
 NAME = "MOHAMMED SHABAZ S"
-POSITION = "Embedded Engineer  |  Automotive Embedded Systems"
+POSITION = "Software & Embedded Engineer"
 EMAIL = "md.shabaz.2005@gmail.com"
-PHONE = "+91 79755 12403"
+# Public repository copies omit the phone number. Add it only to a resume
+# prepared for direct submission to an employer.
+PHONE = ""
 LINKEDIN_URL = "https://www.linkedin.com/in/shabaz17/"
 GITHUB_URL = "https://github.com/MdShabazS"
 LOCATION = "Ballari, Karnataka"
 
-SUMMARY = ("Final-year ECE student (CGPA 8.38) focused on embedded and automotive firmware using ARM Cortex-M "
-           "microcontrollers, finite-state machines, and non-blocking Embedded C/C++ on ESP32 and STM32. "
-           "Internship experience at Nokia and iHelp Robotics; completed LTE/5G study during the Nokia internship.")
+SUMMARY = ("Final-year ECE student (CGPA 8.38) targeting Telecom/5G engineering roles. Completed LTE and 5G "
+           "study during a Nokia internship, covering network architecture, interfaces, call flows, mobility, "
+           "RRM, O-RAN and troubleshooting. Brings software and embedded strengths from application work and "
+           "microcontroller projects.")
 
 SKILLS = [
     ("Programming", "C, C++, Python, SQL (Intermediate); Java (currently learning)"),
-    ("Embedded", "Embedded C, Microcontrollers (Intermediate); ARM Cortex-M4, FSM, non-blocking design, GPIO, I2C, ADC, timers, sensors, debugging"),
-    ("Mobile Networks", "LTE/5G architecture, EPC/RAN, interfaces, call flows, QoS/RRM, EN-DC, mobility, VoNR, O-RAN, troubleshooting, test automation (Nokia internship study)"),
-    ("Tools & Foundations", "Git/GitHub; TensorFlow Lite; DSA, DBMS, OS, Computer Networks (Basic)"),
+    ("Telecom / 5G", "LTE, EPC, interfaces, call flows, QoS, RRM, LTE-Advanced; 5G, 3GPP Release 18, gNodeB, RAN, EN-DC, VoNR, NSA/SA mobility, Xn, O-RAN, troubleshooting (Nokia internship study)"),
+    ("Embedded", "Embedded C, Microcontrollers (Intermediate); ARM Cortex-M, FSM, non-blocking design, GPIO, I2C, ADC, timers, sensor interfacing"),
+    ("Tools & Foundations", "Git, GitHub; Testing/Debugging (Basic); DSA, DBMS, OS, Computer Networks (Basic); Robot Framework (currently learning)"),
 ]
 
 # (title, date, org, location, [bullets])
 EXPERIENCE = [
     ("Student Intern", "16 September 2026 – Present",
-     "Nokia Solutions and Networks India", "Bangalore",
-     ["Working as a Student Intern at Nokia."]),
+     "NOKIA SOLUTIONS AND NETWORKS INDIA PRIVATE LIMITED", "Bangalore",
+     ["Completed LTE and 5G study as part of the internship, covering mobile-network architecture, call flows, mobility, radio-resource management, O-RAN and troubleshooting."]),
     ("AI Research Intern – Deep Learning & Model Development", "23 March 2026 – 23 August 2026",
      "iHelp Robotics Private Limited  ·  Project: MITRA", "Remote",
-     ["Improved live camera-stream reliability in the MITRA assistive Android app across 2 video sources (hardware WiFi/RTSP and phone-camera fallback): cut stream search delay, persisted the last working transport, and added refresh/stall recovery.",
-      "Engineered a visual-freeze watchdog plus 3 status/guard mechanisms — stream-status and cloud-status panels and a WebSocket-gated send guard — and fixed a live-refresh loop that recurred after 5 minutes.",
-      "Hardened offline voice commands (offline-preferred recognition with model recovery and microphone retry backoff) and verified builds across multiple devices with Gradle test/lint/assemble; delivered 6+ app-side improvements while model and backend stayed with a separate team."]),
+     ["Contributed Android app-side software and testing for MITRA, an iHelp company product. Work focused on live-stream reliability, app status handling and voice-command robustness; backend and model work were handled by a separate team."]),
     ("Student Intern", "1–30 June 2026",
      "IEEE EMBS Pune Section", "Remote", []),
 ]
@@ -87,12 +88,12 @@ EDUCATION = {
 }
 
 LEADERSHIP = [
-    "Vice-Chair, IEEE CAS Society, BITM; Treasurer, BITM Robotics Club; Google Student Ambassador (2025).",
-    "IEEE SPACE 2026 participant; STMicroelectronics Embedded AI workshop; Techzone Nationals 2K25 participant.",
+    "Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM (previously Treasurer); Treasurer, BITM Robotics Club.",
+    "Google Student Ambassador (2025); Selected Participant, IEEE SPACE 2026 B.Tech Initiative; participant, Techzone Nationals 2K25 Hardware Hackathon; Embedded AI workshop attendee.",
 ]
 
 CERTS = ("Embedded Systems — Internshala Trainings (2025)  ·  Programming in C and C++ with AI  ·  "
-         "SQL for Data Analytics with AI  ·  Google Cloud Generative AI — SmartBridge/SmartInternz (2025)  ·  "
+         "SQL for Data Analytics with AI — Internshala Trainings  ·  Google Cloud Generative AI — SmartBridge/SmartInternz (2025)  ·  "
          "Python Programming — EISystems (2024)")
 
 
@@ -161,8 +162,8 @@ def build_pdf():
     story.append(Paragraph(NAME, name_st))
     story.append(Paragraph(POSITION, pos_st))
     sep = "&nbsp;&nbsp;|&nbsp;&nbsp;"
-    contact = (f'{LOCATION}{sep}{PHONE}{sep}'
-               f'<a href="mailto:{EMAIL}" color="{LINK}">{EMAIL}</a>{sep}'
+    contact = (f'{LOCATION}{sep}' + (f'{PHONE}{sep}' if PHONE else '')
+               + f'<a href="mailto:{EMAIL}" color="{LINK}">{EMAIL}</a>{sep}'
                f'<img src="{LI_ICON}" width="9" height="9" valign="-1"/>&nbsp;'
                f'<a href="{LINKEDIN_URL}" color="{LINK}">LinkedIn</a>{sep}'
                f'<img src="{GH_ICON}" width="9" height="9" valign="-1"/>&nbsp;'
@@ -276,7 +277,8 @@ def build_docx():
     p = doc.add_paragraph(); center(p); r = p.add_run(POSITION); r.font.size = Pt(10.5)
     r.font.color.rgb = NAVY_RGB; spacing(p, after=1)
     p = doc.add_paragraph(); center(p); spacing(p, after=2)
-    p.add_run(f"{LOCATION}  |  {PHONE}  |  ").font.size = Pt(9)
+    contact_prefix = f"{LOCATION}  |  " + (f"{PHONE}  |  " if PHONE else "")
+    p.add_run(contact_prefix).font.size = Pt(9)
     _add_hyperlink(p, f"mailto:{EMAIL}", EMAIL)
     p.add_run("  |  ").font.size = Pt(9)
     p.add_run().add_picture(LI_ICON, height=Pt(9))

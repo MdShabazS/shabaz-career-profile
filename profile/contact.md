@@ -2,17 +2,17 @@
 
 | Channel | Value | Public? | Status |
 |---|---|---|---|
-| Email | md.shabaz.2005@gmail.com | Yes | `VERIFIED` |
-| Phone | 7975512403 | **No — not as plain text** | `VERIFIED` |
-| LinkedIn | https://www.linkedin.com/in/shabaz17/ | Yes | `VERIFIED` |
-| GitHub | https://github.com/MdShabazS | Yes | `VERIFIED` |
-| Location | Ballari, Karnataka, India | Yes | `VERIFIED` |
-| Portfolio | To be built later | — | `PLANNED` |
+| Email | md.shabaz.2005@gmail.com | Yes | VERIFIED |
+| Phone | Held privately; omitted from public repository copies | No | VERIFIED |
+| LinkedIn | https://www.linkedin.com/in/shabaz17/ | Yes | VERIFIED |
+| GitHub | https://github.com/MdShabazS | Yes | VERIFIED |
+| Location | Ballari, Karnataka, India | Yes | VERIFIED |
+| Portfolio | Not built yet | — | PLANNED |
 
 ## Publication rules
 
-- **Phone:** never displayed as plain text in public outputs (portfolio, GitHub profile). It may be reachable through a contact form/interaction. It may appear in a resume when Shabaz is directly submitting that resume to an employer.
-- **Social links:** only LinkedIn and GitHub. Do **not** add Instagram, X/Twitter, YouTube, or others.
-- **Email, LinkedIn, GitHub, and Portfolio** must be clickable links in the resume header.
-- LinkedIn canonical handle is `shabaz17`. The earlier `mohammed-shabaz17` variant is wrong; do not use it.
-- The identifying email above is Shabaz's professional contact. (The account signed into this tooling, `brightensight2022@gmail.com`, is not a profile contact and must not appear in any output.)
+- Phone number must not appear as plain text in public repository files, GitHub profile content, or downloadable public resume copies. It may be added to a resume prepared for direct submission to an employer.
+- Social links: LinkedIn and GitHub only.
+- Email, LinkedIn, and GitHub should be clickable in a resume header.
+- LinkedIn canonical handle is shabaz17.
+- The email above is the professional contact. Do not substitute any account used to access tooling.

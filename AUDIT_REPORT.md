@@ -1,6 +1,6 @@
 # Audit Report — 2026-08-27 Rebuild
 
-> **Historical rebuild snapshot.** This report describes the 2026-08-27 rebuild and is superseded by the 2026-08-28 and 2026-11-06 correction passes. The current profile has five projects; AEGIS is individual with planning complete and coding not started; Skin Disease Classification was removed from the project list while the IEEE EMBS internship and certificate remain. Use [`PROFILE.md`](PROFILE.md), [`AI_CONTEXT.md`](AI_CONTEXT.md), and [`governance/CHANGELOG.md`](governance/CHANGELOG.md) for current facts.
+> **Historical rebuild snapshot.** This report describes the 2026-08-27 rebuild and is superseded by later correction passes, including 6 November 2026. The current profile has four personal/team projects; MITRA is an iHelp internship project and is not counted as a personal project. AEGIS is individual with planning complete and coding not started; Skin Disease Classification was removed while the IEEE EMBS internship and evidence remain. Use [`PROFILE.md`](PROFILE.md), [`AI_CONTEXT.md`](AI_CONTEXT.md), and [`governance/CHANGELOG.md`](governance/CHANGELOG.md) for current facts.
 
 Full audit and rebuild of the career profile repository into a single source of truth. This documents what changed and what remains open.
 

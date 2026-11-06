@@ -1,5 +1,7 @@
 # Tier-1 Role Research (2026)
 
+> **Current target update (6 November 2026):** Telecom / 5G Engineer. This file is historical research for software and embedded roles; do not treat it as current primary-role guidance. Refresh against a real Telecom/5G job description before using its recommendations.
+
 **External research only.** This file records what the market expects. It never establishes a fact about Shabaz. Requirements here feed the gap analysis in [`../skills/tier1-skills-roadmap.md`](../skills/tier1-skills-roadmap.md); Shabaz's actual skills are in [`../skills/current-skills.md`](../skills/current-skills.md).
 
 Accessed: 2026-08-27. Sources are listed per section; treat aggregator/blog sources as directional and official career pages as primary.

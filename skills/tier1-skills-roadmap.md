@@ -1,11 +1,12 @@
 # Tier-1 Skills Roadmap
 
-A **development plan**, not a list of current claims. Nothing here may be copied into a resume, portfolio, or LinkedIn as a held skill. Current, verified levels are in [`current-skills.md`](current-skills.md); the market evidence behind this plan is in [`../research/TIER1_ROLE_RESEARCH.md`](../research/TIER1_ROLE_RESEARCH.md).
+A development plan, not a list of current claims. The current primary target is **Telecom / 5G Engineer**; the software and embedded material below is supporting-track guidance. Refresh Telecom/5G gaps against a specific job description before making recommendations. Nothing here may be copied into a resume, portfolio, or LinkedIn as a held skill. Current, verified levels are in [`current-skills.md`](current-skills.md); the market evidence behind this plan is in [`../research/TIER1_ROLE_RESEARCH.md`](../research/TIER1_ROLE_RESEARCH.md).
 
-Two targets:
+Primary target: **Tier-1 Telecom / 5G Engineer**.
 
-- **A. Tier-1 Software Developer**
-- **B. Tier-1 Embedded Engineer**
+Supporting tracks retained in this file:
+- Software engineering
+- Embedded engineering
 
 ## Priority scale
 
@@ -20,16 +21,16 @@ Two targets:
 
 ---
 
-## Track A — Tier-1 Software Developer
+## Supporting Track A — Software Engineering
 
 | Skill | Priority | Current | Target | Why it matters |
 |---|---|---|---|---|
 | DSA (arrays, strings, hashing, trees, graphs, DP, recursion) | P0 | Basic | Strong / interview-ready | The primary filter at Tier-1 companies; ≥2 coding rounds with LeetCode medium/hard patterns. |
 | Problem-solving / pattern recognition (timed) | P0 | Basic | Strong | Online assessments are timed; recognizing the pattern fast matters more than volume. |
-| One strong language (recommend C++ or Java for DSA) | P0 | Basic | Proficient | Interviews are language-agnostic but demand fluency in one. C++/Java are standard for DSA. |
-| Git / version control | P0 | Basic | Proficient | Baseline for any team; expected in every posting. |
+| One strong language (recommend C++ or Java for DSA) | P0 | C/C++ Intermediate | Proficient | Interviews are language-agnostic but demand fluency in one. C++/Java are standard for DSA. |
+| Git / version control | P0 | Git and GitHub current | Proficient | Baseline for any team; expected in every posting. |
 | OOP | P1 | Not claimed | Working | Design questions and code-quality expectations assume OOP fluency. |
-| DBMS + SQL (joins, indexing, normalization, transactions) | P1 | Basic | Working | Named explicitly in most SWE job families; SQL round is common. |
+| DBMS + SQL (joins, indexing, normalization, transactions) | P1 | DBMS Basic; SQL Intermediate | Working | Named explicitly in most SWE job families; SQL round is common. |
 | Operating Systems (processes/threads, scheduling, memory, deadlocks) | P1 | Basic | Working | Core CS-fundamentals interview area. |
 | Computer Networks (TCP/IP, HTTP, DNS basics) | P1 | Basic | Working | Fundamentals round; underpins API/system-design answers. |
 | Testing & debugging | P1 | Basic (project) | Working | SDLC participation is a listed responsibility; unit testing expected. |
@@ -54,11 +55,11 @@ Two targets:
 
 ---
 
-## Track B — Tier-1 Embedded Engineer
+## Supporting Track B — Embedded Engineering
 
 | Skill | Priority | Current | Target | Why it matters |
 |---|---|---|---|---|
-| C (embedded, pointers, memory, bit manipulation) | P0 | Basic | Strong | The #1 hiring filter for embedded in 2026. |
+| C (embedded, pointers, memory, bit manipulation) | P0 | Intermediate | Strong | The #1 hiring filter for embedded in 2026. |
 | MCU architecture + ARM Cortex-M fundamentals | P0 | Exposure (ESP32/STM32) | Working | Core to the role; Cortex-M is the common target. |
 | GPIO, timers, interrupts, PWM, ADC | P0 | Project exposure | Working | Bread-and-butter peripheral work; expected hands-on. |
 | Communication protocols: UART, SPI, I2C | P0 | Incidental (I2C on STM32) | Working | Named in nearly every embedded posting. |
@@ -69,7 +70,7 @@ Two targets:
 | Bootloaders & firmware architecture | P2 | Not claimed | Aware | Shows systems maturity. |
 | Embedded Linux + device drivers | P2 | Not claimed | Aware | Role-dependent (Linux-class devices); high value where required. |
 | Testing (unit, HIL) | P1 | Basic | Working | Verification is the most effort-intensive part of safety-critical work. |
-| Version control / build for embedded | P1 | Basic | Working | Same Git baseline; plus embedded toolchains. |
+| Version control / build for embedded | P1 | Git/GitHub current | Working | Same Git baseline; plus embedded toolchains. |
 
 ### Automotive specialization (P2–P3, awareness for now)
 
@@ -100,11 +101,11 @@ Relevant because Automotive is a stated interest and Automotive BCM is a portfol
 
 ---
 
-## Gap summary (biggest levers first)
+## Supporting-track gap summary (biggest levers first)
 
 - **Both tracks share a P0 base:** strong C/C++ or Java, DSA + problem-solving, and Git. These move the needle most.
 - **Software P0/P1 gaps:** DSA depth, OOP, and turning Basic DBMS/OS/CN into working interview knowledge.
 - **Embedded P0/P1 gaps:** turning peripheral exposure (GPIO/timers/ADC/I2C) into confident, interrupt-driven work across UART/SPI/I2C, plus RTOS/FreeRTOS and hardware debugging (JTAG/SWD).
 - **Automotive** is a differentiator layer (awareness now, depth later).
 
-Review this file whenever a real job description is available, and map its requirements against the current level before deciding what to study next.
+Review this supporting-track file only when relevant to a real job description. Telecom/5G is the current primary target; map its requirements against the completed Nokia internship study and verified current skills before deciding what to study next.

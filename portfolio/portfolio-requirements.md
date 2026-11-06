@@ -1,54 +1,42 @@
 # Portfolio Requirements
 
-Specification for the later build phase. Do not build the site now.
+Specification for the later build phase. The portfolio is not built yet.
 
-## Goal & tone
+## Goal and tone
 
-A modern, premium, engineering-focused portfolio that reads as recruiter-friendly and visually memorable — not a generic college portfolio, and not obviously AI-generated. Design/research decisions can be delegated to the build tool. Grounded in 2026 portfolio guidance in [`../research/TIER1_ROLE_RESEARCH.md`](../research/TIER1_ROLE_RESEARCH.md): project-first, top projects visible without scrolling, working links only, fast and mobile-first.
+Build a recruiter-friendly engineering portfolio that supports the current Telecom/5G target and Software & Embedded Engineer headline. Keep the design clear and personal; do not overstate skills or employment.
 
 ## Content
 
-- **Structure:** project cards → detailed project pages.
-- **Projects:** include the five current projects in [`../projects/README.md`](../projects/README.md), in this order:
-  1. AEGIS
-  2. MITRA
-  3. VisionPay
-  4. Automotive BCM
-  5. Smart Wellness Desk Assistant
-  - Each project page: problem, overview, tech stack, features, architecture/workflow, status, links, and media where available.
-  - **MITRA** appears under Experience → iHelp Robotics → MITRA, not as a standalone personal project (it may still appear in the project set, framed within the internship).
-  - No separate "Your Contribution" section — weave contribution honestly into the narrative.
-  - Respect every status label and confidentiality rule (AEGIS design/planning complete but coding not started; MITRA high-level; Smart Wellness Desk Assistant a team project; VisionPay ~93% shown as reported).
-  - Keep IEEE EMBS internship and certificate evidence in Experience/history; do not show the removed project as a portfolio card.
-  - NexCast Pro and Pega are removed from the current profile — do not include them.
-- **Experience:** order Nokia → iHelp Robotics → IEEE EMBS Pune. Let the design choose the pattern (timeline, expandable cards, or separate pages) — do not lock the UI unnecessarily. Nokia stays high-level and marked current (16 Sep 2026 – Present).
-- **Media:** use real screenshots/photos/videos only (including real IEEE SPACE 2026 photographs). If media does not exist, do not fabricate it.
+- Structure: experience and selected project cards with detail pages.
+- **Personal/team projects:** AEGIS, VisionPay, Automotive BCM, and Smart Wellness Desk Assistant. There are four, not five.
+- **MITRA:** company internship project at iHelp Robotics. Show only under Experience → iHelp Robotics, at a high level. Do not make it a standalone personal project card.
+- Each personal project page may include the problem, overview, technology, features, architecture/workflow, status, links, and available real media.
+- Respect status and ownership: AEGIS planning complete but coding not started; Smart Wellness is a college team project; VisionPay's ~93% is reported.
+- Keep the IEEE EMBS internship and certificate evidence in Experience/history. The associated Skin Disease Classification project was removed.
+- NIDAR and an undocumented hackathon project remain excluded; NexCast Pro and Pega remain removed.
 
-## Design & UX
+## Experience
 
-- Dark/light mode.
-- Fully responsive: desktop, laptop, tablet, mobile.
-- Accessibility: keyboard navigation, semantic HTML, screen-reader support, sufficient contrast, reduced-motion support.
-- Do not overuse animations.
+Order: Nokia → iHelp Robotics → IEEE EMBS Pune. Nokia is current (16 September 2026–Present) and stays high-level. LTE/5G study was completed during the internship. Omit internal Nokia team details. MITRA remains internship-only.
 
-## Performance
+## Media
 
-- Strong Core Web Vitals; fast load (a 3-second load is an anti-signal).
-- Optimized images, lazy loading where appropriate, minimal unnecessary JS.
+Use only real screenshots, photos, and videos. IEEE SPACE 2026 photographs are available; do not fabricate media. Add photos when provided.
 
-## SEO & discoverability
+## Design and UX
 
-- Metadata, Open Graph, structured data where appropriate.
-- Sitemap, robots.txt, clean URLs.
-- Privacy-conscious analytics.
+- Responsive desktop, tablet, and mobile layouts.
+- Accessible keyboard navigation, semantic HTML, screen-reader support, sufficient contrast, and reduced-motion support.
+- Keep motion restrained and pages fast.
 
-## Contact section
+## Contact
 
 - Location: Ballari, Karnataka, India.
 - Email: md.shabaz.2005@gmail.com.
-- Phone: **not** shown as plain text; reachable via a contact form/interaction if appropriate.
-- Social links: **only** LinkedIn (https://www.linkedin.com/in/shabaz17/) and GitHub (https://github.com/MdShabazS). No Instagram/X/YouTube.
+- Phone is not shown as plain text; contact-form interaction may be used.
+- Social links: LinkedIn and GitHub only.
 
-## Writing style (hard requirement)
+## Writing
 
-Human-written, specific, plain professional English. Use Shabaz's real work as evidence. Avoid buzzwords and AI-tells: "passionate about", "leveraging cutting-edge technology", "results-driven", "innovative solutions", "dynamic", "proven track record", "highly motivated", "technology enthusiast". No exaggerated claims, fake metrics, or unnecessary jargon.
+Use specific, plain professional English. Avoid inflated claims, fake metrics, and unnecessary jargon.

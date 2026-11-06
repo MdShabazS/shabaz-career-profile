@@ -1,10 +1,6 @@
-# Interests
+# Professional Interests
 
 - Embedded Systems
 - Automotive
-- AI/ML
-- Technology Events & Conferences
 
-Status: `VERIFIED`.
-
-These replace the earlier "Gaming / Travelling" entries, which are no longer part of the professional profile. "Technology Events & Conferences" is supported by the activities in [`../professional-activities/`](../professional-activities/).
+AI/ML and Technology Events & Conferences are not current professional interests. AI/computer-vision experience remains represented through the VisionPay project where relevant.

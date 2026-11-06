@@ -1,6 +1,6 @@
 # Current Skills
 
-This is the **only** current skills list. Target/future skills live in [`tier1-skills-roadmap.md`](tier1-skills-roadmap.md) and must not be presented as current skills.
+Only verified current skills belong in this section. Roadmap targets and learning-in-progress items must be labeled separately.
 
 ## Programming
 
@@ -9,15 +9,16 @@ This is the **only** current skills list. Target/future skills live in [`tier1-s
 | C | Intermediate |
 | C++ | Intermediate |
 | Python | Intermediate |
-| Java | Currently learning; not yet proficient |
 | SQL | Intermediate |
+| Java | Currently learning; not yet proficient |
 
 ## Software / development
 
 - Git
 - GitHub
+- Testing/Debugging — Basic
 
-Android Studio is project-specific to MITRA; OpenCV is project-specific to VisionPay. Keep them in their project details, not in the general skills list.
+Android Studio is project-specific to MITRA; OpenCV is project-specific to VisionPay. Firmware is represented through project experience, not as a general current skill.
 
 ## Embedded
 
@@ -26,14 +27,11 @@ Android Studio is project-specific to MITRA; OpenCV is project-specific to Visio
 | Embedded C | Intermediate |
 | Microcontrollers | Intermediate |
 
-Specific boards and tools belong in relevant project details, not this general skills list.
+Specific boards and tools belong in relevant project details, not the general skills list.
 
-## Mobile networks
+## Telecom / mobile networks
 
-Completed as part of Nokia internship study, user-confirmed. These are knowledge areas, not a professional certification or claim of production network experience. See [`mobile-networks.md`](mobile-networks.md) for the full curriculum.
-
-- LTE architecture, EPC, network interfaces, air-interface protocols, attach procedures and call flows, solution architecture, radio access systems, bearer management, serving gateway, QoS, control plane/user plane, physical layer, RRM/IRAT, LTE-Advanced, Nokia FSM4 architecture, eNodeB software architecture, and UTE Cloud fundamentals/contributing.
-- 5G system principles and 3GPP Release 18, gNodeB product/software architecture, RAN, Massive MIMO/beamforming, radio updates, RRM, cloud/transport, IoT/user plane, control plane, advanced software architecture, EN-DC/NSA Option 3x, VoNR, NSA/SA mobility, Xn mobility, inter-frequency/inter-SgNB mobility, O-RAN, troubleshooting, log collection, SoC hardware/IWK, automation, Robot Framework and testing.
+LTE and 5G study was completed as part of the Nokia internship. These are knowledge areas from internship study, not a formal certification or claim of production-network experience. See [mobile-networks.md](mobile-networks.md) for the curriculum.
 
 ## Computer science
 
@@ -43,6 +41,10 @@ Completed as part of Nokia internship study, user-confirmed. These are knowledge
 | DBMS | Basic |
 | Operating Systems | Basic |
 | Computer Networks | Basic |
+
+## Currently learning
+
+- Robot Framework — currently learning; not yet proficient
 
 ## Spoken languages
 
@@ -57,4 +59,4 @@ Completed as part of Nokia internship study, user-confirmed. These are knowledge
 
 Linux, RTOS/FreeRTOS, CAN, LIN, UDS, AUTOSAR, MISRA, ISO 26262, ASPICE, Docker, system design, OOP, UART/SPI as claimed competencies, and advanced C/C++/Java remain roadmap targets.
 
-Rule: **Learn → Practise → Verify → Add to current profile.**
+Rule: Learn → Practise → Verify → Add to current profile.

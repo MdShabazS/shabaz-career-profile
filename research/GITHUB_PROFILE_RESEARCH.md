@@ -1,4 +1,6 @@
-# GitHub Profile README Research (2026) — Embedded / Automotive Focus
+# GitHub Profile README Research (2026) — Historical Embedded / Automotive Focus
+
+> The current profile target changed on 6 November 2026 to Telecom / 5G Engineer, with Software & Embedded Engineer as the headline. This research remains historical guidance for the earlier profile direction; refresh it against a current Telecom/5G job description before relying on recommendations.
 
 Research behind the redesigned `github.com/MdShabazS` profile README. Primary positioning: **Embedded Engineer | Automotive Embedded Systems**; secondary: Software Engineering; supporting: AI/ML & Computer Vision. Format per finding: **SOURCE → FINDING → WHY IT MATTERS → APPLICATION TO MY PROFILE.** Labels kept separate:
 

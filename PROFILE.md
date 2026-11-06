@@ -1,89 +1,92 @@
-# PROFILE — Mohammed Shabaz S (Master)
+# PROFILE — MOHAMMED SHABAZ S
 
-**Authoritative current snapshot.** This is the single master profile. The topic folders (`profile/`, `experience/`, `projects/`, `skills/`, `certifications/`, `leadership/`, `professional-activities/`) hold the detailed record and must agree with this file. If anything conflicts, the latest user-confirmed information wins and both are corrected. Status labels: [`governance/STATUS_SYSTEM.md`](governance/STATUS_SYSTEM.md).
+**Authoritative current snapshot.** Detailed records live in profile/, experience/, projects/, skills/, certifications/, leadership/, and professional-activities/. The latest user-confirmed information takes precedence.
 
 _Last correction: 2026-11-06._
 
-## Identity
+## Identity and positioning
 
-- **Name:** Mohammed Shabaz S
-- **Positioning:** Software Developer | Embedded Engineer
-- **Location:** Ballari, Karnataka, India (not Bangalore — Bangalore is only a work location)
+- **Name:** MOHAMMED SHABAZ S
+- **Preferred name:** None
+- **Headline:** Software & Embedded Engineer
+- **Target role:** Telecom / 5G Engineer
+- **Location:** Ballari, Karnataka, India
+- Software and embedded engineering are supporting strengths for the Telecom/5G target.
 
 ## Contact
 
 - Email: md.shabaz.2005@gmail.com
-- Phone: 7975512403 (not shown publicly as plain text)
+- Phone: held privately; omitted from public repository copies
 - LinkedIn: https://www.linkedin.com/in/shabaz17/
 - GitHub: https://github.com/MdShabazS
-- Portfolio: to be built later
+- Portfolio: not built yet
+- Bangalore is an internship work location, not the home/profile location.
 
 ## Education
 
-- B.E. Electronics & Communication Engineering (ECE), Ballari Institute of Technology and Management (BITM)
-- **Final Year** · Expected graduation **2027** · **CGPA 8.38** (current, verified)
-- Class 12: 80% · Class 10: 86.88%
+- B.E. Electronics & Communication Engineering, Ballari Institute of Technology and Management (BITM)
+- Final year; expected graduation 2027; current CGPA 8.38
+- Class 12: 80%; Class 10: 86.88%
 
-## Experience (order: Nokia, iHelp, IEEE EMBS)
+## Experience
 
-1. **Nokia Solutions and Networks India — Student Intern** — Bangalore — **16 September 2026 – Present** (`CURRENT`). Project/domain: not yet known / confidential. High-level only.
-2. **iHelp Robotics Private Limited — AI Research Intern – Deep Learning & Model Development** — Remote — **23 March 2026 – 23 August 2026** (`COMPLETED`). Project: **MITRA**. Completed the assigned Android app-development work; backend/AI belonged to another team. Public positioning: Software / Android.
-3. **IEEE EMBS Pune Section — Student Intern** — **1 month** (1–30 June 2026, remote, `COMPLETED`). Internship certificate retained; associated project removed from the current project list.
+1. **NOKIA SOLUTIONS AND NETWORKS INDIA PRIVATE LIMITED — Student Intern** — Bangalore — 16 September 2026–Present. Completed LTE/5G study during the internship. Public descriptions omit internal department detail.
+2. **iHelp Robotics Private Limited — AI Research Intern – Deep Learning & Model Development** — remote — 23 March–23 August 2026, completed. MITRA was a company internship project; contribution was Android app-side software and testing, described at a high level.
+3. **IEEE EMBS Pune Section — Student Intern** — remote — 1–30 June 2026, completed. Keep the internship and its certificate evidence; the associated project is removed.
 
-## Projects (5)
+These are internship experiences; do not claim full-time employment.
 
-| # | Project | Type | Status |
-|---|---|---|---|
-| 1 | AEGIS | Individual project | Design/planning complete; coding not started; no target date |
-| 2 | MITRA | iHelp Robotics internship project (under Experience) | `COMPLETED` |
-| 3 | VisionPay | Individual — main resume project | `COMPLETED` (~93% reported validation accuracy) |
-| 4 | Automotive BCM | Individual embedded (ESP32) — main resume project | `COMPLETED` |
-| 5 | Smart Wellness Desk Assistant | College team project (STM32 Nucleo-L476RG) | `COMPLETED` |
+## Personal projects
 
-Removed from current profile: NexCast Pro, Pega. Excluded: NIDAR, undocumented hackathon.
+| Project | Type | Status |
+|---|---|---|
+| AEGIS | Individual | Design/planning complete; coding not started; no target date |
+| VisionPay | Individual | Completed; ~93% reported validation accuracy |
+| Automotive BCM | Individual, ESP32 | Completed |
+| Smart Wellness Desk Assistant | College team project, STM32 | Completed; team size unspecified |
+
+MITRA is retained as an internship-only reference under iHelp, not counted as a personal project.
 
 ## Current skills
 
 - **Programming:** C, C++, Python, SQL — Intermediate; Java — currently learning, not yet proficient.
-- **Software / development:** Git, GitHub.
-- **Embedded:** Embedded C and Microcontrollers — Intermediate.
-- **Mobile networks:** LTE and 5G curriculum completed during Nokia internship study; topics are in [`skills/mobile-networks.md`](skills/mobile-networks.md). No credential or production deployment claim.
-- **Computer science:** DSA, DBMS, OS, Computer Networks — Basic.
-- **Project-only tools:** Android Studio under MITRA; OpenCV under VisionPay.
-- **Spoken languages:** English, Kannada, Hindi — Conversational; Urdu — Native / bilingual.
+- **Software:** Git, GitHub.
+- **Embedded:** Embedded C, Microcontrollers — Intermediate.
+- **Testing:** Testing/Debugging — Basic.
+- **Telecom/5G:** LTE and 5G curriculum completed during Nokia internship study. Topics are recorded in skills/mobile-networks.md; no credential or production-network claim.
+- **Learning:** Robot Framework — currently learning, not yet proficient.
+- **Computer science:** DSA, DBMS, Operating Systems, Computer Networks — Basic.
+- **Project-only tools:** Android Studio under MITRA; OpenCV under VisionPay. Firmware is described through project experience, not as a current general skill.
 
-Future/target skills are in [`skills/tier1-skills-roadmap.md`](skills/tier1-skills-roadmap.md) and are never presented as current.
+## Leadership and memberships
 
-## Leadership
+- Vice-Chair, IEEE CAS Society, IEEE Student Branch BITM; previously Treasurer.
+- Treasurer, BITM Robotics Club.
+- Google Student Ambassador, 2025.
+- IEEE member since 2023; IEEE Aerospace and Electronic Systems Society member.
 
-1. Vice-Chair — IEEE CAS Society, IEEE Student Branch BITM (previously Treasurer)
-2. Treasurer — BITM Robotics Club
-3. Student Ambassador — Google Student Ambassador, 2025
+## Activities
 
-## Professional activities
+- Selected Participant, IEEE SPACE 2026 B.Tech Initiative. Participated; real photos are available. Certificate is held but not yet uploaded to the repository.
+- Participant, Techzone Nationals 2K25 Hardware Hackathon and Technognition 2025.
+- Attended the three-day Designing Embedded AI Systems using the STMicroelectronics AI Ecosystem workshop at BITM, organized by DigiToad Technologies Pvt. Ltd. with STMicroelectronics, 5–9 May 2025.
+- Volunteered at BITM Explorika 2K24, Best out of Scrap event, 23 May 2024.
 
-- Selected Participant — IEEE SPACE 2026 B.Tech Initiative (participated; photographs available)
-- Participant — Techzone Nationals 2K25 Hardware Hackathon; Technognition 2025
-- Workshop — Designing Embedded AI Systems with the STMicroelectronics AI Ecosystem (DigiToad × STMicroelectronics)
-- Volunteering — Explorika 2K24
+## Certifications
 
-## Certifications (5 confirmed)
+1. SQL for Data Analytics with AI — Internshala Trainings; date unknown; certificate can be provided but is not yet in the repository.
+2. Programming in C and C++ with AI — issuer and date unknown; certificate can be provided but is not yet in the repository.
+3. Embedded Systems — Internshala Trainings; eight-week online training; certificate dated 1 September 2025; credential ID jcfe5qjm9sw.
+4. Python Programming — EISystems internship program at BITM; 9–28 September 2024.
+5. Google Cloud Generative AI — SmartBridge / SmartInternz virtual internship; 14 July–1 September 2025; credential ID VIP-AI-2025-14929.
 
-1. SQL for Data Analytics with AI (issuer/date not yet provided)
-2. Programming in C and C++ with AI (issuer/date not yet provided)
-3. Embedded Systems — Internshala Trainings (2025)
-4. Python Programming — EISystems (2024)
-5. Google Cloud Generative AI — SmartBridge / SmartInternz (2025)
+## Spoken languages
 
-## Languages
+- English — Conversational
+- Kannada — Conversational
+- Hindi — Conversational
+- Urdu — Native / bilingual
 
-| Language | Proficiency |
-|---|---|
-| English | Conversational |
-| Kannada | Conversational |
-| Hindi | Conversational |
-| Urdu | Native / bilingual |
+## Professional interests
 
-## Interests
-
-Embedded Systems, Automotive, AI/ML, Technology Events & Conferences
+Embedded Systems; Automotive.

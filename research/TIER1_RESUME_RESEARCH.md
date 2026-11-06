@@ -1,4 +1,6 @@
-# Tier-1 Resume Research (2026) — Embedded / Automotive Primary
+# Tier-1 Resume Research (2026) — Historical Embedded / Automotive Direction
+
+> The current target changed on 6 November 2026 to Telecom / 5G Engineer, with Software & Embedded Engineer as the headline. This research describes the earlier embedded/automotive resume build and should not be treated as current primary-role guidance.
 
 Research behind the master resume. Primary target: **Embedded Engineer | Automotive Embedded Systems**. Secondary target: **Software Engineering**. Format for each finding: **SOURCE → FINDING → WHY IT MATTERS → HOW IT AFFECTS THIS RESUME.** Three label types are kept strictly separate:
 
